@@ -45,6 +45,7 @@ import json
 import logging
 import re
 import unicodedata
+import urllib.parse
 from datetime import datetime, timedelta, timezone, date
 from typing import Optional
 
@@ -80,37 +81,17 @@ SAIDA_JSON = "noticias.json"
 # Fontes federais / da Reforma Tributaria
 # ---------------------------------------------------------------------------
 FONTES_FEDERAIS = [
-    {"nome": "Agencia Senado", "url": "https://www12.senado.leg.br/noticias/rss/ultimas-noticias", "esfera_padrao": "reforma", "uf": None},
-    {"nome": "Camara dos Deputados", "url": "https://www.camara.leg.br/noticias/rss.xml", "esfera_padrao": "reforma", "uf": None},
-    {"nome": "Agencia Brasil - Economia", "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", "esfera_padrao": "federal", "uf": None},
+    {"nome": "Agencia Senado", "url": "https://www12.senado.leg.br/noticias/feed/todasnoticias", "esfera_padrao": "reforma", "uf": None},
+    {"nome": "Camara dos Deputados", "url": "https://www.camara.leg.br/noticias/rss", "esfera_padrao": "reforma", "uf": None},
+    {"nome": "Agencia Brasil", "url": "https://agenciabrasil.ebc.com.br/feed/", "esfera_padrao": "federal", "uf": None},
     {"nome": "Portal Contabeis", "url": "https://www.contabeis.com.br/rss/noticias/", "esfera_padrao": "federal", "uf": None},
 ]
 
 # ---------------------------------------------------------------------------
-# Fontes estaduais - 10 estados prioritarios do agronegocio.
-# Ajuste/adicione URLs conforme a disponibilidade real de cada fonte: os
-# enderecos abaixo seguem o padrao esperado de RSS de Sefaz/Diario Oficial,
-# mas cada estado publica em dominios e caminhos proprios.
-# ---------------------------------------------------------------------------
-FONTES_ESTADUAIS = [
-    {"nome": "Sefaz-RS", "url": "https://www.sefaz.rs.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "RS"},
-    {"nome": "SEF/SC", "url": "https://www.sef.sc.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "SC"},
-    {"nome": "SEFA-PR / Diario Oficial PR", "url": "https://www.aen.pr.gov.br/rss", "esfera_padrao": "estadual", "uf": "PR"},
-    {"nome": "Sefaz-SP / Diario Oficial SP", "url": "https://www.doe.sp.gov.br/rss", "esfera_padrao": "estadual", "uf": "SP"},
-    {"nome": "Sefaz-MG / Jornal Minas Gerais", "url": "https://www.jornalminasgerais.mg.gov.br/rss", "esfera_padrao": "estadual", "uf": "MG"},
-    {"nome": "Economia-GO (Sefaz-GO)", "url": "https://www.economia.go.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "GO"},
-    {"nome": "Sefaz-MS", "url": "https://www.sefaz.ms.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "MS"},
-    {"nome": "Sefaz-MT", "url": "https://www.sefaz.mt.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "MT"},
-    {"nome": "Sefaz-MA", "url": "https://www.sefaz.ma.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "MA"},
-    {"nome": "Sefaz-TO", "url": "https://www.sefaz.to.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "TO"},
-]
-
-FONTES = FONTES_FEDERAIS + FONTES_ESTADUAIS
-
-# ---------------------------------------------------------------------------
 # Mapa de UFs: codigo, nome por extenso, gentilico(s) e orgaos locais.
-# Usado para identificar o estado mencionado no titulo/resumo da noticia,
-# mesmo quando a sigla da UF nao aparece explicitamente.
+# Usado tanto para montar a fonte de busca por estado quanto para identificar
+# o estado mencionado no titulo/resumo da noticia, mesmo quando a sigla da
+# UF nao aparece explicitamente.
 # ---------------------------------------------------------------------------
 UF_MAPA = {
     "RS": {"nome": "Rio Grande do Sul", "gentilicos": ["gaucho", "gaucha"], "orgaos": ["sefaz-rs", "sefaz rs", "receita estadual do rs"]},
@@ -124,6 +105,31 @@ UF_MAPA = {
     "MA": {"nome": "Maranhao", "gentilicos": ["maranhense"], "orgaos": ["sefaz-ma", "sefaz ma"]},
     "TO": {"nome": "Tocantins", "gentilicos": ["tocantinense"], "orgaos": ["sefaz-to", "sefaz to"]},
 }
+
+# ---------------------------------------------------------------------------
+# Fontes estaduais - 10 estados prioritarios do agronegocio.
+#
+# IMPORTANTE: a maioria das Sefaz estaduais nao publica RSS oficial em
+# endereco previsivel (varias nem tem RSS publico), entao em vez de adivinhar
+# uma URL de Sefaz que pode nao existir, cada estado usa uma busca do Google
+# Noticias (endpoint publico e estavel) filtrada por termos fiscais/agro +
+# nome do estado. Isso cobre qualquer veiculo (Sefaz, diario oficial, imprensa
+# local) que publique sobre o tema, em vez de depender de uma unica fonte
+# oficial que pode estar fora do ar ou nunca ter existido nesse endereco.
+# Se a sua Sefaz tiver RSS proprio confirmado, pode trocar a URL por ele.
+# ---------------------------------------------------------------------------
+def _url_busca_google_news(nome_estado: str) -> str:
+    termos = f"(ICMS OR Sefaz OR tributos OR fertilizantes) {nome_estado}"
+    termos_codificados = urllib.parse.quote(termos)
+    return f"https://news.google.com/rss/search?q={termos_codificados}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+
+
+FONTES_ESTADUAIS = [
+    {"nome": f"Google Noticias - {dados['nome']}", "url": _url_busca_google_news(dados["nome"]), "esfera_padrao": "estadual", "uf": sigla}
+    for sigla, dados in UF_MAPA.items()
+]
+
+FONTES = FONTES_FEDERAIS + FONTES_ESTADUAIS
 
 # Palavras/termos de busca. Termos curtos (siglas, sem espaco) sao validados
 # com \b...\b para nao colidir como substring de outra palavra; termos com
