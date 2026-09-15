@@ -78,13 +78,31 @@ LIMITE_ITENS = 35              # itens mais recentes mantidos apos a mesclagem
 SAIDA_JSON = "noticias.json"
 
 # ---------------------------------------------------------------------------
-# Fontes federais / da Reforma Tributaria
+# Busca generica no Google Noticias - endpoint publico e estavel, usado tanto
+# para as fontes federais quanto para as estaduais (ver abaixo). Preferido a
+# RSS proprio de orgao publico porque varios sites .gov.br respondem 200 OK
+# para automacao mas devolvem uma pagina de bloqueio/verificacao no lugar do
+# XML esperado - o feedparser le isso como "feed vazio" sem acusar erro.
+# ---------------------------------------------------------------------------
+def _url_busca_google_news(termos: str) -> str:
+    termos_codificados = urllib.parse.quote(termos)
+    return f"https://news.google.com/rss/search?q={termos_codificados}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+
+
+# ---------------------------------------------------------------------------
+# Fontes federais / da Reforma Tributaria.
+#
+# Agencia Senado, Camara dos Deputados e Agencia Brasil tem RSS proprio, mas
+# na pratica bloqueiam requisicoes automatizadas (respondem 200 OK com uma
+# pagina que nao e o feed real) - por isso tambem usam busca no Google
+# Noticias, igual as fontes estaduais. Portal Contabeis e o unico RSS de
+# orgao/veiculo que respondeu com o feed de verdade nos testes, entao
+# permanece como fonte RSS direta.
 # ---------------------------------------------------------------------------
 FONTES_FEDERAIS = [
-    {"nome": "Agencia Senado", "url": "https://www12.senado.leg.br/noticias/feed/todasnoticias", "esfera_padrao": "reforma", "uf": None},
-    {"nome": "Camara dos Deputados", "url": "https://www.camara.leg.br/noticias/rss", "esfera_padrao": "reforma", "uf": None},
-    {"nome": "Agencia Brasil", "url": "https://agenciabrasil.ebc.com.br/feed/", "esfera_padrao": "federal", "uf": None},
     {"nome": "Portal Contabeis", "url": "https://www.contabeis.com.br/rss/noticias/", "esfera_padrao": "federal", "uf": None},
+    {"nome": "Google Noticias - Reforma Tributaria", "url": _url_busca_google_news("(IBS OR CBS OR \"Imposto Seletivo\" OR \"Reforma Tributaria\")"), "esfera_padrao": "reforma", "uf": None},
+    {"nome": "Google Noticias - Congresso e Receita Federal", "url": _url_busca_google_news("(Senado OR \"Camara dos Deputados\" OR \"Receita Federal\") tributos"), "esfera_padrao": "federal", "uf": None},
 ]
 
 # ---------------------------------------------------------------------------
@@ -116,16 +134,11 @@ UF_MAPA = {
 # nome do estado. Isso cobre qualquer veiculo (Sefaz, diario oficial, imprensa
 # local) que publique sobre o tema, em vez de depender de uma unica fonte
 # oficial que pode estar fora do ar ou nunca ter existido nesse endereco.
-# Se a sua Sefaz tiver RSS proprio confirmado, pode trocar a URL por ele.
+# Se a sua Sefaz tiver RSS proprio confirmado que responda de verdade (nao
+# so com 200 OK generico), pode trocar a URL por ele.
 # ---------------------------------------------------------------------------
-def _url_busca_google_news(nome_estado: str) -> str:
-    termos = f"(ICMS OR Sefaz OR tributos OR fertilizantes) {nome_estado}"
-    termos_codificados = urllib.parse.quote(termos)
-    return f"https://news.google.com/rss/search?q={termos_codificados}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
-
-
 FONTES_ESTADUAIS = [
-    {"nome": f"Google Noticias - {dados['nome']}", "url": _url_busca_google_news(dados["nome"]), "esfera_padrao": "estadual", "uf": sigla}
+    {"nome": f"Google Noticias - {dados['nome']}", "url": _url_busca_google_news(f"(ICMS OR Sefaz OR tributos OR fertilizantes) {dados['nome']}"), "esfera_padrao": "estadual", "uf": sigla}
     for sigla, dados in UF_MAPA.items()
 ]
 
