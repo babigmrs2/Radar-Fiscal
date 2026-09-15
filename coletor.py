@@ -1,39 +1,5 @@
 """
 coletor.py — Coletor automatizado do Radar Fiscal Diário
-Coleta notícias recentes de feeds RSS públicos e portais oficiais
-relacionados à Reforma Tributária, agronegócio e fertilizantes — com
-cobertura estadual nos 10 estados prioritários do agronegócio — filtra
-por palavras-chave, classifica cada notícia (esfera / uf / setor / impacto)
-e mantém um histórico rotativo de 7 dias em noticias.json, no formato
-consumido pelo index.html.
-Instalação das dependências:
-   pip install requests feedparser beautifulsoup4
-Execução manual:
-   python coletor.py
-Agendamento:
-   - cron (Linux/Mac), rodando todo dia às 7h:
-       0 7 * * * /usr/bin/python3 /caminho/completo/coletor.py >> /caminho/completo/coletor.log 2>&1
-   - Windows Task Scheduler:
-       Ação: python.exe  Argumentos: C:\\caminho\\coletor.py  Iniciar em: C:\\caminho
-   - GitHub Actions (.github/workflows/radar.yml):
-       on:
-         schedule:
-           - cron: '0 10 * * *'   # 07:00 horário de Brasília
-       jobs:
-         coletar:
-           runs-on: ubuntu-latest
-           steps:
-             - uses: actions/checkout@v4
-             - uses: actions/setup-python@v5
-               with: {python-version: '3.11'}
-             - run: pip install requests feedparser beautifulsoup4
-             - run: python coletor.py
-             - run: |
-                 git config user.name "radar-bot"
-                 git config user.email "radar-bot@users.noreply.github.com"
-                 git add noticias.json
-                 git commit -m "Atualiza noticias.json" || echo "Sem mudanças"
-                 git push
 """
 import json
 import logging
@@ -49,25 +15,16 @@ logging.basicConfig(
 )
 log = logging.getLogger("coletor")
 TIMEOUT_SEGUNDOS = 12
-JANELA_COLETA_HORAS = 48       # notícias mais antigas que isso não entram na coleta desta execução
-RETENCAO_DIAS = 7              # histórico mantido no noticias.json
-LIMITE_ITENS = 35              # itens mais recentes mantidos após a mesclagem
+JANELA_COLETA_HORAS = 48
+RETENCAO_DIAS = 7
+LIMITE_ITENS = 35
 SAIDA_JSON = "noticias.json"
-# ---------------------------------------------------------------------------
-# Fontes federais / da Reforma Tributária
-# ---------------------------------------------------------------------------
 FONTES_FEDERAIS = [
    {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/rss/ultimas-noticias", "esfera_padrao": "reforma", "uf": None},
    {"nome": "Câmara dos Deputados", "url": "https://www.camara.leg.br/noticias/rss.xml", "esfera_padrao": "reforma", "uf": None},
    {"nome": "Agência Brasil - Economia", "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", "esfera_padrao": "federal", "uf": None},
    {"nome": "Portal Contábeis", "url": "https://www.contabeis.com.br/rss/noticias/", "esfera_padrao": "federal", "uf": None},
 ]
-# ---------------------------------------------------------------------------
-# Fontes estaduais — 10 estados prioritários do agronegócio.
-# Ajuste/adicione URLs conforme a disponibilidade real de cada fonte: os
-# endereços abaixo seguem o padrão esperado de RSS de Sefaz/Diário Oficial,
-# mas cada estado publica em domínios e caminhos próprios.
-# ---------------------------------------------------------------------------
 FONTES_ESTADUAIS = [
    {"nome": "Sefaz-RS", "url": "https://www.sefaz.rs.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "RS"},
    {"nome": "SEF/SC", "url": "https://www.sef.sc.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "SC"},
@@ -81,11 +38,6 @@ FONTES_ESTADUAIS = [
    {"nome": "Sefaz-TO", "url": "https://www.sefaz.to.gov.br/rss/noticias", "esfera_padrao": "estadual", "uf": "TO"},
 ]
 FONTES = FONTES_FEDERAIS + FONTES_ESTADUAIS
-# ---------------------------------------------------------------------------
-# Mapa de UFs: código, nome por extenso, gentílico(s) e órgãos locais.
-# Usado para identificar o estado mencionado no título/resumo da notícia,
-# mesmo quando a sigla da UF não aparece explicitamente.
-# ---------------------------------------------------------------------------
 UF_MAPA = {
    "RS": {"nome": "Rio Grande do Sul", "gentilicos": ["gaúcho", "gaúcha"], "orgaos": ["sefaz-rs", "sefaz rs", "receita estadual do rs"]},
    "SC": {"nome": "Santa Catarina", "gentilicos": ["catarinense"], "orgaos": ["sef/sc", "sef sc", "fazenda catarinense"]},
@@ -98,9 +50,6 @@ UF_MAPA = {
    "MA": {"nome": "Maranhão", "gentilicos": ["maranhense"], "orgaos": ["sefaz-ma", "sefaz ma"]},
    "TO": {"nome": "Tocantins", "gentilicos": ["tocantinense"], "orgaos": ["sefaz-to", "sefaz to"]},
 }
-# Palavras/termos de busca. Termos curtos (siglas, sem espaço) são validados
-# com \b...\b para não colidir como substring de outra palavra; termos com
-# espaço (frases) seguem checagem por substring simples, que já é segura.
 PALAVRAS_CHAVE = [
    "fertilizantes", "adubos", "reforma tributária", "ibs", "cbs",
    "imposto seletivo", "crédito presumido", "icms convênio",
@@ -114,16 +63,12 @@ GATILHOS_IMPACTO_MEDIO = [
    "consulta pública", "consulta", "jurisprudência", "julgamento",
    "convênio", "prorrogação",
 ]
-# Tudo que não bater nos gatilhos acima cai em "baixo" (conceitual / layout de sistema)
 PALAVRAS_FERTILIZANTES = ["fertilizante", "adubo", "npk", "ureia", "potássio", "fosfato", "amônia", "enxofre"]
 PALAVRAS_MUNICIPAL = ["prefeitura", "município", "iss ", "issqn", "nfs-e"]
 PALAVRAS_ESTADUAL = ["icms", "sefaz", "convênio", "secretaria da fazenda"]
 PALAVRAS_REFORMA = ["reforma tributária", "imposto seletivo", "comitê gestor"]
-# ibs/cbs tratados à parte via regex com \b, pois são siglas curtas
 
 def termo_bate_com_limite_de_palavra(termo: str, texto_lower: str) -> bool:
-   """Valida um termo curto (sigla) com limites de palavra, evitando falso
-   positivo como substring de outra palavra (ex.: 'GO' dentro de 'GOL')."""
    return re.search(rf"\b{re.escape(termo)}\b", texto_lower, re.IGNORECASE) is not None
 
 def texto_contem_palavra_chave(texto: str) -> bool:
@@ -138,7 +83,6 @@ def texto_contem_palavra_chave(texto: str) -> bool:
    return False
 
 def limpar_html(texto: str) -> str:
-   """Remove tags HTML de resumos de RSS, retornando texto puro e enxuto."""
    if not texto:
        return ""
    texto_puro = BeautifulSoup(texto, "html.parser").get_text(separator=" ")
@@ -146,8 +90,6 @@ def limpar_html(texto: str) -> str:
    return texto_puro[:280]
 
 def detectar_uf_por_texto(texto: str) -> Optional[str]:
-   """Procura menção a um dos 10 estados prioritários no texto: sigla (com
-   limite de palavra), nome por extenso, gentílico ou órgão/Sefaz local."""
    texto_lower = texto.lower()
    for sigla, dados in UF_MAPA.items():
        if termo_bate_com_limite_de_palavra(sigla, texto_lower):
@@ -161,8 +103,6 @@ def detectar_uf_por_texto(texto: str) -> Optional[str]:
    return None
 
 def classificar_uf(texto: str, uf_da_fonte: Optional[str]) -> Optional[str]:
-   """Se a fonte já é a Sefaz/canal oficial de um estado, usa essa UF
-   diretamente; caso contrário, tenta identificar pelo conteúdo do texto."""
    if uf_da_fonte:
        return uf_da_fonte
    return detectar_uf_por_texto(texto)
@@ -194,7 +134,6 @@ def classificar_impacto(texto: str) -> str:
    return "baixo"
 
 def buscar_feed(url: str) -> Optional[feedparser.FeedParserDict]:
-   """Baixa e faz parse de um feed RSS, com tratamento de timeout/erro de rede."""
    try:
        resposta = requests.get(url, timeout=TIMEOUT_SEGUNDOS, headers={"User-Agent": "RadarFiscalBot/1.0"})
        resposta.raise_for_status()
@@ -206,7 +145,6 @@ def buscar_feed(url: str) -> Optional[feedparser.FeedParserDict]:
    return None
 
 def data_publicacao(entrada) -> Optional[datetime]:
-   """Extrai a data de publicação de uma entrada de feed, se disponível."""
    for campo in ("published_parsed", "updated_parsed"):
        valor = getattr(entrada, campo, None)
        if valor:
@@ -214,15 +152,12 @@ def data_publicacao(entrada) -> Optional[datetime]:
    return None
 
 def dentro_da_janela_de_coleta(dt_publicacao: Optional[datetime], horas: int = JANELA_COLETA_HORAS) -> bool:
-   """Se a data não estiver disponível, mantemos a notícia (melhor incluir do que perder)."""
    if dt_publicacao is None:
        return True
    limite = datetime.now(timezone.utc) - timedelta(hours=horas)
    return dt_publicacao >= limite
 
 def coletar() -> list:
-   """Percorre todas as fontes (federais + 10 estados) e retorna a lista de
-   notícias novas já filtradas por palavra-chave e classificadas."""
    coletadas = []
    proximo_id = 1
    for fonte in FONTES:
@@ -262,8 +197,6 @@ log.info("Buscando feed: %s", fonte["nome"])
    return coletadas
 
 def remover_duplicatas(itens: list) -> list:
-   """Remove notícias com o mesmo link, mantendo a primeira ocorrência da
-   lista (o chamador decide a ordem de prioridade antes de passar aqui)."""
    vistos = set()
    unicos = []
    for item in itens:
@@ -274,7 +207,6 @@ def remover_duplicatas(itens: list) -> list:
    return unicos
 
 def carregar_existentes(caminho: str = SAIDA_JSON) -> list:
-   """Carrega o noticias.json já salvo em execuções anteriores, se existir."""
    try:
        with open(caminho, "r", encoding="utf-8") as arquivo:
            dados = json.load(arquivo)
@@ -287,7 +219,6 @@ log.info("Nenhum %s preexistente — iniciando histórico do zero.", caminho)
        return []
 
 def data_dentro_da_retencao(item: dict, dias: int = RETENCAO_DIAS) -> bool:
-   """True se a data do item (YYYY-MM-DD) estiver dentro da janela de retenção."""
    try:
        data_item = datetime.strptime(item["data"], "%Y-%m-%d").date()
    except (KeyError, ValueError):
@@ -296,14 +227,10 @@ def data_dentro_da_retencao(item: dict, dias: int = RETENCAO_DIAS) -> bool:
    return data_item >= limite
 
 def mesclar_com_historico(existentes: list, novas: list, dias: int = RETENCAO_DIAS, limite_itens: int = LIMITE_ITENS) -> list:
-   """Mescla notícias já salvas com as recém-coletadas, deduplica por link
-   (priorizando a versão mais nova em caso de conflito), descarta itens fora
-   da janela de retenção e mantém apenas os mais recentes."""
-   combinadas = remover_duplicatas(novas + existentes)  # novas primeiro: vencem em caso de link repetido
+   combinadas = remover_duplicatas(novas + existentes)
    combinadas = [item for item in combinadas if data_dentro_da_retencao(item, dias)]
    combinadas.sort(key=lambda item: item.get("data", ""), reverse=True)
    combinadas = combinadas[:limite_itens]
-   # renumera ids sequencialmente após a mesclagem
    for novo_id, item in enumerate(combinadas, start=1):
        item["id"] = novo_id
    return combinadas
