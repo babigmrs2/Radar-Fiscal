@@ -1,0 +1,28 @@
+name: Radar Fiscal Diario
+on:
+ schedule:
+   - cron: '0 10 * * *'
+ workflow_dispatch:
+jobs:
+ coletar:
+   runs-on: ubuntu-latest
+   permissions:
+     contents: write
+   steps:
+     - name: Check out repositório
+       uses: actions/checkout@v4
+     - name: Configurar Python
+       uses: actions/setup-python@v5
+       with:
+         python-version: '3.11'
+     - name: Instalar dependências
+       run: pip install requests feedparser beautifulsoup4
+     - name: Executar coletor
+       run: python coletor.py
+     - name: Gravar noticias.json no repositório
+       run: |
+         git config user.name "radar-bot"
+         git config user.email "actions@github.com"
+         git add noticias.json
+         git commit -m "Atualizacao automatica do radar" || echo "Sem alteracoes"
+         git push
