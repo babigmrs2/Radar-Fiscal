@@ -151,6 +151,11 @@ GATILHOS_IMPACTO_MEDIO = [
 # Tudo que nao bater nos gatilhos acima cai em "baixo" (conceitual / layout de sistema)
 
 PALAVRAS_FERTILIZANTES = ["fertilizante", "adubo", "npk", "ureia", "potassio", "fosfato", "amonia", "enxofre"]
+PALAVRAS_AGRONEGOCIO = [
+    "agronegocio", "agricola", "agricultura", "agropecuario", "rural",
+    "produtor rural", "commodities", "safra", "graos", "pecuaria",
+    "agro ", "agroindustria", "cooperativa agricola", "exportacao agricola",
+]
 PALAVRAS_MUNICIPAL = ["prefeitura", "municipio", "iss ", "issqn", "nfs-e"]
 PALAVRAS_ESTADUAL = ["icms", "sefaz", "convenio", "secretaria da fazenda"]
 PALAVRAS_REFORMA = ["reforma tributaria", "imposto seletivo", "comite gestor"]
@@ -222,10 +227,16 @@ def classificar_esfera(texto: str, esfera_padrao: str, uf: Optional[str]) -> str
 
 
 def classificar_setor(texto: str) -> str:
+    """'fertilizantes' se citar insumos especificos; 'agronegocio' se citar
+    o setor agro de forma mais ampla; 'geral' quando a noticia e sobre
+    tributacao/reforma sem nenhuma relacao explicita com o agro (ex.:
+    Simples Nacional, IR de pessoa fisica, eventos de contabilidade)."""
     texto_lower = normalizar(texto)
     if any(p in texto_lower for p in PALAVRAS_FERTILIZANTES):
         return "fertilizantes"
-    return "agronegocio"
+    if any(p in texto_lower for p in PALAVRAS_AGRONEGOCIO):
+        return "agronegocio"
+    return "geral"
 
 
 def classificar_impacto(texto: str) -> str:
