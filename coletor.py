@@ -90,13 +90,14 @@ def _url_busca_google_news(termos: str) -> str:
 # ---------------------------------------------------------------------------
 # Fontes federais / da Reforma Tributaria.
 #
-# As 4 primeiras sao RSS direto de orgao/entidade oficial, com URL verificada
-# manualmente (conteudo real conferido em setembro/2026):
+# As 5 primeiras sao RSS direto de orgao/entidade oficial, todas confirmadas
+# rodando sem bloqueio em execucao real no GitHub Actions em 16/09/2026:
 #   - Receita Federal: gov.br/receitafederal/.../ultimas-noticias/RSS
 #     (cobre tambem SPED, que e noticiado pelo mesmo canal)
 #   - CFC (Conselho Federal de Contabilidade): cfc.org.br/feed/
 #   - Sebrae Nacional: agenciasebrae.com.br/feed/
 #   - Portal Contabeis: contabeis.com.br/rss/noticias/
+#   - IOB Noticias (blog publico, separado do IOB Online pago): noticias.iob.com.br/feed/
 #
 # O Comite Gestor do IBS (cgibs.gov.br) e o DOU (in.gov.br) nao publicam RSS
 # publico ate o momento - cgibs.gov.br e um site dinamico via JavaScript sem
@@ -115,12 +116,6 @@ FONTES_FEDERAIS = [
     {"nome": "CFC", "url": "https://cfc.org.br/feed/", "esfera_padrao": "federal", "uf": None},
     {"nome": "Sebrae Nacional", "url": "https://agenciasebrae.com.br/feed/", "esfera_padrao": "federal", "uf": None},
     {"nome": "Portal Contabeis", "url": "https://www.contabeis.com.br/rss/noticias/", "esfera_padrao": "federal", "uf": None},
-    # NAO VERIFICADO: iobonline.com.br exige login mesmo na secao "gratuita".
-    # noticias.iob.com.br e o blog publico separado da IOB e parece rodar em
-    # WordPress (que gera /feed/ automaticamente), mas nao consegui confirmar
-    # o conteudo real do feed. Se o log mostrar "Sem entradas" para esta
-    # fonte, teste manualmente https://noticias.iob.com.br/feed/ no navegador
-    # antes de assumir que e bloqueio.
     {"nome": "IOB Noticias", "url": "https://noticias.iob.com.br/feed/", "esfera_padrao": "federal", "uf": None},
     {"nome": "Google Noticias - Comite Gestor do IBS/CBS", "url": _url_busca_google_news("(\"Comite Gestor do IBS\" OR CGIBS OR IBS OR CBS OR \"Imposto Seletivo\")"), "esfera_padrao": "reforma", "uf": None},
 ]
