@@ -13,8 +13,8 @@
   },
   {
     "id": 2,
-    "titulo": "Juiz dá liminar e retira CBS e IBS da base do ICMS - jota.info",
-    "resumo": "Juiz dá liminar e retira CBS e IBS da base do ICMS jota.info",
+    "titulo": "Juiz dá liminar e retira CBS e IBS da base do ICMS - JOTA Info",
+    "resumo": "Juiz dá liminar e retira CBS e IBS da base do ICMS JOTA Info",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
@@ -49,8 +49,20 @@
   },
   {
     "id": 5,
-    "titulo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba - jota.info",
-    "resumo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba jota.info",
+    "titulo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras - Investidor10",
+    "resumo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras Investidor10",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdVZSRDF5YUhGc01HWjhlTkVVbnFFMmdsaUhwU1lvR3NCbXFTTS0yUUNmMV9nQllxdUZ6TVE0WkdpQm9wZkFjRnZvSXpfenpkLUJPT0xqaTVBcklyX2lzencxRzg1bUo1eUlTdUtCeTdMc05hdmQtUDRXRWxaaFNVUkQ5cXhHbzFkZnE5YlIxaGJSVW5Ldm5MTFVpakpxNWU3WU5LTVhlSjJDd9IBrwFBVV95cUxNN2NOMU03TFJNYjhKRmZfMkF3Zy1nN3ZzZjZTYXV0dTdadlF3d1JXTzhLRnRsQnF6b0JITWZ6RzY3ampXT0JYWWVZMDBNMGcxdjFCOXpnMnJlN0xvb2pMT0lUZ1AtWGZKeVNOVVdQSFBQeHVLTHJXVzQ1Mk5KOXRWNzhSXzY0LXlEYTdUVjZJd1ZQVkU4SFFrdjIyTmo3b2sxZ2tHdUhEREFuUWVqYUow?oc=5",
+    "data": "2026-09-16"
+  },
+  {
+    "id": 6,
+    "titulo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba - JOTA Info",
+    "resumo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba JOTA Info",
     "setor": "geral",
     "esfera": "reforma",
     "uf": "PR",
@@ -60,7 +72,7 @@
     "data": "2026-09-16"
   },
   {
-    "id": 6,
+    "id": 7,
     "titulo": "MPEs do Simples têm até 30 de setembro para decidir como recolher IBS e CBS em 2027 - Diário do Comércio",
     "resumo": "MPEs do Simples têm até 30 de setembro para decidir como recolher IBS e CBS em 2027 Diário do Comércio",
     "setor": "geral",
@@ -72,7 +84,7 @@
     "data": "2026-09-16"
   },
   {
-    "id": 7,
+    "id": 8,
     "titulo": "Setor imobiliário pede adiamento da reforma tributária e alerta para risco operacional - Paraíba Business",
     "resumo": "Setor imobiliário pede adiamento da reforma tributária e alerta para risco operacional Paraíba Business",
     "setor": "geral",
@@ -84,7 +96,7 @@
     "data": "2026-09-16"
   },
   {
-    "id": 8,
+    "id": 9,
     "titulo": "EXPOCINE 2026 debate impactos da reforma tributária no cinema brasileiro - jwave.com.br",
     "resumo": "EXPOCINE 2026 debate impactos da reforma tributária no cinema brasileiro jwave.com.br",
     "setor": "geral",
@@ -93,18 +105,6 @@
     "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGFtaEpaYnNPelVZZDlhQ0hPZ1hSQjJ5YnV0UlZTRU1ySnQ3SHFNNUVFWGNGaGt3UnZUSGNOTTh2dlV3ZEZyS2J2cjZ5ZnM5RnJzUlprMzNlOEFuNU1fUGVMamVyc0k5WUotLUx5bkIwZFhyQURVbEJuVkh6Tk9MLWV4a1JtXzN0Sk5uNlAwSE9WZGZJbWlwRUM5cFVuenl1dlBDbTBlakFhUQ?oc=5",
-    "data": "2026-09-16"
-  },
-  {
-    "id": 9,
-    "titulo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras - Investidor10",
-    "resumo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras Investidor10",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Reforma Tributaria",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdVZSRDF5YUhGc01HWjhlTkVVbnFFMmdsaUhwU1lvR3NCbXFTTS0yUUNmMV9nQllxdUZ6TVE0WkdpQm9wZkFjRnZvSXpfenpkLUJPT0xqaTVBcklyX2lzencxRzg1bUo1eUlTdUtCeTdMc05hdmQtUDRXRWxaaFNVUkQ5cXhHbzFkZnE5YlIxaGJSVW5Ldm5MTFVpakpxNWU3WU5LTVhlSjJDd9IBrwFBVV95cUxNN2NOMU03TFJNYjhKRmZfMkF3Zy1nN3ZzZjZTYXV0dTdadlF3d1JXTzhLRnRsQnF6b0JITWZ6RzY3ampXT0JYWWVZMDBNMGcxdjFCOXpnMnJlN0xvb2pMT0lUZ1AtWGZKeVNOVVdQSFBQeHVLTHJXVzQ1Mk5KOXRWNzhSXzY0LXlEYTdUVjZJd1ZQVkU4SFFrdjIyTmo3b2sxZ2tHdUhEREFuUWVqYUow?oc=5",
     "data": "2026-09-16"
   },
   {
@@ -217,8 +217,8 @@
   },
   {
     "id": 19,
-    "titulo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica - jota.info",
-    "resumo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica jota.info",
+    "titulo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica - JOTA Info",
+    "resumo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica JOTA Info",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
@@ -301,8 +301,8 @@
   },
   {
     "id": 26,
-    "titulo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro - Jornal de Brasília",
-    "resumo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro Jornal de Brasília",
+    "titulo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro - jornaldebrasilia.com.br",
+    "resumo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro jornaldebrasilia.com.br",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
@@ -313,8 +313,8 @@
   },
   {
     "id": 27,
-    "titulo": "Suspensão de IBS e CBS nas exportações do agro pode ampliar concentração entre grandes tradings - tropicalfm99.com.br",
-    "resumo": "Suspensão de IBS e CBS nas exportações do agro pode ampliar concentração entre grandes tradings tropicalfm99.com.br",
+    "titulo": "Suspensão de IBS e CBS nas exportações do agro pode ampliar concentração entre grandes tradings - Rádio Tropical FM 99.1",
+    "resumo": "Suspensão de IBS e CBS nas exportações do agro pode ampliar concentração entre grandes tradings Rádio Tropical FM 99.1",
     "setor": "agronegocio",
     "esfera": "reforma",
     "uf": null,
@@ -385,8 +385,8 @@
   },
   {
     "id": 33,
-    "titulo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária - ABC Repórter",
-    "resumo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária ABC Repórter",
+    "titulo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária - abcreporter.com.br",
+    "resumo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária abcreporter.com.br",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
@@ -397,14 +397,14 @@
   },
   {
     "id": 34,
-    "titulo": "Reforma tributária obriga empresas a fiscalizar transportadoras e pode encarecer o frete, aponta Ilos - Agora RN",
-    "resumo": "Reforma tributária obriga empresas a fiscalizar transportadoras e pode encarecer o frete, aponta Ilos Agora RN",
+    "titulo": "Entendendo a reforma tributária - Diario de Pernambuco",
+    "resumo": "Entendendo a reforma tributária Diario de Pernambuco",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
     "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcThkVzlEUk9DNG14dVFZNFJHU3Zra2tJZFpEeTBwNWhMLUtfaXhYRjZUenAzSTlnYmVUUzY2RVQwRTFkcWEzYWVzYVNrOGxNVUQ1b29iazhpUXBFUENVcVJSUHhTdFpQUmdQVWNxOHZ3VmJ1ZHZKaXVLa1BacjdGZFVWNFk?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcmpBYkpoT1M1ajJuWVZaQk1WaXIyZkhYbVRyT2EyTjl6eWg4ZFRwOV82VkgwZDA3ajZIY1lnWlgwdUpqUUM0dDFYQUhxb2h4bldvNXdVdnVka0tfdXNqMnIxUTlYUWJuRHRLUVFQRmo5MV9raF9VbENjSHB4aU42cXVBcUNZYlJyQlFzN0dCOXNKZElTMDFCR0JXNXJ2ZHFaREladXE3b3lUczA?oc=5",
     "data": "2026-09-15"
   },
   {
