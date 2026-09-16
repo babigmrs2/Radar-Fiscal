@@ -19,6 +19,9 @@
     --oficial-bg:#e1f0e7; --oficial-cor:#256a4a;
     --portal-bg:#faf1df; --portal-cor:#96650e;
     --agregador-bg:#eef0f1; --agregador-cor:#5b6266;
+    --alto-bg:#fbe9e7; --alto-cor:#b23a2a;
+    --medio-bg:#fdf3df; --medio-cor:#96650e;
+    --baixo-bg:#eef0f1; --baixo-cor:#5b6266;
     --estadual-bg:#eef0f7; --estadual-cor:#4a5170;
     --federal-bg:#eaf0f8; --federal-cor:#33587d;
     --municipal-bg:#fbeaee; --municipal-cor:#a8425a;
@@ -128,6 +131,9 @@
   .pill.oficial{background:var(--oficial-bg); color:var(--oficial-cor);}
   .pill.portal{background:var(--portal-bg); color:var(--portal-cor);}
   .pill.agregador{background:var(--agregador-bg); color:var(--agregador-cor);}
+  .pill.alto{background:var(--alto-bg); color:var(--alto-cor);}
+  .pill.medio{background:var(--medio-bg); color:var(--medio-cor);}
+  .pill.baixo{background:var(--baixo-bg); color:var(--baixo-cor);}
   .pill.estadual{background:var(--estadual-bg); color:var(--estadual-cor);}
   .pill.federal{background:var(--federal-bg); color:var(--federal-cor);}
   .pill.municipal{background:var(--municipal-bg); color:var(--municipal-cor);}
@@ -145,6 +151,36 @@
   .vazio{
     background:var(--card); border:1px dashed var(--borda); border-radius:var(--raio);
     padding:36px 20px; text-align:center; color:var(--texto-sec); font-size:.88rem;
+  }
+
+  /* ===== Boletim diario ===== */
+  .boletim-card{
+    background:var(--card); border:1px solid var(--borda); border-radius:var(--raio);
+    padding:20px 22px; margin-bottom:16px;
+  }
+  .boletim-titulo{
+    font-family:var(--serif); font-weight:700; font-size:1.05rem; margin:0 0 4px; color:var(--texto);
+  }
+  .boletim-sub{font-size:.8rem; color:var(--texto-sec); margin:0 0 16px;}
+  .boletim-resumo-linha{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px;}
+  .boletim-resumo-linha .pill{font-size:.74rem; padding:5px 12px;}
+  .boletim-destaque{
+    display:flex; align-items:baseline; gap:8px; padding:8px 0; border-top:1px solid var(--borda);
+  }
+  .boletim-destaque:first-of-type{border-top:none;}
+  .boletim-destaque-titulo{font-size:.86rem; color:var(--texto); flex:1;}
+  .boletim-destaque-fonte{font-size:.74rem; color:var(--texto-sec); white-space:nowrap;}
+  .boletim-acoes{display:flex; align-items:center; gap:10px; margin-top:4px;}
+  .btn-copiar{
+    background:var(--accent); color:#fff; border:none; border-radius:8px;
+    padding:9px 16px; font-family:var(--sans); font-size:.82rem; font-weight:600; cursor:pointer;
+  }
+  .btn-copiar:hover{opacity:.92;}
+  .boletim-texto{
+    width:100%; min-height:220px; margin-top:12px;
+    background:#faf9f6; border:1px solid var(--borda); border-radius:8px;
+    padding:14px; font-family:var(--mono); font-size:.78rem; color:var(--texto);
+    white-space:pre-wrap; resize:vertical;
   }
 
   /* ===== Sidebar ===== */
@@ -200,7 +236,7 @@
 
   <nav class="abas" role="tablist" id="lista-abas" aria-label="Secoes do radar"></nav>
 
-  <div class="filtros-bar">
+  <div class="filtros-bar" id="filtros-bar">
     <div class="campo-busca">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="busca" placeholder="Buscar por assunto, tributo, obrigacao...">
@@ -316,7 +352,6 @@
   const ABAS = [
     { id: "noticias", rotulo: "Noticias" },
     { id: "boletim", rotulo: "Boletim diario" },
-    { id: "redes", rotulo: "Redes sociais" },
     { id: "reforma", rotulo: "Reforma Tributaria" }
   ];
 
@@ -368,6 +403,7 @@
       document.querySelectorAll(".aba").forEach(b => b.setAttribute("aria-selected", "false"));
       btn.setAttribute("aria-selected", "true");
       if (aba.id === "reforma") { esferaSelecionada = "reforma"; document.getElementById("filtro-esfera").value = "reforma"; }
+      document.getElementById("filtros-bar").style.display = (aba.id === "noticias" || aba.id === "reforma") ? "flex" : "none";
       renderFeed();
     });
     listaAbas.appendChild(btn);
@@ -454,6 +490,120 @@
     return dataStr;
   }
 
+  /* ---------- Boletim diario: resumo do dia + texto para copiar ---------- */
+  const ROTULO_IMPACTO = { alto: "Alto", medio: "Medio", baixo: "Baixo" };
+  const ROTULO_ESFERA_BOLETIM = { reforma: "Reforma Tributaria", federal: "Federal", estadual: "Estadual", municipal: "Municipal" };
+
+  function formatarDataExtenso(dataStr){
+    const partes = (dataStr || "").split("-");
+    if (partes.length !== 3) return dataStr || "";
+    return partes[2] + "/" + partes[1] + "/" + partes[0];
+  }
+
+  function gerarTextoBoletim(dataAlvo, itens, contagemImpacto, contagemEsfera){
+    const linhas = [];
+    linhas.push("BOLETIM FISCAL DIARIO - " + formatarDataExtenso(dataAlvo));
+    linhas.push(itens.length + " noticia(s) monitorada(s) nesta data.");
+    linhas.push("");
+    linhas.push("Por impacto: Alto " + (contagemImpacto.alto || 0) + " | Medio " + (contagemImpacto.medio || 0) + " | Baixo " + (contagemImpacto.baixo || 0));
+    const esferasTexto = Object.keys(contagemEsfera).map(k => (ROTULO_ESFERA_BOLETIM[k] || k) + " " + contagemEsfera[k]).join(" | ");
+    if (esferasTexto) linhas.push("Por esfera: " + esferasTexto);
+    linhas.push("");
+
+    const altas = itens.filter(n => n.impacto === "alto");
+    const destaques = altas.length > 0 ? altas : itens.slice(0, 5);
+    linhas.push(altas.length > 0 ? "DESTAQUES DE ALTO IMPACTO:" : "PRINCIPAIS NOTICIAS DO DIA:");
+    destaques.forEach(function(n){
+      linhas.push("- " + n.titulo + " (" + n.fonte + ")");
+      if (n.link && n.link !== "#") linhas.push("  " + n.link);
+    });
+    linhas.push("");
+    linhas.push("Gerado pelo Radar Fiscal.");
+    return linhas.join("\n");
+  }
+
+  function renderBoletim(wrap){
+    if (noticiasCarregadas.length === 0){
+      wrap.innerHTML = '<div class="vazio">Sem noticias coletadas ainda para montar o boletim.</div>';
+      document.getElementById("stat-itens").textContent = "0";
+      return;
+    }
+
+    const dataAlvo = noticiasCarregadas.reduce((max, n) => (n.data || "") > max ? n.data : max, noticiasCarregadas[0].data || "");
+    const itensDoDia = noticiasCarregadas.filter(n => n.data === dataAlvo);
+    document.getElementById("stat-itens").textContent = itensDoDia.length;
+
+    const contagemImpacto = {};
+    const contagemEsfera = {};
+    itensDoDia.forEach(function(n){
+      contagemImpacto[n.impacto] = (contagemImpacto[n.impacto] || 0) + 1;
+      contagemEsfera[n.esfera] = (contagemEsfera[n.esfera] || 0) + 1;
+    });
+
+    const altas = itensDoDia.filter(n => n.impacto === "alto");
+    const destaques = (altas.length > 0 ? altas : itensDoDia.slice(0, 5)).slice(0, 8);
+
+    let htmlResumo =
+      '<div class="boletim-card">' +
+        '<h3 class="boletim-titulo">Boletim de ' + formatarDataExtenso(dataAlvo) + '</h3>' +
+        '<p class="boletim-sub">' + itensDoDia.length + ' noticia(s) monitorada(s) nesta data.</p>' +
+        '<div class="boletim-resumo-linha">' +
+          Object.keys(ROTULO_IMPACTO).filter(k => contagemImpacto[k]).map(k =>
+            '<span class="pill ' + k + '">' + ROTULO_IMPACTO[k] + ': ' + contagemImpacto[k] + '</span>'
+          ).join("") +
+        '</div>' +
+        '<div class="boletim-resumo-linha">' +
+          Object.keys(contagemEsfera).map(k =>
+            '<span class="pill ' + k + '">' + (ROTULO_ESFERA_BOLETIM[k] || k) + ': ' + contagemEsfera[k] + '</span>'
+          ).join("") +
+        '</div>' +
+      '</div>';
+
+    let htmlDestaques =
+      '<div class="boletim-card">' +
+        '<h3 class="boletim-titulo">' + (altas.length > 0 ? "Destaques de alto impacto" : "Principais noticias do dia") + '</h3>' +
+        destaques.map(n =>
+          '<div class="boletim-destaque">' +
+            '<span class="boletim-destaque-titulo">' + n.titulo + '</span>' +
+            '<span class="boletim-destaque-fonte">' + n.fonte + '</span>' +
+          '</div>'
+        ).join("") +
+      '</div>';
+
+    const textoBoletim = gerarTextoBoletim(dataAlvo, itensDoDia, contagemImpacto, contagemEsfera);
+    let htmlCopiar =
+      '<div class="boletim-card">' +
+        '<h3 class="boletim-titulo">Texto para compartilhar</h3>' +
+        '<p class="boletim-sub">Pronto para colar no WhatsApp ou e-mail.</p>' +
+        '<div class="boletim-acoes"><button class="btn-copiar" id="btn-copiar-boletim">Copiar boletim</button></div>' +
+        '<textarea class="boletim-texto" id="texto-boletim" readonly>' + textoBoletim.replace(/</g, "&lt;") + '</textarea>' +
+      '</div>';
+
+    wrap.innerHTML = htmlResumo + htmlDestaques + htmlCopiar;
+
+    document.getElementById("btn-copiar-boletim").addEventListener("click", function(){
+      const area = document.getElementById("texto-boletim");
+      const botao = document.getElementById("btn-copiar-boletim");
+      const restaurar = function(){ botao.textContent = "Copiar boletim"; };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(area.value).then(function(){
+          botao.textContent = "Copiado!";
+          setTimeout(restaurar, 2000);
+        }).catch(function(){
+          area.select();
+          document.execCommand("copy");
+          botao.textContent = "Copiado!";
+          setTimeout(restaurar, 2000);
+        });
+      } else {
+        area.select();
+        document.execCommand("copy");
+        botao.textContent = "Copiado!";
+        setTimeout(restaurar, 2000);
+      }
+    });
+  }
+
   /* ---------- Carregamento de dados ---------- */
   async function carregarDados(){
     const indicador = document.getElementById("fonte-dados-indicador");
@@ -479,9 +629,8 @@
   function renderFeed(){
     const wrap = document.getElementById("feed-wrap");
 
-    if (abaAtiva === "boletim" || abaAtiva === "redes") {
-      wrap.innerHTML = '<div class="vazio">Esta secao ainda nao tem uma fonte de dados conectada.</div>';
-      document.getElementById("stat-itens").textContent = "0";
+    if (abaAtiva === "boletim") {
+      renderBoletim(wrap);
       return;
     }
 
