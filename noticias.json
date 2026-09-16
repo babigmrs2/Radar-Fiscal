@@ -1,6 +1,18 @@
 [
   {
     "id": 1,
+    "titulo": "Cooperativas devem escolher regime de IBS e CBS até outubro",
+    "resumo": "Opção exige o envio da lista de associados e pode ser cancelada até 31 de outubro de 2026. Leia mais em https://www.contabeis.com.br/noticias/79440/cooperativas-devem-escolher-regime-de-ibs-e-cbs-ate-outubro/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/79440/cooperativas-devem-escolher-regime-de-ibs-e-cbs-ate-outubro/",
+    "data": "2026-09-16"
+  },
+  {
+    "id": 2,
     "titulo": "Novas regras fiscais da Reforma: sua empresa está preparada para a transição tributária?",
     "resumo": "Entenda o que muda com as novas regras fiscais da Reforma, conheça o cronograma de implantação do IBS e da CBS e descubra por que revisar os cadastros fiscais é essencial para evitar problemas na emissão de notas fiscais. Leia mais em https://www.contabeis.com.br/noticias/79426/n",
     "setor": "geral",
@@ -12,9 +24,9 @@
     "data": "2026-09-16"
   },
   {
-    "id": 2,
-    "titulo": "Juiz dá liminar e retira CBS e IBS da base do ICMS - JOTA Info",
-    "resumo": "Juiz dá liminar e retira CBS e IBS da base do ICMS JOTA Info",
+    "id": 3,
+    "titulo": "Juiz dá liminar e retira CBS e IBS da base do ICMS - jota.info",
+    "resumo": "Juiz dá liminar e retira CBS e IBS da base do ICMS jota.info",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
@@ -24,7 +36,7 @@
     "data": "2026-09-16"
   },
   {
-    "id": 3,
+    "id": 4,
     "titulo": "Justiça determina exclusão do IBS e CBS do cálculo do ICMS - Valor Econômico",
     "resumo": "Justiça determina exclusão do IBS e CBS do cálculo do ICMS Valor Econômico",
     "setor": "geral",
@@ -36,7 +48,19 @@
     "data": "2026-09-16"
   },
   {
-    "id": 4,
+    "id": 5,
+    "titulo": "Cooperativas devem escolher regime de IBS e CBS até outubro - Portal Contabeis",
+    "resumo": "Cooperativas devem escolher regime de IBS e CBS até outubro Portal Contabeis",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSTNRUnkyYXpRNFNxdTEzNVhrQ1RWbmN5M1B3eW1memhNZGFKM3NOOWU3eW1aWWdGeEgzZHlRaFpRQUFoTkR2czRqRXVGRjJqeWxkbTJyQkd1U19KUXJoSUlmVVNhTnlia3Vqc1BZRkRNc0dTWkI3Z0hfUjBaUkpsVFhFM3RNQU8xQXJ3LWRVWVZ1NnlJSXNmdHZzSm11VkFRMVV2ZEhXTQ?oc=5",
+    "data": "2026-09-16"
+  },
+  {
+    "id": 6,
     "titulo": "Reforma tributária no agro: como comprar melhor em 2027 - Campo Grande News",
     "resumo": "Reforma tributária no agro: como comprar melhor em 2027 Campo Grande News",
     "setor": "geral",
@@ -48,21 +72,9 @@
     "data": "2026-09-16"
   },
   {
-    "id": 5,
-    "titulo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras - Investidor10",
-    "resumo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras Investidor10",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdVZSRDF5YUhGc01HWjhlTkVVbnFFMmdsaUhwU1lvR3NCbXFTTS0yUUNmMV9nQllxdUZ6TVE0WkdpQm9wZkFjRnZvSXpfenpkLUJPT0xqaTVBcklyX2lzencxRzg1bUo1eUlTdUtCeTdMc05hdmQtUDRXRWxaaFNVUkQ5cXhHbzFkZnE5YlIxaGJSVW5Ldm5MTFVpakpxNWU3WU5LTVhlSjJDd9IBrwFBVV95cUxNN2NOMU03TFJNYjhKRmZfMkF3Zy1nN3ZzZjZTYXV0dTdadlF3d1JXTzhLRnRsQnF6b0JITWZ6RzY3ampXT0JYWWVZMDBNMGcxdjFCOXpnMnJlN0xvb2pMT0lUZ1AtWGZKeVNOVVdQSFBQeHVLTHJXVzQ1Mk5KOXRWNzhSXzY0LXlEYTdUVjZJd1ZQVkU4SFFrdjIyTmo3b2sxZ2tHdUhEREFuUWVqYUow?oc=5",
-    "data": "2026-09-16"
-  },
-  {
-    "id": 6,
-    "titulo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba - JOTA Info",
-    "resumo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba JOTA Info",
+    "id": 7,
+    "titulo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba - jota.info",
+    "resumo": "IBS: o acordo pioneiro entre o estado do Paraná e o município de Curitiba jota.info",
     "setor": "geral",
     "esfera": "reforma",
     "uf": "PR",
@@ -72,7 +84,7 @@
     "data": "2026-09-16"
   },
   {
-    "id": 7,
+    "id": 8,
     "titulo": "MPEs do Simples têm até 30 de setembro para decidir como recolher IBS e CBS em 2027 - Diário do Comércio",
     "resumo": "MPEs do Simples têm até 30 de setembro para decidir como recolher IBS e CBS em 2027 Diário do Comércio",
     "setor": "geral",
@@ -84,7 +96,19 @@
     "data": "2026-09-16"
   },
   {
-    "id": 8,
+    "id": 9,
+    "titulo": "Simples Nacional: empresas têm até 30 de setembro para definir recolhimento de IBS e CBS - Agenda Capital",
+    "resumo": "Simples Nacional: empresas têm até 30 de setembro para definir recolhimento de IBS e CBS Agenda Capital",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMFVpX0gteWI3Ym9YNm9KSk1YN0ZmVVZWd0dQTldQSzhKQ1dpRVVVOGQ4RWl2VjJQYmRBZmctZ2ltczM1Z29jXzJxM3drVWJ3MW9PZkV3NGNoVENSX0pHLS1qWi1lUjdMVnN4eFhBdE5fS2pmaGJxazEzVE01UEJocHpHdDhvbDJfbW9RallucjFUMEF0Ulo4UHFKQnJZcU9rT3F5Y1JXUEV2ZkJHZTRGZE9FMUNudE1X?oc=5",
+    "data": "2026-09-16"
+  },
+  {
+    "id": 10,
     "titulo": "Setor imobiliário pede adiamento da reforma tributária e alerta para risco operacional - Paraíba Business",
     "resumo": "Setor imobiliário pede adiamento da reforma tributária e alerta para risco operacional Paraíba Business",
     "setor": "geral",
@@ -96,7 +120,7 @@
     "data": "2026-09-16"
   },
   {
-    "id": 9,
+    "id": 11,
     "titulo": "EXPOCINE 2026 debate impactos da reforma tributária no cinema brasileiro - jwave.com.br",
     "resumo": "EXPOCINE 2026 debate impactos da reforma tributária no cinema brasileiro jwave.com.br",
     "setor": "geral",
@@ -108,7 +132,19 @@
     "data": "2026-09-16"
   },
   {
-    "id": 10,
+    "id": 12,
+    "titulo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras - Investidor10",
+    "resumo": "Reforma Tributária 2026: o que muda com CBS, IBS e novas regras Investidor10",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdVZSRDF5YUhGc01HWjhlTkVVbnFFMmdsaUhwU1lvR3NCbXFTTS0yUUNmMV9nQllxdUZ6TVE0WkdpQm9wZkFjRnZvSXpfenpkLUJPT0xqaTVBcklyX2lzencxRzg1bUo1eUlTdUtCeTdMc05hdmQtUDRXRWxaaFNVUkQ5cXhHbzFkZnE5YlIxaGJSVW5Ldm5MTFVpakpxNWU3WU5LTVhlSjJDd9IBrwFBVV95cUxNN2NOMU03TFJNYjhKRmZfMkF3Zy1nN3ZzZjZTYXV0dTdadlF3d1JXTzhLRnRsQnF6b0JITWZ6RzY3ampXT0JYWWVZMDBNMGcxdjFCOXpnMnJlN0xvb2pMT0lUZ1AtWGZKeVNOVVdQSFBQeHVLTHJXVzQ1Mk5KOXRWNzhSXzY0LXlEYTdUVjZJd1ZQVkU4SFFrdjIyTmo3b2sxZ2tHdUhEREFuUWVqYUow?oc=5",
+    "data": "2026-09-16"
+  },
+  {
+    "id": 13,
     "titulo": "Receita federal em Joaçaba em operação conjunta com PMRv-SC apreende cerca de 7 mil garrafas de vinho em Abelardo Luz (SC)",
     "resumo": "Mercadoria estava oculta sob carga de fertilizantes.",
     "setor": "fertilizantes",
@@ -120,7 +156,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 11,
+    "id": 14,
     "titulo": "Simulador da Reforma Tributária supera 18 mil acessos em 30 dias",
     "resumo": "A busca por orientação diante das mudanças no sistema tributário brasileiro levou o Simulador da Reforma Tributária do Sebrae a ultrapassar a marca de 18.183 simulações nos últimos 30 dias. Apenas nos últimos sete dias, foram realizados 4.541 acessos na ferramenta gratuita lançad",
     "setor": "geral",
@@ -132,7 +168,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 12,
+    "id": 15,
     "titulo": "Simples Nacional: empresas têm 15 dias para definir tributação de 2027",
     "resumo": "Prazo para ingresso no Simples e opção pelo recolhimento regular de IBS e CBS termina em 30 de setembro; veja as consequências. Leia mais em https://www.contabeis.com.br/noticias/79412/simples-nacional-empresas-tem-15-dias-para-definir-tributacao-de-2027/",
     "setor": "geral",
@@ -144,7 +180,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 13,
+    "id": 16,
     "titulo": "Receita apresenta modelo de cálculo da CBS ao TCU sem estimar alíquota",
     "resumo": "Receita envia modelo de cálculo da CBS ao TCU; tribunal tem até 30 de outubro para propor alíquota que valerá a partir de 2027. Leia mais em https://www.contabeis.com.br/noticias/79408/receita-apresenta-modelo-de-calculo-da-cbs-ao-tcu-sem-estimar-aliquota/",
     "setor": "geral",
@@ -156,7 +192,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 14,
+    "id": 17,
     "titulo": "Receita publica APIs para apuração da CBS",
     "resumo": "Receita Federal divulga documentação técnica de novas APIs gratuitas para consulta de débitos, créditos e pagamentos da CBS . Leia mais em https://www.contabeis.com.br/noticias/79409/receita-publica-apis-para-apuracao-da-cbs/",
     "setor": "geral",
@@ -168,7 +204,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 15,
+    "id": 18,
     "titulo": "Liminar afasta a inclusão do IBS e da CBS da base de cálculo do ICMS - Honda, Teixeira, Rocha Advogados",
     "resumo": "Liminar afasta a inclusão do IBS e da CBS da base de cálculo do ICMS Honda, Teixeira, Rocha Advogados",
     "setor": "geral",
@@ -180,7 +216,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 16,
+    "id": 19,
     "titulo": "Reforma Tributária: Justiça de SP concede liminar e afasta inclusão do IBS e da CBS na base de cálculo do ICMS - Lacerda Gama",
     "resumo": "Reforma Tributária: Justiça de SP concede liminar e afasta inclusão do IBS e da CBS na base de cálculo do ICMS Lacerda Gama",
     "setor": "geral",
@@ -192,7 +228,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 17,
+    "id": 20,
     "titulo": "Modelo de cálculo da CBS no TCU: o impacto fiscal para empresas - Omie",
     "resumo": "Modelo de cálculo da CBS no TCU: o impacto fiscal para empresas Omie",
     "setor": "geral",
@@ -204,7 +240,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 18,
+    "id": 21,
     "titulo": "Receita abre prazo para cooperativas aderirem a regime específico de IBS e CBS - MundoCoop",
     "resumo": "Receita abre prazo para cooperativas aderirem a regime específico de IBS e CBS MundoCoop",
     "setor": "geral",
@@ -216,9 +252,9 @@
     "data": "2026-09-15"
   },
   {
-    "id": 19,
-    "titulo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica - JOTA Info",
-    "resumo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica JOTA Info",
+    "id": 22,
+    "titulo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica - jota.info",
+    "resumo": "IBS e CBS nos cartórios: o risco de a reforma tributária encarecer a segurança jurídica jota.info",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
@@ -228,7 +264,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 20,
+    "id": 23,
     "titulo": "Receita Federal disponibiliza opção pelo regime específico do IBS e da CBS das sociedades cooperativas - Contadores.cnt.br",
     "resumo": "Receita Federal disponibiliza opção pelo regime específico do IBS e da CBS das sociedades cooperativas Contadores.cnt.br",
     "setor": "geral",
@@ -240,19 +276,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 21,
-    "titulo": "Receita apresenta modelo de cálculo da CBS ao TCU sem estimar alíquota - Portal Contabeis",
-    "resumo": "Receita apresenta modelo de cálculo da CBS ao TCU sem estimar alíquota Portal Contabeis",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "alto",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSlJONTZaMGRoRUh5V09xeGJLNU40aWZaRGJlY2R5RHVhaE16dUVQU2ZDV3BtTVRGM295d3QtOTE4bXNoNzBXMElscEZqZTJub0d5N3d1S3prcEl4MzdDREhUbzlCUWUtTWVHMHVUNnJiX3FLY0ZqY1F4TXctQ09pWmRrc3J1SnNhV2MxWjhkZklGWFF2ZkRqYmFjWXZtWTBqWGw3T1hkeUlqZHlMcGwxNWpMR1NnQQ?oc=5",
-    "data": "2026-09-15"
-  },
-  {
-    "id": 22,
+    "id": 24,
     "titulo": "Receita publica APIs para apuração da CBS - Portal Contabeis",
     "resumo": "Receita publica APIs para apuração da CBS Portal Contabeis",
     "setor": "geral",
@@ -264,7 +288,19 @@
     "data": "2026-09-15"
   },
   {
-    "id": 23,
+    "id": 25,
+    "titulo": "Receita apresenta modelo de cálculo da CBS ao TCU sem estimar alíquota - Portal Contabeis",
+    "resumo": "Receita apresenta modelo de cálculo da CBS ao TCU sem estimar alíquota Portal Contabeis",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "alto",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSlJONTZaMGRoRUh5V09xeGJLNU40aWZaRGJlY2R5RHVhaE16dUVQU2ZDV3BtTVRGM295d3QtOTE4bXNoNzBXMElscEZqZTJub0d5N3d1S3prcEl4MzdDREhUbzlCUWUtTWVHMHVUNnJiX3FLY0ZqY1F4TXctQ09pWmRrc3J1SnNhV2MxWjhkZklGWFF2ZkRqYmFjWXZtWTBqWGw3T1hkeUlqZHlMcGwxNWpMR1NnQQ?oc=5",
+    "data": "2026-09-15"
+  },
+  {
+    "id": 26,
     "titulo": "Receita envia cálculo da alíquota CBS ao TCU sem estimativa - Acia Araçatuba",
     "resumo": "Receita envia cálculo da alíquota CBS ao TCU sem estimativa Acia Araçatuba",
     "setor": "geral",
@@ -276,7 +312,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 24,
+    "id": 27,
     "titulo": "Suspensão de IBS e CBS passa a exigir habilitação nas exportações indiretas de grãos - Feed&Food",
     "resumo": "Suspensão de IBS e CBS passa a exigir habilitação nas exportações indiretas de grãos Feed&Food",
     "setor": "agronegocio",
@@ -288,7 +324,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 25,
+    "id": 28,
     "titulo": "Impasse contábil: empresas devem registrar IBS e CBS na fase de testes? - Jornal Contábil",
     "resumo": "Impasse contábil: empresas devem registrar IBS e CBS na fase de testes? Jornal Contábil",
     "setor": "geral",
@@ -300,9 +336,9 @@
     "data": "2026-09-15"
   },
   {
-    "id": 26,
-    "titulo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro - jornaldebrasilia.com.br",
-    "resumo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro jornaldebrasilia.com.br",
+    "id": 29,
+    "titulo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro - Jornal de Brasília",
+    "resumo": "Simples Nacional terá opção sobre CBS e IBS até 30 de setembro Jornal de Brasília",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
@@ -312,7 +348,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 27,
+    "id": 30,
     "titulo": "Suspensão de IBS e CBS nas exportações do agro pode ampliar concentração entre grandes tradings - Rádio Tropical FM 99.1",
     "resumo": "Suspensão de IBS e CBS nas exportações do agro pode ampliar concentração entre grandes tradings Rádio Tropical FM 99.1",
     "setor": "agronegocio",
@@ -324,7 +360,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 28,
+    "id": 31,
     "titulo": "O canteiro de obras será invadido pela reforma tributária sobre o consumo - Economic News Brasil",
     "resumo": "O canteiro de obras será invadido pela reforma tributária sobre o consumo Economic News Brasil",
     "setor": "geral",
@@ -336,7 +372,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 29,
+    "id": 32,
     "titulo": "Crédito de IBS e CBS no agronegócio: por que o menor preço pode sair mais caro em 2027 - CompreRural",
     "resumo": "Crédito de IBS e CBS no agronegócio: por que o menor preço pode sair mais caro em 2027 CompreRural",
     "setor": "agronegocio",
@@ -348,7 +384,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 30,
+    "id": 33,
     "titulo": "Lei complementar altera regras da reforma tributária e muda tributação de combustíveis - Contadores.cnt.br",
     "resumo": "Lei complementar altera regras da reforma tributária e muda tributação de combustíveis Contadores.cnt.br",
     "setor": "geral",
@@ -360,7 +396,7 @@
     "data": "2026-09-15"
   },
   {
-    "id": 31,
+    "id": 34,
     "titulo": "Reforma Tributária chega ao caixa e coloca cadastro do supermercado à prova - Sincovaga Notícias",
     "resumo": "Reforma Tributária chega ao caixa e coloca cadastro do supermercado à prova Sincovaga Notícias",
     "setor": "geral",
@@ -372,51 +408,15 @@
     "data": "2026-09-15"
   },
   {
-    "id": 32,
-    "titulo": "Reforma Tributária: 70,3% das empresas ainda recebem a maioria das notas sem IBS e CBS - jornaltribuna.com.br",
-    "resumo": "Reforma Tributária: 70,3% das empresas ainda recebem a maioria das notas sem IBS e CBS jornaltribuna.com.br",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZFVEOHk5SkhvQW9MbWVGUXZXZ1M0R1lIbXNuU2x2b3Q2MGcyZWVXOS12dnYyR0o2NkdMVTBISjdDbDBlSmxQTEtEOW1xbjNBU25vY2xwMGpkb210c1lFNXRVLWl3Mzl0MDVtbjZZLVJReWNpdkVYMndlZDJpRlE3eGJLLXpfZl9rZk1wNXBPcllKZXJKYmVCWlNhUEQ0N1FiSkFLd1FnMk5TcUp4cWdDbzgwSDdqVm1IamtzWEEwa0NvUQ?oc=5",
-    "data": "2026-09-15"
-  },
-  {
-    "id": 33,
-    "titulo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária - abcreporter.com.br",
-    "resumo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária abcreporter.com.br",
+    "id": 35,
+    "titulo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária - ABC Repórter",
+    "resumo": "IBS e CBS nas notas fiscais colocam empresas diante da primeira “prova de fogo” da Reforma Tributária ABC Repórter",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
     "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2ZNSnFtZ0lUdVpiQzdsZXdkU2pEU3o5dE9pbFkxNURvTTUtUkhad0VrVG1naUJaQkotNmF0bVZNbnZGR0JjUmhTakladHF2Zm1xME1hWTZhRzhSTTRNVUZrWDQtZWNpbnZRQVpHcUZ2OUhIVGRZc1hGdjBZbnJkWnJtY0MyQnVFZkNNTks0cXgwWHpuZERZREpSU3dLaGMzY1lkNFYxbm9pRmZoT2ZJVUxKNjNKamlwaHllWmNvS3pQLWw0MW50ZVJlRQ?oc=5",
-    "data": "2026-09-15"
-  },
-  {
-    "id": 34,
-    "titulo": "Entendendo a reforma tributária - Diario de Pernambuco",
-    "resumo": "Entendendo a reforma tributária Diario de Pernambuco",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcmpBYkpoT1M1ajJuWVZaQk1WaXIyZkhYbVRyT2EyTjl6eWg4ZFRwOV82VkgwZDA3ajZIY1lnWlgwdUpqUUM0dDFYQUhxb2h4bldvNXdVdnVka0tfdXNqMnIxUTlYUWJuRHRLUVFQRmo5MV9raF9VbENjSHB4aU42cXVBcUNZYlJyQlFzN0dCOXNKZElTMDFCR0JXNXJ2ZHFaREladXE3b3lUczA?oc=5",
-    "data": "2026-09-15"
-  },
-  {
-    "id": 35,
-    "titulo": "Importação de fertilizantes nitrogenados atinge menor nível em seis anos e ameaça safrinha - RCN 67",
-    "resumo": "Importação de fertilizantes nitrogenados atinge menor nível em seis anos e ameaça safrinha RCN 67",
-    "setor": "fertilizantes",
-    "esfera": "estadual",
-    "uf": "MS",
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Mato Grosso do Sul",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0dadHRaaHhJblRTUHlJYThHMVdvcU1OMC1BSlRUZEtsMEFXUHRXWVBqZFhHUFpGSUlJUjBSLVlGQUI2cnVJclR4UVFqd1VHcjJRNzRlcTJ5V1BYM2NBNGJnZzNNcDNkcnM2WV9obDcxSmZxd3lMMV9uZDd1Z1o4UHpwSkJHOE5Gd1Y5a2c3WnZRUG0xNkE1ckh1SEdnZk5pVUhDN05ralZmeDlPYnNYbzU5LXl2WE1nTWhEV2tLenpjRkhZMzlHUQ?oc=5",
     "data": "2026-09-15"
   }
 ]
