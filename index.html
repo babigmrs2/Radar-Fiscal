@@ -3,32 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Radar Fiscal · Bárbara</title>
+<title>Radar Fiscal</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#f4f6f5;
+    --bg:#f5f4f0;
     --card:#ffffff;
-    --borda:#e2e8e5;
-    --verde:#0e3d26;
-    --verde-suave:#e7efe9;
-    --ouro:#c29337;
-    --ouro-suave:#f6ecd9;
-    --texto:#16211b;
-    --texto-sec:#5b6b62;
-    --alto:#c0392b;
-    --alto-bg:#fbe9e7;
-    --medio:#b7791f;
-    --medio-bg:#fdf3df;
-    --baixo:#3b5b74;
-    --baixo-bg:#e8eef3;
+    --borda:#e6e4dd;
+    --texto:#1f231e;
+    --texto-sec:#6c7068;
+    --accent:#1e5c45;
+    --accent-suave:#e2efe7;
+    --oficial-bg:#e1f0e7; --oficial-cor:#256a4a;
+    --portal-bg:#faf1df; --portal-cor:#96650e;
+    --agregador-bg:#eef0f1; --agregador-cor:#5b6266;
+    --estadual-bg:#eef0f7; --estadual-cor:#4a5170;
+    --federal-bg:#eaf0f8; --federal-cor:#33587d;
+    --municipal-bg:#fbeaee; --municipal-cor:#a8425a;
+    --reforma-bg:#e2efe7; --reforma-cor:#1e5c45;
     --sans:'Inter', -apple-system, sans-serif;
+    --serif:'Source Serif 4', Georgia, serif;
     --mono:'JetBrains Mono', monospace;
-    --raio:8px;
+    --raio:10px;
   }
-
   *{box-sizing:border-box;}
   body{
     margin:0;
@@ -39,165 +38,136 @@
     -webkit-font-smoothing:antialiased;
   }
   a{color:inherit;}
+  .shell{max-width:1180px; margin:0 auto; padding:28px 24px 70px;}
 
-  .shell{max-width:1180px; margin:0 auto; padding:0 24px 60px;}
-
-  /* ===== Top bar ===== */
-  header.topbar{
-    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px;
-    padding:18px 0;
-    border-bottom:1px solid var(--borda);
-    margin-bottom:24px;
+  /* ===== Header ===== */
+  .topo-card{
+    background:var(--card);
+    border:1px solid var(--borda);
+    border-radius:14px;
+    padding:22px 26px;
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px;
+    margin-bottom:20px;
   }
-  .marca{
-    display:flex; align-items:center; gap:10px;
+  .marca{display:flex; align-items:flex-start; gap:14px;}
+  .icone{
+    width:46px; height:46px; border-radius:11px;
+    background:var(--accent);
+    display:flex; align-items:center; justify-content:center; flex:0 0 auto;
   }
-  .marca-icone{
-    width:34px; height:34px; border-radius:7px;
-    background:var(--verde);
-    display:flex; align-items:center; justify-content:center;
-    color:var(--ouro-suave); font-family:var(--mono); font-weight:600; font-size:.85rem;
+  .icone svg{width:24px; height:24px;}
+  .marca-texto h1{
+    font-family:var(--serif); font-weight:700; font-size:1.55rem; margin:0 0 3px; color:var(--texto);
   }
-  .marca-texto{font-weight:600; font-size:1rem; color:var(--texto);}
-  .marca-texto .separador{color:var(--texto-sec); font-weight:400; margin:0 4px;}
-  .marca-texto .nome{color:var(--verde);}
-
-  .saudacao{
-    font-size:1.15rem;
-    font-weight:600;
-    color:var(--texto);
-    margin:16px 0 22px;
+  .marca-texto p{
+    margin:0; font-size:.86rem; color:var(--texto-sec); max-width:46ch;
   }
-  .saudacao .nome{color:var(--verde);}
-
-  .status-cluster{display:flex; align-items:center; gap:22px; flex-wrap:wrap;}
-  .status-bloco{display:flex; flex-direction:column; gap:2px;}
-  .status-rotulo{font-size:.68rem; color:var(--texto-sec); letter-spacing:.02em;}
-  .status-valor{font-family:var(--mono); font-size:.95rem; color:var(--texto); font-weight:500;}
-  .status-valor.relogio{font-size:1.15rem; color:var(--verde); font-weight:600;}
-  .sync-dot{
-    display:inline-block; width:7px; height:7px; border-radius:50%;
-    background:#3f9c62; margin-right:6px;
-  }
+  .stats{display:flex; align-items:center; gap:22px;}
+  .stat{display:flex; flex-direction:column; align-items:flex-end; gap:2px;}
+  .stat-numero{font-family:var(--serif); font-weight:700; font-size:1.5rem; color:var(--texto); line-height:1;}
+  .stat-legenda{font-size:.62rem; letter-spacing:.04em; color:var(--texto-sec);}
+  .stat-divisor{width:1px; height:32px; background:var(--borda);}
 
   /* ===== Tabs ===== */
-  nav.abas{margin-bottom:22px;}
-  .abas-lista{display:flex; gap:6px; flex-wrap:wrap;}
+  .abas{
+    display:flex; gap:26px; border-bottom:1px solid var(--borda);
+    margin-bottom:18px; padding:0 4px;
+  }
   .aba{
-    background:var(--card);
-    border:1px solid var(--borda);
-    color:var(--texto-sec);
-    font-family:var(--sans);
-    font-size:.85rem;
-    font-weight:500;
-    padding:9px 16px;
-    border-radius:7px;
-    cursor:pointer;
-    transition:all .15s;
+    background:none; border:none; cursor:pointer;
+    font-family:var(--sans); font-size:.92rem; font-weight:500; color:var(--texto-sec);
+    padding:10px 2px 12px; border-bottom:2px solid transparent;
   }
-  .aba:hover{border-color:var(--verde); color:var(--verde);}
-  .aba[aria-selected="true"]{
-    background:var(--verde);
-    border-color:var(--verde);
-    color:#fff;
-  }
+  .aba:hover{color:var(--texto);}
+  .aba[aria-selected="true"]{color:var(--accent); border-bottom-color:var(--accent); font-weight:600;}
 
-  /* ===== Grid principal ===== */
-  .grid{
-    display:grid;
-    grid-template-columns:300px 1fr;
-    gap:24px;
-    align-items:start;
+  /* ===== Filtros ===== */
+  .filtros-bar{
+    display:flex; flex-wrap:wrap; gap:10px; margin-bottom:22px;
   }
-  @media (max-width:860px){
-    .grid{grid-template-columns:1fr;}
+  .campo-busca{
+    flex:1 1 240px;
+    display:flex; align-items:center; gap:8px;
+    background:var(--card); border:1px solid var(--borda); border-radius:8px;
+    padding:9px 12px;
   }
+  .campo-busca svg{flex:0 0 auto; opacity:.5;}
+  .campo-busca input{
+    border:none; outline:none; font-family:var(--sans); font-size:.86rem;
+    width:100%; background:transparent; color:var(--texto);
+  }
+  select, .filtro-datas{
+    background:var(--card); border:1px solid var(--borda); border-radius:8px;
+    padding:9px 12px; font-family:var(--sans); font-size:.84rem; color:var(--texto);
+  }
+  select{cursor:pointer;}
+  .filtro-datas{display:flex; align-items:center; gap:8px;}
+  .filtro-datas input[type="date"]{
+    border:none; outline:none; font-family:var(--sans); font-size:.82rem; color:var(--texto); background:transparent;
+  }
+  .filtro-datas span{color:var(--texto-sec); font-size:.8rem;}
 
-  .painel{
-    background:var(--card);
-    border:1px solid var(--borda);
-    border-radius:var(--raio);
-    padding:20px;
-  }
-  .painel-titulo{
-    font-size:.95rem; font-weight:600; color:var(--texto); margin:0 0 3px;
-  }
-  .painel-legenda{
-    font-size:.78rem; color:var(--texto-sec); margin:0 0 18px;
-  }
+  /* ===== Conteudo ===== */
+  .conteudo{display:grid; grid-template-columns:1fr 280px; gap:24px; align-items:start;}
+  @media (max-width:860px){ .conteudo{grid-template-columns:1fr;} }
 
-  /* Sidebar: placar */
-  .sidebar{position:sticky; top:24px;}
-  .placar-item + .placar-item{margin-top:16px; padding-top:16px; border-top:1px solid var(--borda);}
-  .placar-cabecalho{display:flex; justify-content:space-between; gap:10px; margin-bottom:8px;}
-  .placar-nome{font-size:.82rem; font-weight:600; color:var(--texto);}
-  .placar-pct{font-family:var(--mono); font-size:.8rem; color:var(--ouro); font-weight:600;}
-  .placar-trilho{height:6px; background:var(--verde-suave); border-radius:4px; overflow:hidden;}
-  .placar-preenchido{height:100%; background:var(--verde); border-radius:4px;}
-  .placar-fase{font-size:.74rem; color:var(--texto-sec); margin:6px 0 0;}
+  .grupo-data{
+    font-size:.7rem; font-weight:600; letter-spacing:.06em; color:var(--texto-sec);
+    margin:22px 0 10px;
+  }
+  .grupo-data:first-child{margin-top:0;}
 
-  /* Coluna principal */
-  .filtros-row{
-    display:flex; align-items:center; gap:18px; flex-wrap:wrap;
-    margin-bottom:16px;
+  .card-noticia{
+    background:var(--card); border:1px solid var(--borda); border-radius:var(--raio);
+    padding:18px 20px; margin-bottom:12px;
   }
-  .filtro-rotulo{font-size:.72rem; color:var(--texto-sec); font-weight:600; letter-spacing:.02em;}
-  .chip{
-    font-family:var(--sans); font-size:.78rem; font-weight:500;
-    border:1px solid var(--borda);
-    background:#fff;
-    padding:6px 13px;
-    border-radius:20px;
-    cursor:pointer;
-    display:inline-flex; align-items:center; gap:6px;
-    transition:all .15s;
-    margin-right:6px;
+  .card-topo{display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:9px;}
+  .pill{
+    font-size:.68rem; font-weight:600; padding:3px 10px; border-radius:20px;
   }
-  .chip .ponto{width:7px; height:7px; border-radius:50%;}
-  .chip.impacto-alto .ponto{background:var(--alto);}
-  .chip.impacto-medio .ponto{background:var(--medio);}
-  .chip.impacto-baixo .ponto{background:var(--baixo);}
-  .chip:hover{border-color:#c7d1cb;}
-  .chip[aria-pressed="true"]{background:var(--verde-suave); border-color:var(--verde);}
-
-  #contador-resultados{font-size:.78rem; color:var(--texto-sec); margin-bottom:12px;}
-
-  .feed{display:flex; flex-direction:column; gap:12px;}
-  .noticia{
-    background:var(--card);
-    border:1px solid var(--borda);
-    border-radius:var(--raio);
-    padding:16px 18px;
+  .pill.oficial{background:var(--oficial-bg); color:var(--oficial-cor);}
+  .pill.portal{background:var(--portal-bg); color:var(--portal-cor);}
+  .pill.agregador{background:var(--agregador-bg); color:var(--agregador-cor);}
+  .pill.estadual{background:var(--estadual-bg); color:var(--estadual-cor);}
+  .pill.federal{background:var(--federal-bg); color:var(--federal-cor);}
+  .pill.municipal{background:var(--municipal-bg); color:var(--municipal-cor);}
+  .pill.reforma{background:var(--reforma-bg); color:var(--reforma-cor);}
+  .card-fonte{font-size:.78rem; color:var(--texto-sec);}
+  .card-titulo{
+    font-family:var(--serif); font-weight:700; font-size:1.12rem; margin:0 0 7px; color:var(--texto); line-height:1.35;
   }
-  .noticia-topo{display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:8px;}
-  .badge{
-    font-family:var(--mono); font-size:.68rem; font-weight:600;
-    padding:3px 9px; border-radius:5px;
+  .card-resumo{font-size:.88rem; color:var(--texto-sec); margin:0 0 10px; line-height:1.55;}
+  .card-link{
+    font-size:.82rem; font-weight:600; color:var(--accent); text-decoration:none;
   }
-  .badge.impacto-alto{background:var(--alto-bg); color:var(--alto);}
-  .badge.impacto-medio{background:var(--medio-bg); color:var(--medio);}
-  .badge.impacto-baixo{background:var(--baixo-bg); color:var(--baixo);}
-  .tag-esfera{
-    font-size:.72rem; color:var(--verde); background:var(--verde-suave);
-    padding:3px 9px; border-radius:5px; font-weight:500;
-  }
-  .noticia-fonte{font-size:.74rem; color:var(--texto-sec); margin-left:auto;}
-  .noticia-titulo{font-size:.98rem; font-weight:600; color:var(--texto); margin:0 0 6px; line-height:1.4;}
-  .noticia-resumo{font-size:.86rem; color:var(--texto-sec); margin:0 0 10px;}
-  .noticia-link{
-    font-size:.8rem; font-weight:500; color:var(--verde);
-    text-decoration:none; border-bottom:1px solid var(--verde-suave);
-  }
-  .noticia-link:hover{border-color:var(--verde);}
+  .card-link:hover{text-decoration:underline;}
 
   .vazio{
-    padding:36px 0; text-align:center; color:var(--texto-sec); font-size:.88rem;
-    border:1px dashed var(--borda); border-radius:var(--raio); background:#fff;
+    background:var(--card); border:1px dashed var(--borda); border-radius:var(--raio);
+    padding:36px 20px; text-align:center; color:var(--texto-sec); font-size:.88rem;
+  }
+
+  /* ===== Sidebar ===== */
+  .sidebar{
+    background:var(--card); border:1px solid var(--borda); border-radius:var(--raio);
+    padding:20px; position:sticky; top:20px;
+  }
+  .sidebar h2{
+    font-size:.72rem; font-weight:700; letter-spacing:.05em; color:var(--texto-sec); margin:0 0 14px;
+  }
+  .fonte-grupo-titulo{
+    font-size:.66rem; font-weight:700; letter-spacing:.04em; color:var(--texto-sec);
+    margin:16px 0 8px;
+  }
+  .fonte-grupo-titulo:first-of-type{margin-top:0;}
+  .fonte-linha{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:6px 0; font-size:.82rem; color:var(--texto);
   }
 
   footer{
-    margin-top:36px; padding-top:16px; border-top:1px solid var(--borda);
-    font-size:.72rem; color:var(--texto-sec); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
+    margin-top:30px; font-size:.72rem; color:var(--texto-sec);
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
   }
 </style>
 </head>
@@ -205,58 +175,57 @@
 
 <div class="shell">
 
-  <header class="topbar">
+  <header class="topo-card">
     <div class="marca">
-      <div class="marca-icone">RF</div>
-      <div class="marca-texto">Radar Fiscal <span class="separador">·</span><span class="nome">Bárbara</span></div>
+      <div class="icone">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="2.4" fill="#fff"/>
+          <path d="M7.5 12a4.5 4.5 0 0 1 9 0" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M4.8 12a7.2 7.2 0 0 1 14.4 0" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>
+        </svg>
+      </div>
+      <div class="marca-texto">
+        <h1>Radar Fiscal</h1>
+        <p id="saudacao-subtitulo">Monitoramento diario de fontes oficiais e portais contabeis confiaveis</p>
+      </div>
     </div>
-    <div class="status-cluster">
-      <div class="status-bloco">
-        <span class="status-rotulo">HORÁRIO DE BRASÍLIA</span>
-        <span class="status-valor relogio" id="relogio">--:--:--</span>
-      </div>
-      <div class="status-bloco">
-        <span class="status-rotulo">DATA</span>
-        <span class="status-valor" id="data-hoje">—</span>
-      </div>
-      <div class="status-bloco">
-        <span class="status-rotulo">SINCRONIZAÇÃO</span>
-        <span class="status-valor"><span class="sync-dot"></span><span id="sync-texto">agora mesmo</span></span>
-      </div>
+    <div class="stats">
+      <div class="stat"><span class="stat-numero" id="stat-itens">-</span><span class="stat-legenda">ITENS NO RADAR</span></div>
+      <div class="stat-divisor"></div>
+      <div class="stat"><span class="stat-numero" id="stat-fontes">-</span><span class="stat-legenda">FONTES</span></div>
+      <div class="stat-divisor"></div>
+      <div class="stat"><span class="stat-numero" id="stat-checagem">-</span><span class="stat-legenda">ULTIMA CHECAGEM</span></div>
     </div>
   </header>
 
-  <p class="saudacao" id="saudacao">Bom dia, <span class="nome">Bárbara</span>.</p>
+  <nav class="abas" role="tablist" id="lista-abas" aria-label="Secoes do radar"></nav>
 
-  <nav class="abas" aria-label="Visões do radar">
-    <div class="abas-lista" id="lista-abas" role="tablist"></div>
-  </nav>
+  <div class="filtros-bar">
+    <div class="campo-busca">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="busca" placeholder="Buscar por assunto, tributo, obrigacao...">
+    </div>
+    <select id="filtro-fonte"><option value="">Todas as fontes</option></select>
+    <select id="filtro-esfera"><option value="">Todas as esferas</option></select>
+    <div class="filtro-datas">
+      <input type="date" id="data-inicio" aria-label="Data inicial">
+      <span>-</span>
+      <input type="date" id="data-fim" aria-label="Data final">
+    </div>
+  </div>
 
-  <div class="grid">
+  <div class="conteudo">
+    <main id="feed-wrap"></main>
 
-    <aside class="painel sidebar">
-      <h2 class="painel-titulo">Placar da Reforma</h2>
-      <p class="painel-legenda">IBS, CBS e Imposto Seletivo</p>
-      <div id="placar"></div>
+    <aside class="sidebar">
+      <h2>FONTES MONITORADAS</h2>
+      <div id="fontes-monitoradas"></div>
     </aside>
-
-    <main>
-      <div class="painel" style="margin-bottom:16px;">
-        <div class="filtros-row">
-          <span class="filtro-rotulo">IMPACTO</span>
-          <div id="filtro-impacto"></div>
-        </div>
-      </div>
-
-      <p id="contador-resultados"></p>
-      <div class="feed" id="feed"></div>
-    </main>
-
   </div>
 
   <footer>
-    <span>Radar Fiscal Diário</span>
-    <span id="fonte-dados-indicador">Carregando fonte de dados…</span>
+    <span>Radar Fiscal Diario</span>
+    <span id="fonte-dados-indicador">Carregando fonte de dados...</span>
   </footer>
 
 </div>
@@ -264,134 +233,127 @@
 <script>
 (function(){
 
-  /* ---------- Fallback local (usado se noticias.json não for encontrado) ---------- */
+  const NOME_USUARIA = "Barbara";
+
   const FALLBACK_NOTICIAS = [
     {
       id: 1,
-      titulo: "Comitê Gestor do IBS publica agenda de regulamentação para insumos agropecuários",
-      resumo: "Calendário prevê consulta pública sobre a lista de insumos com redução de alíquota, incluindo fertilizantes e defensivos, antes da vigência em 2027.",
+      titulo: "Comite Gestor do IBS publica agenda de regulamentacao para insumos agropecuarios",
+      resumo: "Calendario preve consulta publica sobre a lista de insumos com reducao de aliquota, incluindo fertilizantes e defensivos, antes da vigencia em 2027.",
       esfera: "reforma",
       uf: null,
       setor: "fertilizantes",
       impacto: "alto",
-      fonte: "Comitê Gestor do IBS",
-      link: "#"
+      fonte: "Comite Gestor do IBS",
+      link: "#",
+      data: "2026-09-15"
     },
     {
       id: 2,
-      titulo: "Sefaz-SP amplia isenção de ICMS para operações interestaduais com adubos e corretivos de solo",
-      resumo: "Benefício é prorrogado até o fim de 2027, com exigência de registro atualizado no Sped Fiscal para as indústrias paulistas.",
+      titulo: "Sefaz-SP amplia isencao de ICMS para operacoes interestaduais com adubos e corretivos de solo",
+      resumo: "Beneficio e prorrogado ate o fim de 2027, com exigencia de registro atualizado no Sped Fiscal para as industrias paulistas.",
       esfera: "estadual",
       uf: "SP",
       setor: "agronegocio",
       impacto: "medio",
-      fonte: "Sefaz-SP",
-      link: "#"
+      fonte: "Google Noticias - Sao Paulo",
+      link: "#",
+      data: "2026-09-15"
     },
     {
       id: 3,
-      titulo: "Sefaz-MT concede diferimento de ICMS na importação de fertilizantes para a safra 2026",
-      resumo: "Regime especial adia o recolhimento do imposto para o momento da saída do produto, aliviando o caixa das tradings durante o pico de plantio.",
+      titulo: "Sefaz-MT concede diferimento de ICMS na importacao de fertilizantes para a safra 2026",
+      resumo: "Regime especial adia o recolhimento do imposto para o momento da saida do produto, aliviando o caixa das tradings durante o pico de plantio.",
       esfera: "estadual",
       uf: "MT",
       setor: "fertilizantes",
       impacto: "alto",
-      fonte: "Sefaz-MT",
-      link: "#"
+      fonte: "Google Noticias - Mato Grosso",
+      link: "#",
+      data: "2026-09-14"
     },
     {
       id: 4,
-      titulo: "Economia-GO revisa tributação de defensivos agrícolas em operações de armazenagem",
-      resumo: "Nova instrução normativa detalha a base de cálculo do ICMS para operações de armazéns gerais que prestam serviço ao agronegócio goiano.",
-      esfera: "estadual",
-      uf: "GO",
-      setor: "agronegocio",
-      impacto: "medio",
-      fonte: "Economia-GO (Sefaz-GO)",
-      link: "#"
-    },
-    {
-      id: 5,
-      titulo: "Imposto Seletivo não incidirá sobre defensivos e fertilizantes, confirma texto aprovado",
-      resumo: "Relatório final mantém a exclusão do setor da lista de produtos sujeitos ao chamado 'imposto do pecado', atendendo pleito do agronegócio.",
+      titulo: "Imposto Seletivo nao incidira sobre defensivos e fertilizantes, confirma texto aprovado",
+      resumo: "Relatorio final mantem a exclusao do setor da lista de produtos sujeitos ao chamado 'imposto do pecado', atendendo pleito do agronegocio.",
       esfera: "reforma",
       uf: null,
       setor: "agronegocio",
       impacto: "alto",
       fonte: "Congresso Nacional",
-      link: "#"
+      link: "#",
+      data: "2026-09-14"
     },
     {
-      id: 6,
-      titulo: "CBS: Receita Federal libera novo layout de nota fiscal para o período de testes",
-      resumo: "Ambiente de homologação já aceita o novo campo de CBS destacado, com testes obrigatórios para empresas do regime não cumulativo.",
+      id: 5,
+      titulo: "CBS: Receita Federal libera novo layout de nota fiscal para o periodo de testes",
+      resumo: "Ambiente de homologacao ja aceita o novo campo de CBS destacado, com testes obrigatorios para empresas do regime nao cumulativo.",
       esfera: "federal",
       uf: null,
-      setor: "fertilizantes",
+      setor: "geral",
       impacto: "baixo",
       fonte: "Receita Federal do Brasil",
-      link: "#"
+      link: "#",
+      data: "2026-09-13"
     }
   ];
 
+  // Espelha as fontes reais do coletor.py (25 no total: 5 federais + 2 por
+  // estado x 10 estados). Aqui resumido em linhas por grupo para nao poluir
+  // a barra lateral - o numero de FONTES (stat) reflete o total real.
+  const TOTAL_FONTES_REAL = 26;
+  const FONTES_MONITORADAS = [
+    { grupo: "OFICIAIS E NACIONAIS", nome: "Receita Federal (RSS oficial)", tipo: "oficial" },
+    { grupo: "OFICIAIS E NACIONAIS", nome: "CFC (RSS oficial)", tipo: "oficial" },
+    { grupo: "OFICIAIS E NACIONAIS", nome: "Sebrae Nacional (RSS oficial)", tipo: "oficial" },
+    { grupo: "OFICIAIS E NACIONAIS", nome: "Comite Gestor do IBS/CBS", tipo: "agregador" },
+    { grupo: "PORTAIS ESPECIALIZADOS", nome: "Portal Contabeis (RSS oficial)", tipo: "portal" },
+    { grupo: "PORTAIS ESPECIALIZADOS", nome: "IOB Noticias (RSS - nao verificado)", tipo: "portal" },
+    { grupo: "SEBRAE REGIONAL - 10 ESTADOS", nome: "RS, SC, PR, SP, MG, GO, MS, MT, MA, TO (RSS oficial)", tipo: "oficial" },
+    { grupo: "COBERTURA COMPLEMENTAR", nome: "Google Noticias - reforma + 10 estados (agregador)", tipo: "agregador" },
+  ];
+
   const ABAS = [
-    { id: "geral", rotulo: "Visão Geral" },
-    { id: "fertilizantes", rotulo: "Fertilizantes & Insumos" },
-    { id: "agronegocio", rotulo: "Agronegócio Geral" },
-    { id: "reforma", rotulo: "Reforma Tributária" }
+    { id: "noticias", rotulo: "Noticias" },
+    { id: "boletim", rotulo: "Boletim diario" },
+    { id: "redes", rotulo: "Redes sociais" },
+    { id: "reforma", rotulo: "Reforma Tributaria" }
   ];
 
-  const PLACAR = [
-    { nome: "IBS", pct: 68, fase: "Regulamentação infralegal · Comitê Gestor formado, consulta pública em curso." },
-    { nome: "CBS", pct: 74, fase: "Testes de sistema · layout de nota fiscal em homologação." },
-    { nome: "Imposto Seletivo", pct: 52, fase: "Definição da lista de produtos · agro e fertilizantes fora da incidência." }
-  ];
+  const ESFERA_ROTULO = { reforma: "reforma", federal: "federal", estadual: "estadual", municipal: "municipal" };
 
-  const IMPACTO_ROTULO = { alto: "Alto", medio: "Médio", baixo: "Baixo" };
-  const ESFERA_ROTULO = { reforma: "Reforma Tributária", federal: "Federal", estadual: "Estadual", municipal: "Municipal" };
-
-  let filtroAbaAtiva = "geral";
-  let impactosAtivos = new Set();
+  let abaAtiva = "noticias";
   let noticiasCarregadas = [];
+  let textoBusca = "";
+  let fonteSelecionada = "";
+  let esferaSelecionada = "";
+  let dataInicio = "";
+  let dataFim = "";
 
-  /* ---------- Relógio (Horário de Brasília) ---------- */
-  const NOME_USUARIA = "Bárbara";
-
+  /* ---------- Saudacao dinamica (mantida no subtitulo) ---------- */
   function horaAtualBrasilia(){
     const agora = new Date();
     const horaTexto = agora.toLocaleString("en-US", { timeZone:"America/Sao_Paulo", hour:"2-digit", hour12:false });
     return parseInt(horaTexto, 10) % 24;
   }
-
   function saudacaoPorHorario(hora){
     if (hora >= 5 && hora < 12) return "Bom dia";
     if (hora >= 12 && hora < 18) return "Boa tarde";
     return "Boa noite";
   }
-
   function atualizarSaudacao(){
     const hora = horaAtualBrasilia();
-    document.getElementById("saudacao").innerHTML =
-      saudacaoPorHorario(hora) + ', <span class="nome">' + NOME_USUARIA + '</span>.';
+    document.getElementById("saudacao-subtitulo").textContent =
+      saudacaoPorHorario(hora) + ", " + NOME_USUARIA + " - monitoramento diario de fontes oficiais e portais contabeis confiaveis";
   }
-
-  function atualizarRelogio(){
+  function atualizarChecagem(){
     const agora = new Date();
-    const opcoesHora = { timeZone:"America/Sao_Paulo", hour:"2-digit", minute:"2-digit", second:"2-digit" };
-    const opcoesData = { timeZone:"America/Sao_Paulo", weekday:"long", day:"2-digit", month:"long", year:"numeric" };
-    document.getElementById("relogio").textContent = agora.toLocaleTimeString("pt-BR", opcoesHora);
-    document.getElementById("data-hoje").textContent = agora.toLocaleDateString("pt-BR", opcoesData);
-    atualizarSaudacao();
+    const opcoes = { timeZone:"America/Sao_Paulo", day:"2-digit", month:"2-digit", hour:"2-digit", minute:"2-digit" };
+    document.getElementById("stat-checagem").textContent = agora.toLocaleString("pt-BR", opcoes).replace(",", "");
   }
-  atualizarRelogio();
-  setInterval(atualizarRelogio, 1000);
-
-  let segundosDesdeSync = 0;
-  setInterval(function(){
-    segundosDesdeSync++;
-    const el = document.getElementById("sync-texto");
-    el.textContent = segundosDesdeSync < 60 ? "agora mesmo" : "há " + Math.floor(segundosDesdeSync/60) + " min";
-  }, 1000);
+  atualizarSaudacao();
+  atualizarChecagem();
+  setInterval(function(){ atualizarSaudacao(); atualizarChecagem(); }, 60000);
 
   /* ---------- Abas ---------- */
   const listaAbas = document.getElementById("lista-abas");
@@ -399,114 +361,172 @@
     const btn = document.createElement("button");
     btn.className = "aba";
     btn.textContent = aba.rotulo;
-    btn.setAttribute("role","tab");
-    btn.setAttribute("aria-selected", aba.id === filtroAbaAtiva ? "true":"false");
+    btn.setAttribute("role", "tab");
+    btn.setAttribute("aria-selected", aba.id === abaAtiva ? "true" : "false");
     btn.addEventListener("click", function(){
-      filtroAbaAtiva = aba.id;
-      document.querySelectorAll(".aba").forEach(b => b.setAttribute("aria-selected","false"));
-      btn.setAttribute("aria-selected","true");
+      abaAtiva = aba.id;
+      document.querySelectorAll(".aba").forEach(b => b.setAttribute("aria-selected", "false"));
+      btn.setAttribute("aria-selected", "true");
+      if (aba.id === "reforma") { esferaSelecionada = "reforma"; document.getElementById("filtro-esfera").value = "reforma"; }
       renderFeed();
     });
     listaAbas.appendChild(btn);
   });
 
-  /* ---------- Placar ---------- */
-  const placarEl = document.getElementById("placar");
-  PLACAR.forEach(function(item){
-    const div = document.createElement("div");
-    div.className = "placar-item";
-    div.innerHTML =
-      '<div class="placar-cabecalho">' +
-        '<span class="placar-nome">' + item.nome + '</span>' +
-        '<span class="placar-pct">' + item.pct + '%</span>' +
-      '</div>' +
-      '<div class="placar-trilho"><div class="placar-preenchido" style="width:' + item.pct + '%"></div></div>' +
-      '<p class="placar-fase">' + item.fase + '</p>';
-    placarEl.appendChild(div);
+  /* ---------- Filtros ---------- */
+  document.getElementById("busca").addEventListener("input", function(e){
+    textoBusca = e.target.value.trim().toLowerCase();
+    renderFeed();
+  });
+  document.getElementById("filtro-fonte").addEventListener("change", function(e){
+    fonteSelecionada = e.target.value; renderFeed();
+  });
+  document.getElementById("filtro-esfera").addEventListener("change", function(e){
+    esferaSelecionada = e.target.value; renderFeed();
+  });
+  document.getElementById("data-inicio").addEventListener("change", function(e){
+    dataInicio = e.target.value; renderFeed();
+  });
+  document.getElementById("data-fim").addEventListener("change", function(e){
+    dataFim = e.target.value; renderFeed();
   });
 
-  /* ---------- Filtro de impacto (chips) ---------- */
-  const filtroImpactoEl = document.getElementById("filtro-impacto");
-  Object.keys(IMPACTO_ROTULO).forEach(function(chave){
-    const chip = document.createElement("button");
-    chip.className = "chip impacto-" + chave;
-    chip.innerHTML = '<span class="ponto"></span>' + IMPACTO_ROTULO[chave];
-    chip.setAttribute("aria-pressed","false");
-    chip.addEventListener("click", function(){
-      if (impactosAtivos.has(chave)){
-        impactosAtivos.delete(chave);
-        chip.setAttribute("aria-pressed","false");
-      } else {
-        impactosAtivos.add(chave);
-        chip.setAttribute("aria-pressed","true");
-      }
-      renderFeed();
+  function preencherFiltroFontes(){
+    const select = document.getElementById("filtro-fonte");
+    const fontes = Array.from(new Set(noticiasCarregadas.map(n => n.fonte))).sort();
+    fontes.forEach(function(f){
+      const opt = document.createElement("option");
+      opt.value = f; opt.textContent = f;
+      select.appendChild(opt);
     });
-    filtroImpactoEl.appendChild(chip);
-  });
+  }
+  function preencherFiltroEsferas(){
+    const select = document.getElementById("filtro-esfera");
+    Object.keys(ESFERA_ROTULO).forEach(function(chave){
+      const opt = document.createElement("option");
+      opt.value = chave; opt.textContent = ESFERA_ROTULO[chave];
+      select.appendChild(opt);
+    });
+  }
 
-  /* ---------- Carregamento de dados desacoplado ---------- */
+  /* ---------- Sidebar: fontes monitoradas ---------- */
+  function renderFontesMonitoradas(){
+    const container = document.getElementById("fontes-monitoradas");
+    container.innerHTML = "";
+    const grupos = [];
+    FONTES_MONITORADAS.forEach(function(f){ if (grupos.indexOf(f.grupo) === -1) grupos.push(f.grupo); });
+
+    grupos.forEach(function(grupo){
+      const titulo = document.createElement("div");
+      titulo.className = "fonte-grupo-titulo";
+      titulo.textContent = grupo;
+      container.appendChild(titulo);
+
+      FONTES_MONITORADAS.filter(f => f.grupo === grupo).forEach(function(f){
+        const linha = document.createElement("div");
+        linha.className = "fonte-linha";
+        linha.innerHTML = '<span>' + f.nome + '</span><span class="pill ' + f.tipo + '">' + f.tipo + '</span>';
+        container.appendChild(linha);
+      });
+    });
+
+    document.getElementById("stat-fontes").textContent = TOTAL_FONTES_REAL;
+  }
+
+  /* ---------- Tipo de fonte (oficial/portal), so para exibicao do card ---------- */
+  function tipoDaFonte(nomeFonte){
+    const f = (nomeFonte || "").toLowerCase();
+    if (f.indexOf("google noticias") !== -1) return "agregador";
+    if (f.indexOf("receita federal") !== -1 || f.indexOf("cfc") !== -1 || f.indexOf("sebrae") !== -1) return "oficial";
+    return "portal";
+  }
+
+  /* ---------- Agrupamento por data (HOJE / ONTEM / DD/MM) ---------- */
+  function rotuloData(dataStr){
+    const hoje = new Date();
+    const hojeStr = hoje.toISOString().slice(0, 10);
+    const ontem = new Date(hoje); ontem.setDate(ontem.getDate() - 1);
+    const ontemStr = ontem.toISOString().slice(0, 10);
+    if (dataStr === hojeStr) return "HOJE";
+    if (dataStr === ontemStr) return "ONTEM";
+    const partes = dataStr.split("-");
+    if (partes.length === 3) return partes[2] + "/" + partes[1];
+    return dataStr;
+  }
+
+  /* ---------- Carregamento de dados ---------- */
   async function carregarDados(){
     const indicador = document.getElementById("fonte-dados-indicador");
     try {
       const resposta = await fetch("noticias.json");
-      if (!resposta.ok) throw new Error("noticias.json indisponível (" + resposta.status + ")");
+      if (!resposta.ok) throw new Error("noticias.json indisponivel (" + resposta.status + ")");
       const dados = await resposta.json();
       if (!Array.isArray(dados) || dados.length === 0) throw new Error("noticias.json vazio");
       noticiasCarregadas = dados;
       indicador.textContent = "Fonte de dados: noticias.json";
     } catch (erro) {
       noticiasCarregadas = FALLBACK_NOTICIAS;
-      indicador.textContent = "Fonte de dados: exemplo local (noticias.json não encontrado)";
+      indicador.textContent = "Fonte de dados: exemplo local (noticias.json nao encontrado)";
     }
+    noticiasCarregadas.sort((a, b) => (b.data || "").localeCompare(a.data || ""));
+    preencherFiltroFontes();
+    preencherFiltroEsferas();
+    renderFontesMonitoradas();
     renderFeed();
   }
 
   /* ---------- Feed ---------- */
-  const feedEl = document.getElementById("feed");
-  const contadorEl = document.getElementById("contador-resultados");
-
-  function noticiaPertenceAba(n, aba){
-    if (aba === "geral") return true;
-    if (aba === "fertilizantes") return n.setor === "fertilizantes";
-    if (aba === "agronegocio") return n.setor === "agronegocio";
-    if (aba === "reforma") return n.esfera === "reforma";
-    return true;
-  }
-
   function renderFeed(){
-    const filtradas = noticiasCarregadas.filter(function(n){
-      if (!noticiaPertenceAba(n, filtroAbaAtiva)) return false;
-      if (impactosAtivos.size > 0 && !impactosAtivos.has(n.impacto)) return false;
-      return true;
-    });
+    const wrap = document.getElementById("feed-wrap");
 
-    contadorEl.textContent = filtradas.length + (filtradas.length === 1 ? " notícia encontrada" : " notícias encontradas");
-    feedEl.innerHTML = "";
-
-    if (filtradas.length === 0){
-      const vazio = document.createElement("div");
-      vazio.className = "vazio";
-      vazio.textContent = "Nenhuma notícia para os filtros selecionados.";
-      feedEl.appendChild(vazio);
+    if (abaAtiva === "boletim" || abaAtiva === "redes") {
+      wrap.innerHTML = '<div class="vazio">Esta secao ainda nao tem uma fonte de dados conectada.</div>';
+      document.getElementById("stat-itens").textContent = "0";
       return;
     }
 
+    const filtradas = noticiasCarregadas.filter(function(n){
+      if (textoBusca && !((n.titulo || "").toLowerCase().indexOf(textoBusca) !== -1 || (n.resumo || "").toLowerCase().indexOf(textoBusca) !== -1)) return false;
+      if (fonteSelecionada && n.fonte !== fonteSelecionada) return false;
+      if (esferaSelecionada && n.esfera !== esferaSelecionada) return false;
+      if (dataInicio && n.data < dataInicio) return false;
+      if (dataFim && n.data > dataFim) return false;
+      return true;
+    });
+
+    document.getElementById("stat-itens").textContent = filtradas.length;
+    wrap.innerHTML = "";
+
+    if (filtradas.length === 0){
+      wrap.innerHTML = '<div class="vazio">Nenhuma noticia para os filtros selecionados.</div>';
+      return;
+    }
+
+    let grupoAtual = null;
     filtradas.forEach(function(n){
+      const rotulo = rotuloData(n.data || "");
+      if (rotulo !== grupoAtual){
+        grupoAtual = rotulo;
+        const h = document.createElement("div");
+        h.className = "grupo-data";
+        h.textContent = rotulo;
+        wrap.appendChild(h);
+      }
+
       const card = document.createElement("article");
-      card.className = "noticia";
-      const rotuloEsfera = (ESFERA_ROTULO[n.esfera] || n.esfera).toUpperCase();
-      const textoTagEsfera = n.uf ? (rotuloEsfera + " · " + n.uf) : rotuloEsfera;
+      card.className = "card-noticia";
+      const tipo = tipoDaFonte(n.fonte);
+      const pillEsfera = n.esfera ? '<span class="pill ' + n.esfera + '">' + (ESFERA_ROTULO[n.esfera] || n.esfera) + (n.uf ? " · " + n.uf : "") + '</span>' : "";
       card.innerHTML =
-        '<div class="noticia-topo">' +
-          '<span class="badge impacto-' + n.impacto + '">' + IMPACTO_ROTULO[n.impacto] + '</span>' +
-          '<span class="tag-esfera">' + textoTagEsfera + '</span>' +
-          '<span class="noticia-fonte">' + n.fonte + '</span>' +
+        '<div class="card-topo">' +
+          '<span class="pill ' + tipo + '">' + tipo + '</span>' +
+          pillEsfera +
+          '<span class="card-fonte">' + (n.fonte || "") + '</span>' +
         '</div>' +
-        '<h3 class="noticia-titulo">' + n.titulo + '</h3>' +
-        '<p class="noticia-resumo">' + n.resumo + '</p>' +
-        '<a class="noticia-link" href="' + n.link + '" target="_blank" rel="noopener">Abrir fonte completa</a>';
-      feedEl.appendChild(card);
+        '<h3 class="card-titulo">' + n.titulo + '</h3>' +
+        '<p class="card-resumo">' + n.resumo + '</p>' +
+        '<a class="card-link" href="' + n.link + '" target="_blank" rel="noopener">Abrir na fonte &rarr;</a>';
+      wrap.appendChild(card);
     });
   }
 

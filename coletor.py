@@ -78,11 +78,9 @@ LIMITE_ITENS = 35              # itens mais recentes mantidos apos a mesclagem
 SAIDA_JSON = "noticias.json"
 
 # ---------------------------------------------------------------------------
-# Busca generica no Google Noticias - endpoint publico e estavel, usado tanto
-# para as fontes federais quanto para as estaduais (ver abaixo). Preferido a
-# RSS proprio de orgao publico porque varios sites .gov.br respondem 200 OK
-# para automacao mas devolvem uma pagina de bloqueio/verificacao no lugar do
-# XML esperado - o feedparser le isso como "feed vazio" sem acusar erro.
+# Busca no Google Noticias - usada apenas como COMPLEMENTO para orgaos que
+# nao publicam RSS proprio (Comite Gestor do IBS, DOU). Marcada como
+# "agregador" na exibicao, nunca como fonte oficial direta.
 # ---------------------------------------------------------------------------
 def _url_busca_google_news(termos: str) -> str:
     termos_codificados = urllib.parse.quote(termos)
@@ -92,24 +90,46 @@ def _url_busca_google_news(termos: str) -> str:
 # ---------------------------------------------------------------------------
 # Fontes federais / da Reforma Tributaria.
 #
-# Agencia Senado, Camara dos Deputados e Agencia Brasil tem RSS proprio, mas
-# na pratica bloqueiam requisicoes automatizadas (respondem 200 OK com uma
-# pagina que nao e o feed real) - por isso tambem usam busca no Google
-# Noticias, igual as fontes estaduais. Portal Contabeis e o unico RSS de
-# orgao/veiculo que respondeu com o feed de verdade nos testes, entao
-# permanece como fonte RSS direta.
+# As 4 primeiras sao RSS direto de orgao/entidade oficial, com URL verificada
+# manualmente (conteudo real conferido em setembro/2026):
+#   - Receita Federal: gov.br/receitafederal/.../ultimas-noticias/RSS
+#     (cobre tambem SPED, que e noticiado pelo mesmo canal)
+#   - CFC (Conselho Federal de Contabilidade): cfc.org.br/feed/
+#   - Sebrae Nacional: agenciasebrae.com.br/feed/
+#   - Portal Contabeis: contabeis.com.br/rss/noticias/
+#
+# O Comite Gestor do IBS (cgibs.gov.br) e o DOU (in.gov.br) nao publicam RSS
+# publico ate o momento - cgibs.gov.br e um site dinamico via JavaScript sem
+# feed, e o DOU so oferece consulta paga via API. Para nao deixar essa lacuna
+# sem cobertura, usamos busca no Google Noticias como complemento (marcada
+# como "agregador", nunca "oficial").
+#
+# ATENCAO: orgaos .gov.br as vezes bloqueiam requisicoes automatizadas
+# (respondem 200 OK com pagina de verificacao em vez do XML). Se o log do
+# GitHub Actions mostrar "Sem entradas" para Receita Federal, CFC ou Sebrae
+# mesmo com a URL correta, e provavelmente esse bloqueio, nao um endereco
+# errado - avise para revisarmos os headers de requisicao.
 # ---------------------------------------------------------------------------
 FONTES_FEDERAIS = [
+    {"nome": "Receita Federal", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/ultimas-noticias/RSS", "esfera_padrao": "federal", "uf": None},
+    {"nome": "CFC", "url": "https://cfc.org.br/feed/", "esfera_padrao": "federal", "uf": None},
+    {"nome": "Sebrae Nacional", "url": "https://agenciasebrae.com.br/feed/", "esfera_padrao": "federal", "uf": None},
     {"nome": "Portal Contabeis", "url": "https://www.contabeis.com.br/rss/noticias/", "esfera_padrao": "federal", "uf": None},
-    {"nome": "Google Noticias - Reforma Tributaria", "url": _url_busca_google_news("(IBS OR CBS OR \"Imposto Seletivo\" OR \"Reforma Tributaria\")"), "esfera_padrao": "reforma", "uf": None},
-    {"nome": "Google Noticias - Congresso e Receita Federal", "url": _url_busca_google_news("(Senado OR \"Camara dos Deputados\" OR \"Receita Federal\") tributos"), "esfera_padrao": "federal", "uf": None},
+    # NAO VERIFICADO: iobonline.com.br exige login mesmo na secao "gratuita".
+    # noticias.iob.com.br e o blog publico separado da IOB e parece rodar em
+    # WordPress (que gera /feed/ automaticamente), mas nao consegui confirmar
+    # o conteudo real do feed. Se o log mostrar "Sem entradas" para esta
+    # fonte, teste manualmente https://noticias.iob.com.br/feed/ no navegador
+    # antes de assumir que e bloqueio.
+    {"nome": "IOB Noticias", "url": "https://noticias.iob.com.br/feed/", "esfera_padrao": "federal", "uf": None},
+    {"nome": "Google Noticias - Comite Gestor do IBS/CBS", "url": _url_busca_google_news("(\"Comite Gestor do IBS\" OR CGIBS OR IBS OR CBS OR \"Imposto Seletivo\")"), "esfera_padrao": "reforma", "uf": None},
 ]
 
 # ---------------------------------------------------------------------------
 # Mapa de UFs: codigo, nome por extenso, gentilico(s) e orgaos locais.
-# Usado tanto para montar a fonte de busca por estado quanto para identificar
-# o estado mencionado no titulo/resumo da noticia, mesmo quando a sigla da
-# UF nao aparece explicitamente.
+# Usado para montar as fontes por estado e para identificar o estado
+# mencionado no titulo/resumo da noticia, mesmo quando a sigla da UF nao
+# aparece explicitamente.
 # ---------------------------------------------------------------------------
 UF_MAPA = {
     "RS": {"nome": "Rio Grande do Sul", "gentilicos": ["gaucho", "gaucha"], "orgaos": ["sefaz-rs", "sefaz rs", "receita estadual do rs"]},
@@ -127,20 +147,31 @@ UF_MAPA = {
 # ---------------------------------------------------------------------------
 # Fontes estaduais - 10 estados prioritarios do agronegocio.
 #
-# IMPORTANTE: a maioria das Sefaz estaduais nao publica RSS oficial em
-# endereco previsivel (varias nem tem RSS publico), entao em vez de adivinhar
-# uma URL de Sefaz que pode nao existir, cada estado usa uma busca do Google
-# Noticias (endpoint publico e estavel) filtrada por termos fiscais/agro +
-# nome do estado. Isso cobre qualquer veiculo (Sefaz, diario oficial, imprensa
-# local) que publique sobre o tema, em vez de depender de uma unica fonte
-# oficial que pode estar fora do ar ou nunca ter existido nesse endereco.
-# Se a sua Sefaz tiver RSS proprio confirmado que responda de verdade (nao
-# so com 200 OK generico), pode trocar a URL por ele.
+# Cada estado tem DUAS fontes:
+#   1. RSS oficial do Sebrae regional (ex.: mt.agenciasebrae.com.br/feed/) -
+#      confirmado real para os 10 estados (a sigla da UF bate com o
+#      subdominio do Sebrae em todos os casos). Nao e Sefaz, mas e uma
+#      entidade oficial do sistema S, com editoria propria de Economia &
+#      Politica que cobre reforma tributaria e tributos estaduais.
+#   2. Busca no Google Noticias focada em ICMS/Sefaz/tributos do estado -
+#      complemento (agregador) para cobrir o que o Sebrae nao noticia,
+#      ja que nenhuma Sefaz estadual das 10 tem RSS publico confirmado.
 # ---------------------------------------------------------------------------
-FONTES_ESTADUAIS = [
-    {"nome": f"Google Noticias - {dados['nome']}", "url": _url_busca_google_news(f"(ICMS OR Sefaz OR tributos OR fertilizantes) {dados['nome']}"), "esfera_padrao": "estadual", "uf": sigla}
-    for sigla, dados in UF_MAPA.items()
-]
+FONTES_ESTADUAIS = []
+for sigla, dados in UF_MAPA.items():
+    subdominio = sigla.lower()
+    FONTES_ESTADUAIS.append({
+        "nome": f"Sebrae {dados['nome']}",
+        "url": f"https://{subdominio}.agenciasebrae.com.br/feed/",
+        "esfera_padrao": "estadual",
+        "uf": sigla,
+    })
+    FONTES_ESTADUAIS.append({
+        "nome": f"Google Noticias - {dados['nome']}",
+        "url": _url_busca_google_news(f"(ICMS OR Sefaz OR tributos OR fertilizantes) {dados['nome']}"),
+        "esfera_padrao": "estadual",
+        "uf": sigla,
+    })
 
 FONTES = FONTES_FEDERAIS + FONTES_ESTADUAIS
 
@@ -261,10 +292,19 @@ def classificar_impacto(texto: str) -> str:
     return "baixo"
 
 
+HEADERS_REQUISICAO = {
+    # User-Agent de navegador real: varios sites .gov.br bloqueiam (ou
+    # devolvem pagina de verificacao) para User-Agents genericos de bot.
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
+    "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+}
+
+
 def buscar_feed(url: str) -> Optional[feedparser.FeedParserDict]:
     """Baixa e faz parse de um feed RSS, com tratamento de timeout/erro de rede."""
     try:
-        resposta = requests.get(url, timeout=TIMEOUT_SEGUNDOS, headers={"User-Agent": "RadarFiscalBot/1.0"})
+        resposta = requests.get(url, timeout=TIMEOUT_SEGUNDOS, headers=HEADERS_REQUISICAO)
         resposta.raise_for_status()
         return feedparser.parse(resposta.content)
     except requests.exceptions.Timeout:
