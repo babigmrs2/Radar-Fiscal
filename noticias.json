@@ -1,6 +1,42 @@
 [
   {
     "id": 1,
+    "titulo": "Correio realiza debate sobre reforma tributária - Correio Braziliense",
+    "resumo": "Correio realiza debate sobre reforma tributária Correio Braziliense",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUGNVVnJRMlR1MndDTGg2SlNPX3BiTFN3RWI3LW02YmxaaTVmUjY3enN2WmlteGNvcTlkSGxzY0xsdTJCeWhOdzA5amY0cmh3SlBzdjV6QTNGYkxMUXNTNm1FYjZ3UzZuS1RvTUtJZzAtR0FNcmNmWEFNRWgybWtva1J5cVo4WDk2WndheW5pRDl6dk9rWmpULVZsSWhfMzNISjVIYlJ4c3hQR0EtbHVpM3hIZm5RZ9IBuwFBVV95cUxNSTh4cVdkVnM5OTM0VUsxUGNBeXAwTnlpZ3pvVWRwa0FDZkhDSWxuWXQybnFQeDcwSHVyYlVVbVlzN083N01YT1liZC1oS2pIbDNOYlB1aUwxdnlUTlBHVVBxSzhYTm4yVGZLRzJ1VldSZS1ieVNQUVVwWGhoVGtMLTdlTTRyMDVBMlBqVU9udUc4STNJeGxOcl9fcU9TRVRsM2g5NXNoQnBSVjFCZ1UtSXVZTlRCTFBZT0Nv?oc=5",
+    "data": "2026-10-12"
+  },
+  {
+    "id": 2,
+    "titulo": "Especialista alerta sobre riscos da reforma tributária para bares/restaurantes - Portal Você Online",
+    "resumo": "Especialista alerta sobre riscos da reforma tributária para bares/restaurantes Portal Você Online",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRnhacTBrSEFYM3NmUkxuQnJpcTR5OXFtU3hjeGpsMHgwUEpqeG5vVlJ0emRUZXh0TUpsZktoU3VRcklSVExXNkNjdklmUWFfNTR1SnhfQnBtQVh5ZHpISk10SXNmS2cwWlE0dTQ3YzR5dE5PbnZidG5Cd2tRbzZ1M2VsWlBEc2xaaDVjcWdmTkl4T3RucU1DcDM4dGE1QjFHczdkRg?oc=5",
+    "data": "2026-10-12"
+  },
+  {
+    "id": 3,
+    "titulo": "Reforma tributária faz empresários reavaliarem holdings",
+    "resumo": "Mudanças em dividendos, ITCMD, IBS , CBS e ITBI colocam holdings patrimoniais no radar de famílias e empresários. Leia mais em https://www.contabeis.com.br/noticias/79920/reforma-tributaria-faz-empresarios-reavaliarem-holdings/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/79920/reforma-tributaria-faz-empresarios-reavaliarem-holdings/",
+    "data": "2026-10-11"
+  },
+  {
+    "id": 4,
     "titulo": "A herança jurisprudencial da reforma tributária - JOTA Info",
     "resumo": "A herança jurisprudencial da reforma tributária JOTA Info",
     "setor": "geral",
@@ -12,7 +48,19 @@
     "data": "2026-10-11"
   },
   {
-    "id": 2,
+    "id": 5,
+    "titulo": "Tecnologia criada por cassilandense pode economizar bilhões em fertilizantes no Agro - O CORREIO NEWS",
+    "resumo": "Tecnologia criada por cassilandense pode economizar bilhões em fertilizantes no Agro O CORREIO NEWS",
+    "setor": "fertilizantes",
+    "esfera": "estadual",
+    "uf": "MS",
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Mato Grosso do Sul",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVWVlSFBVMXpsN3FoSkRSYWx3Snp3aEFUb3pJTU9vRjFub3lzZ3VaTlNqWUpDWEgtM21IYkxma2dHaGtRVVhMMzdyRWFwLVVFVlhFZGNxMHV5UVM1aUdzaUxveUlxcC1oS3BPelhMQkNMbHFORUtrUWd0R19MbTB1Tzh1Tmw1YzdkVzNIcGl6VXpDWVBTcXhTUnJNdDFxYktIUGNBRWFOY2Q3bWpqRGRlLVZrRnNHbHZhQThmeXlTWW5iWndQbWhn?oc=5",
+    "data": "2026-10-11"
+  },
+  {
+    "id": 6,
     "titulo": "USP abre inscrições para curso gratuito online sobre Reforma Tributária na Prática e oferece certificado - InfoEducação",
     "resumo": "USP abre inscrições para curso gratuito online sobre Reforma Tributária na Prática e oferece certificado InfoEducação",
     "setor": "geral",
@@ -24,7 +72,7 @@
     "data": "2026-10-11"
   },
   {
-    "id": 3,
+    "id": 7,
     "titulo": "Após o feriado, veja os prazos que vencem em outubro",
     "resumo": "Segunda quinzena de outubro concentra obrigações fiscais, trabalhistas e prazos para decisões sobre o Simples Nacional e o IBS e CBS . Leia mais em https://www.contabeis.com.br/noticias/79898/apos-o-feriado-veja-os-prazos-que-vencem-em-outubro/",
     "setor": "geral",
@@ -36,7 +84,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 4,
+    "id": 8,
     "titulo": "Simples Nacional 2027: confira os novos prazos",
     "resumo": "Receita Federal atualizou os prazos para opção pelo Simples Nacional e pelo regime regular de IBS e CBS em 2027. Leia mais em https://www.contabeis.com.br/noticias/79889/simples-nacional-2027-confira-os-novos-prazos/",
     "setor": "geral",
@@ -48,7 +96,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 5,
+    "id": 9,
     "titulo": "NF-e na Reforma: campos de IBS e CBS e rejeições em 2026",
     "resumo": "Veja os principais campos de IBS e CBS na NF-e, entenda por que a ausência do grupo não gera rejeição automática hoje e quais erros exigem atenção. Leia mais em https://www.contabeis.com.br/noticias/79893/nf-e-na-reforma-campos-de-ibs-e-cbs-e-rejeicoes-em-2026/",
     "setor": "geral",
@@ -60,7 +108,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 6,
+    "id": 10,
     "titulo": "NF-e na Reforma: campos de IBS e CBS e rejeições em 2026 - Portal Contabeis",
     "resumo": "NF-e na Reforma: campos de IBS e CBS e rejeições em 2026 Portal Contabeis",
     "setor": "geral",
@@ -72,7 +120,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 7,
+    "id": 11,
     "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS - Sinal News",
     "resumo": "Reforma Tributária: 86% das notas fiscais destacam a CBS Sinal News",
     "setor": "geral",
@@ -84,7 +132,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 8,
+    "id": 12,
     "titulo": "Fazenda define metodologia de cálculo da CBS e IBS sobre combustíveis - O NORTÃO",
     "resumo": "Fazenda define metodologia de cálculo da CBS e IBS sobre combustíveis O NORTÃO",
     "setor": "geral",
@@ -96,7 +144,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 9,
+    "id": 13,
     "titulo": "Tecnologia desenvolvida na Costa Leste de MS por professor doutor da UEMS pode economizar bilhões em fertilizantes ao agro brasileiro - Chapadense News",
     "resumo": "Tecnologia desenvolvida na Costa Leste de MS por professor doutor da UEMS pode economizar bilhões em fertilizantes ao agro brasileiro Chapadense News",
     "setor": "fertilizantes",
@@ -108,7 +156,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 10,
+    "id": 14,
     "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS - Portal Gazeta RN",
     "resumo": "Reforma Tributária: 86% das notas fiscais destacam a CBS Portal Gazeta RN",
     "setor": "geral",
@@ -120,7 +168,7 @@
     "data": "2026-10-10"
   },
   {
-    "id": 11,
+    "id": 15,
     "titulo": "Reforma tributária: 86% dos documentos fiscais de empresas obrigadas já trazem destaque da CBS",
     "resumo": "Dados públicos da Receita Federal mostram que dois em cada três CNPJs obrigados já destacam a Contribuição sobre Bens e Serviços nas notas fiscais",
     "setor": "geral",
@@ -132,7 +180,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 12,
+    "id": 16,
     "titulo": "Reforma Tributária, normas internacionais e sustentabilidade pautam seminário da FACPCS",
     "resumo": "Em sua 23ª edição, evento terá seis masterclasses inéditas, debates sobre Reforma Tributária e participação de representantes de organismos internacionais A evolução das normas contábeis, os desafios da sustentabilidade e os impactos da Reforma Tributária estarão no centro dos de",
     "setor": "geral",
@@ -144,7 +192,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 13,
+    "id": 17,
     "titulo": "Imposto Seletivo: governo adia definição de alíquotas para depois das eleições",
     "resumo": "Medida provisória com as alíquotas do Imposto Seletivo será enviada ao Congresso após o segundo turno, segundo o ministro da Fazenda. Leia mais em https://www.contabeis.com.br/noticias/80007/imposto-seletivo-governo-adia-definicao-de-aliquotas-para-depois-das-eleicoes/",
     "setor": "geral",
@@ -156,7 +204,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 14,
+    "id": 18,
     "titulo": "Reforma tributária: quais prazos estão fixados na Constituição",
     "resumo": "Camila Oliveira explica os prazos da Reforma Tributária fixados na Constituição Federal. Entenda as atualizações cruciais para a classe contábil. Leia mais em https://www.contabeis.com.br/noticias/80011/reforma-tributaria-quais-prazos-estao-fixados-na-constituicao/",
     "setor": "geral",
@@ -168,7 +216,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 15,
+    "id": 19,
     "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS - Agência Brasil",
     "resumo": "Reforma Tributária: 86% das notas fiscais destacam a CBS Agência Brasil",
     "setor": "geral",
@@ -180,7 +228,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 16,
+    "id": 20,
     "titulo": "Reforma tributária: 86% dos documentos fiscais de empresas obrigadas já trazem destaque da CBS - Governo Federal",
     "resumo": "Reforma tributária: 86% dos documentos fiscais de empresas obrigadas já trazem destaque da CBS Governo Federal",
     "setor": "geral",
@@ -192,7 +240,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 17,
+    "id": 21,
     "titulo": "MP do Imposto Seletivo adiada: entenda o novo cronograma da Reforma Tributária - Omie",
     "resumo": "MP do Imposto Seletivo adiada: entenda o novo cronograma da Reforma Tributária Omie",
     "setor": "geral",
@@ -204,7 +252,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 18,
+    "id": 22,
     "titulo": "Reforma tributária e o contencioso do IBS e da CBS: Desafios da transição (2026-2033) - Migalhas",
     "resumo": "Reforma tributária e o contencioso do IBS e da CBS: Desafios da transição (2026-2033) Migalhas",
     "setor": "geral",
@@ -216,7 +264,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 19,
+    "id": 23,
     "titulo": "CBS e IBS sobre combustíveis: Como será calculada a carga tributária de referência - Migalhas",
     "resumo": "CBS e IBS sobre combustíveis: Como será calculada a carga tributária de referência Migalhas",
     "setor": "geral",
@@ -228,7 +276,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 20,
+    "id": 24,
     "titulo": "Arrecadação automatizada da CBS: impactos e como se atualizar - Omie",
     "resumo": "Arrecadação automatizada da CBS: impactos e como se atualizar Omie",
     "setor": "geral",
@@ -240,7 +288,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 21,
+    "id": 25,
     "titulo": "Imposto Seletivo Adiado: O Que Sua Empresa Precisa Saber? - Portal Contabeis",
     "resumo": "Imposto Seletivo Adiado: O Que Sua Empresa Precisa Saber? Portal Contabeis",
     "setor": "geral",
@@ -252,7 +300,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 22,
+    "id": 26,
     "titulo": "Folha de pagamento pesa na escolha sobre IBS e CBS para empresas de serviços - Contadores.cnt.br",
     "resumo": "Folha de pagamento pesa na escolha sobre IBS e CBS para empresas de serviços Contadores.cnt.br",
     "setor": "geral",
@@ -264,7 +312,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 23,
+    "id": 27,
     "titulo": "Imposto Seletivo: governo adia definição de alíquotas para depois das eleições - Portal Contabeis",
     "resumo": "Imposto Seletivo: governo adia definição de alíquotas para depois das eleições Portal Contabeis",
     "setor": "geral",
@@ -276,7 +324,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 24,
+    "id": 28,
     "titulo": "Durigan: compromisso do governo é editar MP do Imposto Seletivo após as eleições - InfoMoney",
     "resumo": "Durigan: compromisso do governo é editar MP do Imposto Seletivo após as eleições InfoMoney",
     "setor": "geral",
@@ -288,7 +336,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 25,
+    "id": 29,
     "titulo": "Durigan confirma edição da MP do Imposto Seletivo após as eleições - ISTOÉ DINHEIRO",
     "resumo": "Durigan confirma edição da MP do Imposto Seletivo após as eleições ISTOÉ DINHEIRO",
     "setor": "geral",
@@ -300,7 +348,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 26,
+    "id": 30,
     "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS - iBand CE",
     "resumo": "Reforma Tributária: 86% das notas fiscais destacam a CBS iBand CE",
     "setor": "geral",
@@ -312,7 +360,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 27,
+    "id": 31,
     "titulo": "Reforma Tributária para Contadores: O Guia Completo de Adaptação e Oportunidades - Omie",
     "resumo": "Reforma Tributária para Contadores: O Guia Completo de Adaptação e Oportunidades Omie",
     "setor": "geral",
@@ -324,7 +372,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 28,
+    "id": 32,
     "titulo": "Receita diz que 86% das notas já destacam a CBS - Jornal de Brasília",
     "resumo": "Receita diz que 86% das notas já destacam a CBS Jornal de Brasília",
     "setor": "geral",
@@ -336,7 +384,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 29,
+    "id": 33,
     "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS - Coluna do Meio",
     "resumo": "Reforma Tributária: 86% das notas fiscais destacam a CBS Coluna do Meio",
     "setor": "geral",
@@ -348,7 +396,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 30,
+    "id": 34,
     "titulo": "Holding e Reforma Tributária: Guia para Proteção e Gestão Patrimonial - Omie",
     "resumo": "Holding e Reforma Tributária: Guia para Proteção e Gestão Patrimonial Omie",
     "setor": "geral",
@@ -360,7 +408,7 @@
     "data": "2026-10-09"
   },
   {
-    "id": 31,
+    "id": 35,
     "titulo": "CBS já aparece em 86% das notas fiscais de empresas obrigadas pela reforma tributária - A Crítica de Campo Grande",
     "resumo": "CBS já aparece em 86% das notas fiscais de empresas obrigadas pela reforma tributária A Crítica de Campo Grande",
     "setor": "geral",
@@ -369,54 +417,6 @@
     "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNl9oNHRSbzNoelVxTGVpODVSS1pBMmVzRFVUUVR1cHRid1JnS0JVNGRvanhJVUlzQk1ZbDFJNl9ORTlfRlkzVklTX3E0U18tc2RwYUFZSkpqMkdZblpsdEVtT1hXTmZjYlF1dTZVVWdQa2k0U19XbUgzT0lDMDRuM250OVA5dHJXZFFyZUZreHh0cHV0cU1uVDAxRHZaQkc3NDlTYkF5UHlMcXBtVmxSM1J5WUtCQQ?oc=5",
-    "data": "2026-10-09"
-  },
-  {
-    "id": 32,
-    "titulo": "O que muda no leiaute do DANFE com a Reforma Tributária - Contadores.cnt.br",
-    "resumo": "O que muda no leiaute do DANFE com a Reforma Tributária Contadores.cnt.br",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQV9NbjBWcm5uT2JNb0J3bGNFQm9VWktfYmQ4TDNWM1VhYS1WSURQa1VvRl9ySnFsQlNGUzJIX1Y1ZHdEenBSY1BlbDVpMTVzN1piMkw3ajNvdUFXQnozZk9DUnRrU0lEd2x6bFRDcHhqdk9rZUhJYTlZSlAwYjljYmNvSzNfRVNPODlaZFh3N2FGRmJpSTkyWk9OeVd4a0ttRURVMnJCZE1DT0tpc2NIOU1zVGpwSVY1NFpr?oc=5",
-    "data": "2026-10-09"
-  },
-  {
-    "id": 33,
-    "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS - conexaoes.com.br",
-    "resumo": "Reforma Tributária: 86% das notas fiscais destacam a CBS conexaoes.com.br",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX0JmbE40SVNkZUx6QmE2Y2lvVEZxY1Y5WjhNR3NzODd4aTNib0RLeG95al9FZG1UX0lGVUtHZDhISXV5XzQ2Z0FIWjlSSS1fb3lUZGxYZm1GNXc4aWU1OUtnMEY5QkdQSjc4TTM1bkpaRGN4WGRlZV9vZ2U1dE5PaUxuQjRsWVlrNUVfVWp3SVhJNnREWFE?oc=5",
-    "data": "2026-10-09"
-  },
-  {
-    "id": 34,
-    "titulo": "Pessoa física que é contribuinte da CBS só passa a precisar de CNPJ e de emitir documento fiscal a partir de 1º de janeiro de 2027, e até 31 de dezembro de 2026 continuam valendo os mecanismos atuais, segundo a Receita Federal - Correio Braziliense",
-    "resumo": "Pessoa física que é contribuinte da CBS só passa a precisar de CNPJ e de emitir documento fiscal a partir de 1º de janeiro de 2027, e até 31 de dezembro de 2026 continuam valendo os mecanismos atuais, segundo a Receita Federal Correio Braziliense",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOdTBCZUpZNHpBWEFWSEdTZHRIb1pMdGEzeDdGS2Fxd3JQN192MVMyY0VORWFvQmNWVU1NNXVXa3NjcUJHMGYyQTdqY1ZIX0JMZXZzXzJEVTgycFpWZ01paHJzd1hxTHQ0ZGJET2pqOHF3cy1RQURJblFHQl9YNU9iU29FcnNnZFVlNlQ5VUpTVkpZanV2cUJGd2dmay01Y0dQbXVhMzJHMVJPejN2R3ZHdGZFRWlYNllTSnBicnNxNVNIa2REMm5vWEZwNXAyY1BBMGdrYl9Yc1V5Z1J4dVl5ZjE0TG5UcTlLWjdSV2Z5MkY3REpfbGt0cUhNR0ZpQWR5LXBMLXhfTHlVOXZUd2tQTEQwVGlYdmVqMFFfY3NrRmdDcGYwZnc5QzJ3dnBnTFRFTEEyb1RRWWNKSHdLaUdUZ2loMWdWa0h5Y3BzN0xoU3hMZ3RpMXp4OXB1Q1U5aEN6NldN?oc=5",
-    "data": "2026-10-09"
-  },
-  {
-    "id": 35,
-    "titulo": "SE FAZ ASSIM – SEFAZ-MA e SEMFAZ discutem desafios do contencioso administrativo diante da Reforma Tributária - Blog do Walkir Marinho",
-    "resumo": "SE FAZ ASSIM – SEFAZ-MA e SEMFAZ discutem desafios do contencioso administrativo diante da Reforma Tributária Blog do Walkir Marinho",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": "MA",
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Maranhao",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZjRpN2d0Zmo0cnhwSWRhZ1FpdExVRFhQVWxjTEp6RUZSdllsSEpRa29FYkhxLXBTLVlHSk5uVjN1b1M3UGs5M0ZFQ1FxTU5nNWJ0OHJhMlFYU2lLRGd6TFVGMGUwaVBZeGhzd2lqVXVwNElIVlpRUjN4TTRFZjhqRndPZHV6YU43OEpXdDcyVEVZYUJTd3JnUnViR0lIaXNMZmo1RDBheGZMX052RXk1dnNhRjJVOFlaV3lVZXNlQXVJMVRvTHlpeDd6MldCYUVwbEtVdTB0RnZMcHRP?oc=5",
     "data": "2026-10-09"
   }
 ]
