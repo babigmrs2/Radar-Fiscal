@@ -1,6 +1,102 @@
 [
   {
     "id": 1,
+    "titulo": "cClassTrib: como definir o código de produtos e serviços",
+    "resumo": "Veja como consultar o cClassTrib de IBS e CBS , relacionar o código ao CST e revisar o enquadramento de produtos, serviços e operações. Leia mais em https://www.contabeis.com.br/noticias/80149/cclasstrib-como-definir-o-codigo-de-produtos-e-servicos/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "medio",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80149/cclasstrib-como-definir-o-codigo-de-produtos-e-servicos/",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 2,
+    "titulo": "Fazenda prepara PEC para manter cobrança do IPI em janeiro de 2027",
+    "resumo": "Proposta busca evitar perda de R$ 3,82 bilhões na arrecadação federal diante do atraso na entrada em vigor do Imposto Seletivo. Leia mais em https://www.contabeis.com.br/noticias/80147/fazenda-prepara-pec-para-manter-cobranca-do-ipi-em-janeiro-de-2027/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80147/fazenda-prepara-pec-para-manter-cobranca-do-ipi-em-janeiro-de-2027/",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 3,
+    "titulo": "MAT 2.0 começa nesta segunda (19) e muda abertura de empresas",
+    "resumo": "Nova versão do sistema da Receita Federal integra a abertura de empresas à escolha tributária e permite definir como IBS e CBS serão recolhidos. Leia mais em https://www.contabeis.com.br/noticias/80145/mat-2-0-comeca-nesta-segunda-19-e-muda-abertura-de-empresas/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80145/mat-2-0-comeca-nesta-segunda-19-e-muda-abertura-de-empresas/",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 4,
+    "titulo": "IBS e CBS no lucro presumido: apuração muda e exige atenção ao caixa - ISTOÉ DINHEIRO",
+    "resumo": "IBS e CBS no lucro presumido: apuração muda e exige atenção ao caixa ISTOÉ DINHEIRO",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzaVBPdHAzRkM5LWFOZmZzMzNhNU1uUW1NNndGZndLbE5nQzlqSHRlMVJpcWstZGJyMElTSnlqNGp0YWZ0MlRuWGx6RXl6bUp5eDhhNzJ2RG56RXB5VVNvSmNoem5yYkQ1UFF5QU5IZmVIeVhLZTRHLVJDMUNtdjQ?oc=5",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 5,
+    "titulo": "Como funciona o recolhimento de IBS e CBS para lucro presumido? - InfoMoney",
+    "resumo": "Como funciona o recolhimento de IBS e CBS para lucro presumido? InfoMoney",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONTgxLUk2MjZTZ0dRdzU4cWZSZEp5bDRId1ljZU5VQUZhWWpZQVdMMmlNU2RGcmx6NE5PejRqQm9NRUJpeW8yQW1tY3Z5QlZEZmp4aWU0SDdNWE53YWViSi11NVVoZWhTMHhqOERiS0JvR1MwdXlYby1PcFdwcUpwa25zR3pYMjTSAYwBQVVfeXFMTmNIcGdJSnR6MVR2QTlHUk5hdDRoWC1NVTRwd3pucnpFMGdYLWRua0R1QWV5QXJVUnZyTHBIQ1FELXB3Nk5MTE5fYVpJNnRMc3ZYRmtsM3pQSjFpXzlqM3BPc0xjVlJDZVpMV242TUdOLTE4TTZXR1dHRnBDWm42ZEd3QzRKTXl5cHVKbFA?oc=5",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 6,
+    "titulo": "Arrecadação de ISSQN até dezembro vai definir participação dos municípios no IBS - MT Econômico",
+    "resumo": "Arrecadação de ISSQN até dezembro vai definir participação dos municípios no IBS MT Econômico",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": "MT",
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVWN4ZHZOQ1JKRnVPVFFkMFhsNW5xY25saDh1ZUhSWW0xSndVMTJ5VWZLdUJWdnhsTzVUYkROUkNkS3dkZk04UERWdHVQMjNaUl9JSF83OTcyQnBwMEhPeHlmbW16ZjhzUHNLU0VTTExfWTJBM2dNU3ROamRiSjUtaW5lZnNWamhBZnlpYUQxemhxeTBpRWl1Vkx6a1VRM2JPSThsVXJpOTlDU0NhTXRjdElzYkZsaUdKdkF5MWlnR1JiRVlQbXRaT0NTNldCNEF3MUY4?oc=5",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 7,
+    "titulo": "Reforma Fiscal: 4 em 10 empresas sem IBS/CBS - Terra",
+    "resumo": "Reforma Fiscal: 4 em 10 empresas sem IBS/CBS Terra",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSkpaQUlSdWs0Y3NZU3BHNDJweDljTGhRWjQtbHhTdy16VEdVdzZZUTA2dDkwVzJCOWN1dUlCb3g3ei1fYjVKODdON01FcnJXQUxDeHVWVmFKSE9iNW16R1JyQTg4VjZRR3pubUc0VVl3VHBxMDNMSW4yYzdyOV9iTE1ZUU9Ld184WFBXSFdvdUJ3ckt2X1pkNmdhTzNwN29wUGVCZUNDeWRlOW4wUTRfTXhRWVBKblNNSEpreWRpcw?oc=5",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 8,
+    "titulo": "Yamaha Crosser S 2027 custa só R$ 60 a mais que a Honda Bros 160 CBS e R$ 1.640 menos que a XRE190 Standard, com preço público sugerido de R$ 22.890 - garagem 360",
+    "resumo": "Yamaha Crosser S 2027 custa só R$ 60 a mais que a Honda Bros 160 CBS e R$ 1.640 menos que a XRE190 Standard, com preço público sugerido de R$ 22.890 garagem 360",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV2xCeU50bzdKaWNGdm56b1A3d0NKd21mMW81d0dvNjNudnRBSmFkM3Y1bHpxSUlSVWV5Tk5TOU9JZG5YVWVPZnBJYVJjSDNsQnk4VnhxckRPMngwbjVJUHp3cjFOVkpuSXAxd1YwX1Vzb050Ry1aYnZla0xhUS1qSGV4Sm1wNHU1dTV0SVVGUEJPTFY2bUMyWl9LX25nN1p0X0xXZnBkZ3E?oc=5",
+    "data": "2026-10-19"
+  },
+  {
+    "id": 9,
     "titulo": "O maior desafio institucional da reforma tributária - JOTA Info",
     "resumo": "O maior desafio institucional da reforma tributária JOTA Info",
     "setor": "geral",
@@ -12,19 +108,19 @@
     "data": "2026-10-18"
   },
   {
-    "id": 2,
+    "id": 10,
     "titulo": "Justiça afasta IBS e CBS da base de cálculo do ICMS - Jornal Primeira Página",
     "resumo": "Justiça afasta IBS e CBS da base de cálculo do ICMS Jornal Primeira Página",
     "setor": "geral",
     "esfera": "reforma",
-    "uf": null,
+    "uf": "SP",
     "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "fonte": "Google Noticias - Sao Paulo",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYnZ1UThmMFJrel8xdjl4YVRFOThEWnZBbERQWlI3Yk42eHNNQk9vOVhjZjB2VlFTNDd2SzVaWE15NXg4VFB6MGFOZnpreFR2UkhhS2MySkY0X09UR1J6OFVPT0w4aDNSd0FDZHBEclc5ZlVvcEl1ckUtU19QM2JUUHk3N3UxYzI1S3VBZ09HT21rczh4N3lWZXdB?oc=5",
     "data": "2026-10-18"
   },
   {
-    "id": 3,
+    "id": 11,
     "titulo": "Empresas enfrentam desafios para ajustar preços à reforma tributária",
     "resumo": "Pesquisa aponta dificuldades para entender os efeitos do IBS e da CBS e mostra que 63,9% dos fornecedores esperam aumento nos preços. Leia mais em https://www.contabeis.com.br/noticias/80115/empresas-enfrentam-desafios-para-ajustar-precos-a-reforma-tributaria/",
     "setor": "geral",
@@ -36,7 +132,7 @@
     "data": "2026-10-17"
   },
   {
-    "id": 4,
+    "id": 12,
     "titulo": "Reforma tributária: a incerteza já está em vigor - Consultor Jurídico",
     "resumo": "Reforma tributária: a incerteza já está em vigor Consultor Jurídico",
     "setor": "geral",
@@ -48,7 +144,7 @@
     "data": "2026-10-17"
   },
   {
-    "id": 5,
+    "id": 13,
     "titulo": "Notícia Sem alíquota e com a MP do Imposto Seletivo adiada, indústria planeja 2027 no escuro - Kinvo",
     "resumo": "Notícia Sem alíquota e com a MP do Imposto Seletivo adiada, indústria planeja 2027 no escuro Kinvo",
     "setor": "geral",
@@ -60,7 +156,7 @@
     "data": "2026-10-17"
   },
   {
-    "id": 6,
+    "id": 14,
     "titulo": "Caminhão tomba e carga de fertilizantes bloqueia pista da BR-277, em Morretes - Bem Paraná",
     "resumo": "Caminhão tomba e carga de fertilizantes bloqueia pista da BR-277, em Morretes Bem Paraná",
     "setor": "fertilizantes",
@@ -72,7 +168,7 @@
     "data": "2026-10-17"
   },
   {
-    "id": 7,
+    "id": 15,
     "titulo": "Demanda por fertilizantes em MT pode crescer até 39% até 2034 - Olhar Alerta",
     "resumo": "Demanda por fertilizantes em MT pode crescer até 39% até 2034 Olhar Alerta",
     "setor": "fertilizantes",
@@ -84,7 +180,7 @@
     "data": "2026-10-17"
   },
   {
-    "id": 8,
+    "id": 16,
     "titulo": "Demanda por fertilizantes pode disparar 39% em MT e Governo prepara centro de pesquisa para o agro - JBNEWS",
     "resumo": "Demanda por fertilizantes pode disparar 39% em MT e Governo prepara centro de pesquisa para o agro JBNEWS",
     "setor": "fertilizantes",
@@ -96,7 +192,7 @@
     "data": "2026-10-17"
   },
   {
-    "id": 9,
+    "id": 17,
     "titulo": "Reforma tributária já está na nota fiscal e empresa de MS tem 77 dias para se ajustar à virada de 2027 - Pix News MS",
     "resumo": "Reforma tributária já está na nota fiscal e empresa de MS tem 77 dias para se ajustar à virada de 2027 Pix News MS",
     "setor": "geral",
@@ -108,7 +204,7 @@
     "data": "2026-10-17"
   },
   {
-    "id": 10,
+    "id": 18,
     "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
     "resumo": "Enquanto o prazo para o Simples Nacional já foi encerrado, a opção pelo regime regular do IBS e da CBS segue aberta até 30 de outubro.",
     "setor": "geral",
@@ -120,7 +216,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 11,
+    "id": 19,
     "titulo": "Split payment: empresas devem manter a adequação?",
     "resumo": "Debate sobre o split payment gera dúvidas sobre investimentos, caixa e adaptação das empresas à Reforma Tributária . Leia mais em https://www.contabeis.com.br/noticias/80120/split-payment-empresas-devem-manter-a-adequacao/",
     "setor": "geral",
@@ -132,7 +228,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 12,
+    "id": 20,
     "titulo": "Imposto Seletivo 2027: alíquotas ficam para depois",
     "resumo": "Alíquotas do Imposto Seletivo 2027 serão definidas após o segundo turno. Entenda os efeitos do adiamento para empresas, sistemas e planejamento. Leia mais em https://www.contabeis.com.br/noticias/80138/imposto-seletivo-2027-aliquotas-ficam-para-depois/",
     "setor": "geral",
@@ -144,7 +240,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 13,
+    "id": 21,
     "titulo": "STF afasta Funrural de empregador rural pessoa física até 2017",
     "resumo": "STF considera inconstitucional cobrança do Funrural de empregadores rurais pessoas físicas antes de 2018. Decisão também alcança adquirentes. Leia mais em https://www.contabeis.com.br/noticias/80130/stf-afasta-funrural-de-empregador-rural-pessoa-fisica-ate-2017/",
     "setor": "agronegocio",
@@ -156,7 +252,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 14,
+    "id": 22,
     "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS - Governo Federal",
     "resumo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS Governo Federal",
     "setor": "geral",
@@ -168,7 +264,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 15,
+    "id": 23,
     "titulo": "NFS-e não será rejeitada por erros em IBS e CBS em 2026 - FecomercioSP",
     "resumo": "NFS-e não será rejeitada por erros em IBS e CBS em 2026 FecomercioSP",
     "setor": "geral",
@@ -180,7 +276,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 16,
+    "id": 24,
     "titulo": "Receita Federal Atualiza: 891 mil empresas do Simples optam pelo IBS/CBS e prazo para pendências termina dia 30 - Omie",
     "resumo": "Receita Federal Atualiza: 891 mil empresas do Simples optam pelo IBS/CBS e prazo para pendências termina dia 30 Omie",
     "setor": "geral",
@@ -192,7 +288,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 17,
+    "id": 25,
     "titulo": "Imposto Seletivo 2027: alíquotas ficam para depois - Portal Contabeis",
     "resumo": "Imposto Seletivo 2027: alíquotas ficam para depois Portal Contabeis",
     "setor": "geral",
@@ -204,7 +300,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 18,
+    "id": 26,
     "titulo": "SPED Fiscal versão 7.8: Fisco esclarece regras para IBS e CBS - Omie",
     "resumo": "SPED Fiscal versão 7.8: Fisco esclarece regras para IBS e CBS Omie",
     "setor": "geral",
@@ -216,7 +312,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 19,
+    "id": 27,
     "titulo": "Prorrogação do IPI e Atraso no Imposto Seletivo: o que a Nova PEC Muda para a Sua Empresa - Omie",
     "resumo": "Prorrogação do IPI e Atraso no Imposto Seletivo: o que a Nova PEC Muda para a Sua Empresa Omie",
     "setor": "geral",
@@ -228,7 +324,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 20,
+    "id": 28,
     "titulo": "REDATA e reforma tributária: A necessária, mas não realizada - Migalhas",
     "resumo": "REDATA e reforma tributária: A necessária, mas não realizada Migalhas",
     "setor": "geral",
@@ -240,7 +336,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 21,
+    "id": 29,
     "titulo": "Especialista aborda mudanças da Reforma Tributária e desafios para empresas e poder público - Câmara de Palmas - TO",
     "resumo": "Especialista aborda mudanças da Reforma Tributária e desafios para empresas e poder público Câmara de Palmas - TO",
     "setor": "geral",
@@ -252,7 +348,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 22,
+    "id": 30,
     "titulo": "Reforma tributária: Simples tem até 30/10 para escolher IBS e CBS - Campo Grande News",
     "resumo": "Reforma tributária: Simples tem até 30/10 para escolher IBS e CBS Campo Grande News",
     "setor": "geral",
@@ -264,7 +360,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 23,
+    "id": 31,
     "titulo": "Mato Grosso projeta alta de até 39% no consumo de fertilizantes até 2034 - Olhar Direto",
     "resumo": "Mato Grosso projeta alta de até 39% no consumo de fertilizantes até 2034 Olhar Direto",
     "setor": "fertilizantes",
@@ -276,7 +372,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 24,
+    "id": 32,
     "titulo": "Demanda por fertilizantes em MT pode crescer até 39% até 2034 - LOCAL MT",
     "resumo": "Demanda por fertilizantes em MT pode crescer até 39% até 2034 LOCAL MT",
     "setor": "fertilizantes",
@@ -288,7 +384,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 25,
+    "id": 33,
     "titulo": "Com demanda por fertilizantes em MT prevista para saltar até 39%, Estado projeta polo de tecnologia em nutrição vegetal - Cliquef5",
     "resumo": "Com demanda por fertilizantes em MT prevista para saltar até 39%, Estado projeta polo de tecnologia em nutrição vegetal Cliquef5",
     "setor": "fertilizantes",
@@ -300,7 +396,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 26,
+    "id": 34,
     "titulo": "Empreendedor: saiba onde tirar suas dúvidas sobre Reforma Tributária",
     "resumo": "Até a última semana, quase 442 mil empresas haviam solicitado adesão ao Simples Nacional, enquanto 840,5 mil haviam feito a opção pelo regime regular em 2027. Para apoiar os pequenos negócios em relação aos prazos e qual a melhor decisão a tomar diante das mudanças propostas na R",
     "setor": "geral",
@@ -312,7 +408,7 @@
     "data": "2026-10-16"
   },
   {
-    "id": 27,
+    "id": 35,
     "titulo": "IBS e CBS: testes de novos campos são adiados para até 26/10",
     "resumo": "Encat adia para até 26 de outubro a homologação das NTs 2026.004 de seis documentos fiscais. Produção permanece em 16 de novembro. Leia mais em https://www.contabeis.com.br/noticias/80124/ibs-e-cbs-testes-de-novos-campos-sao-adiados-para-ate-26-10/",
     "setor": "geral",
@@ -321,102 +417,6 @@
     "impacto": "baixo",
     "fonte": "Portal Contabeis",
     "link": "https://www.contabeis.com.br/noticias/80124/ibs-e-cbs-testes-de-novos-campos-sao-adiados-para-ate-26-10/",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 28,
-    "titulo": "Receita registra 891 mil pedidos para IBS e CBS no regime regular",
-    "resumo": "Balanço da Receita reúne 891 mil solicitações para o regime regular do IBS e da CBS e 549 mil para o Simples. Veja os prazos restantes. Leia mais em https://www.contabeis.com.br/noticias/80125/receita-registra-891-mil-pedidos-para-ibs-e-cbs-no-regime-regular/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80125/receita-registra-891-mil-pedidos-para-ibs-e-cbs-no-regime-regular/",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 29,
-    "titulo": "Sorteio da obra \"A Travessia Tributária da Infraestrutura Brasileira na Era do IBS/CBS\" - Migalhas",
-    "resumo": "Sorteio da obra \"A Travessia Tributária da Infraestrutura Brasileira na Era do IBS/CBS\" Migalhas",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVI1aEJOSVFoVW9ia1hDQUxfU01qWHBIa1BDSklaRWJNN0dHWlpoQUdfQktVanE1QXlNUEJnc0FLZFMzczYzX2RLQ01kRjc4NHJ4ZmtGV3U1NWtCOGQyS082U3QwZ0FwZU9SMkprRnRfeWNEQ0prd09JZnZ4TjBnb0hZVk9qNkRZVWhZTGpIeVQ5MVZtTFR3WDNvcERvS2Nza0FoS3puejl5OGZ2?oc=5",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 30,
-    "titulo": "IBS e CBS: testes de novos campos são adiados para até 26/10 - Portal Contabeis",
-    "resumo": "IBS e CBS: testes de novos campos são adiados para até 26/10 Portal Contabeis",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkRyOWdFUDdveXRYYXFyOExabFI3RVd0eE9aRG5uaFNUTGlyUlNEWGRsTlRlUlNqMWcyTnVKZkNXSDJUVTZXWVp4OVYyQXV6eFZ0TnNqNWZRZzBVNXlLUXFKSVcwcGdDZzctbWxpaTNZanlPblp6RC1zMVVDMGEtTE5CTFNRaDdoQV8wbmlzOVh4Q1Z1Y2pZUE1jd0FlMnpOWkdpNVJpdw?oc=5",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 31,
-    "titulo": "Simples Nacional: Apenas 12,5% aderiram ao regime de IBS e CBS da Reforma Tributária - ConvergenciaDigital",
-    "resumo": "Simples Nacional: Apenas 12,5% aderiram ao regime de IBS e CBS da Reforma Tributária ConvergenciaDigital",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSDBQNHhfLTdVVkJoOE5uejcxUkhkaVBjenBLZVdMYlBUTlhQSEdUZUVuQVhXTm55dDR6UkZ0T0hoOWtXTktWaER4WjZZOVNSS3YweEM5eTY5V19FcDI2OGZqSVE2RGhTTTVPdFd0RjhhMU9LbW5QMzZLNjl1YlMzdlhfNDY4UkE4ZldYR0lrVjYyY0NyeUZPMkVuNEFzMHNTemJFV3hpQWpDVlBVWHpVR3RpMUsxWG1vVEw1b1BaTXkzZkE?oc=5",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 32,
-    "titulo": "Governo quer mudar reforma tributária para prorrogar IPI e cobrir atraso no Imposto Seletivo - Folha de S.Paulo",
-    "resumo": "Governo quer mudar reforma tributária para prorrogar IPI e cobrir atraso no Imposto Seletivo Folha de S.Paulo",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORzZfSkQ5cWdORXV2RzBubzdCbGwxR2ZkeDRId1ZDWUVvS3NyOGZ0RUMtb0F0WGo1dC00dk5EWFFPTENCRXdGSWFLZGVFQnBUQU5NLTd3Vzl6Vzg1eUJLbl93aHA2ZnVOWVNVeXZBVk1KRm92SjJnSXBSbmp5MnJNN0tTX1B5YllwNklnY1pkNzJmeEFKdjFTZW9rTnFEX3o0RUZ4LU1vei1sWUZzdHNTekNZc3BmTEh0T2t2djVMSVRwTTd5TXd3RW9rLXdMT05HdkdMeDc1UjVfek43?oc=5",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 33,
-    "titulo": "IBS e CBS na base do ICMS: Legalidade no período de transição - Contadores.cnt.br",
-    "resumo": "IBS e CBS na base do ICMS: Legalidade no período de transição Contadores.cnt.br",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS0c4MTV2MTAtU0hoZGJHejBVV1JrYmlleTRqY21NMW5ZNFVwVXIxOGlQZ0pDOXdnRzR3MHpvZHRhR1FEUnF2SGNhRWdaaldocll0SHpoUnZsaER5aGQxc3pyS1doaHhncEFwdEJPRWZMVWdqMFhjSzJvUzJGMUxodU1IYVBac25HVmd5SHczUVF6N1h5bmlidWNpd0JFenZjSHFkNDhCYmJ5TjZ4UVQwcXlFRUpINVpaNWNqTWhKSHk4UQ?oc=5",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 34,
-    "titulo": "Receita registra 891 mil pedidos para IBS e CBS no regime regular - Portal Contabeis",
-    "resumo": "Receita registra 891 mil pedidos para IBS e CBS no regime regular Portal Contabeis",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOGZVeU94SF8xOTZNZHhIeUdsLXVUUzFobXRmMExPdXBELVJXQzJnQ3VLY0d5eXdybG1KdkVUbFoyRVotLU93RTA2QnNaNjI3OW1JNjRnTi1ybXBJRUYtMHY1MVFVWG5DVUZ6WmNpcE9mWnE4ZlIzb0hxZzg5RTdmYW9nZENQS3JkZ25KZkxpY2JfNHVhNlpzdkliWmJMdmkzSVU4QVZMZXNqdkdJbFE?oc=5",
-    "data": "2026-10-16"
-  },
-  {
-    "id": 35,
-    "titulo": "Comodato modal não está sujeito ao IBS e à CBS - Foco Nacional",
-    "resumo": "Comodato modal não está sujeito ao IBS e à CBS Foco Nacional",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUTBROGx0V190SjZIZXdPYjdEdkc0LWUxendlcHIwdFVEV0J3SzhkN3lMX1BLWkoxNERvZHdkX3czdV9TbHRvTzRrYVN5M1ZPaVJQVzVkdmxFUTBidXZBdXEyNFB1MklOMzhFSVIyTTJUbHBpSktYQ0Z1a05EdURVMy1kVGc1b2sweTg0?oc=5",
     "data": "2026-10-16"
   }
 ]
