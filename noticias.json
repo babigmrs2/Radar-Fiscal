@@ -1,6 +1,30 @@
 [
   {
     "id": 1,
+    "titulo": "cClassTrib exige atenção na parametrização fiscal",
+    "resumo": "Entenda como a classificação tributária do IBS e da CBS deve ser definida e quais cuidados ajudam a evitar inconsistências nos documentos fiscais. Leia mais em https://www.contabeis.com.br/noticias/80293/cclasstrib-exige-atencao-na-parametrizacao-fiscal/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80293/cclasstrib-exige-atencao-na-parametrizacao-fiscal/",
+    "data": "2026-10-25"
+  },
+  {
+    "id": 2,
+    "titulo": "Permuta de terreno por unidades a construir no IBS e na CBS: neutralidade na entrada, atenção na saída - Consultor Jurídico",
+    "resumo": "Permuta de terreno por unidades a construir no IBS e na CBS: neutralidade na entrada, atenção na saída Consultor Jurídico",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMmxYaEJoLUdlendwVWZNX3dXamc0eUMtUTJxVGxyNU1JOVJZSkRhSnlySU9jSUM4YU5DNi0yYjhDUjlJSkZMY0MtV2tidjFhU2JGbVNtdVBIYlFmSDFhVHhUcnNCNHpvSUVmZUVUdU5kbTBVVEgxV1Buak1rZXFqSGtCNlctcThDQ0tyZGxkMWFoR1lmNTlHMENIdmlMc2wzWUJka1pGbzlzRGNrbVRaN1NNai1iMVhhem5uQ1Z5WnBvMURnTmluOFZKYmJaTjdN?oc=5",
+    "data": "2026-10-25"
+  },
+  {
+    "id": 3,
     "titulo": "CBS de 2027 e onerosidade excessiva: revisão depende da carga efetiva - Consultor Jurídico",
     "resumo": "CBS de 2027 e onerosidade excessiva: revisão depende da carga efetiva Consultor Jurídico",
     "setor": "geral",
@@ -12,7 +36,19 @@
     "data": "2026-10-24"
   },
   {
-    "id": 2,
+    "id": 4,
+    "titulo": "CBS começa a valer em 2027: Senado definirá alíquota e governo prepara novas regras tributárias - Jornal Grande Bahia",
+    "resumo": "CBS começa a valer em 2027: Senado definirá alíquota e governo prepara novas regras tributárias Jornal Grande Bahia",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "alto",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNd2p1c0tpRW9uTkRORTY3YkNGWnQ0dnFLWTc2Rk1QN3NVOEZkMWZqLUxocnZHWU55YnBVY3NHNHF0RUs1RkFWaTJKVFpDYzN3cGd0UkgxY2pWbmducUt5YWZZZE9aZGt3em1EVzRVcTZMYVdCYVhOWDlRQ1RkWDhlMU8tR3BYQm9oZmFnWGtyUjB1cUFPX0RpRVVHeFpWdnhIWTRDWmZCZHlEamRXSVNvYzRhYzZWWHo5cHE0bFdOLTF1VFdpRTNqRFBfUGVDdjNORGc?oc=5",
+    "data": "2026-10-24"
+  },
+  {
+    "id": 5,
     "titulo": "Reversão integral da reforma tributária é juridicamente possível - Consultor Jurídico",
     "resumo": "Reversão integral da reforma tributária é juridicamente possível Consultor Jurídico",
     "setor": "geral",
@@ -24,7 +60,31 @@
     "data": "2026-10-24"
   },
   {
-    "id": 3,
+    "id": 6,
+    "titulo": "CBS de 2027 e onerosidade excessiva: revisão depende da carga efetiva - Grupo Portal de Notícias",
+    "resumo": "CBS de 2027 e onerosidade excessiva: revisão depende da carga efetiva Grupo Portal de Notícias",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOUVpdFhNczMxbTdfaVRvcC1SNlBsbXp3cU5UVTJsMjhvYnc3bS1XLXlFOVRHY2NMcWE2SHFhNUY5NWE3U3h5ZE1faDRHVThLcVhRb0xHT0tBX0JLNDZhMTlWc1NvMjFRN0ZDUy1abVotZFVVenVDLUl1ekRycVRKOEZabFBKMzBoMjdCWExkV2VhTkdna2g2WEFvWVVxVDFRa0hLaGJFWERsUQ?oc=5",
+    "data": "2026-10-24"
+  },
+  {
+    "id": 7,
+    "titulo": "Mercado de fertilizantes projeta recuperação em 2027 - A Gazeta News",
+    "resumo": "Mercado de fertilizantes projeta recuperação em 2027 A Gazeta News",
+    "setor": "fertilizantes",
+    "esfera": "estadual",
+    "uf": "PR",
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Parana",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ0JiVjhTcEdNWDNhaWJmZGNxTzBmWEtQRWRSdVVBU1VZMW83NkU1X2N0YkxaNjB4YVBORENNdkJpM2NwNTNabURZV1FRWDVFRWVUS1l1REJZNWxxNjdxa25XckxybkRwWjhFeW55MWZQV1NDbW9WMmh2eXNFTEppdEgzZE1qalh4NDg2VUJtS2xCQ3NScVNkMG9Raw?oc=5",
+    "data": "2026-10-24"
+  },
+  {
+    "id": 8,
     "titulo": "Empresas têm até 30 de outubro para optar pelo regime regular de IBS e CBS - Rádio Real News",
     "resumo": "Empresas têm até 30 de outubro para optar pelo regime regular de IBS e CBS Rádio Real News",
     "setor": "geral",
@@ -36,19 +96,7 @@
     "data": "2026-10-24"
   },
   {
-    "id": 4,
-    "titulo": "Novas medidas simplificam obrigações da Reforma Tributária para nanoempreendedores e MEIs",
-    "resumo": "Decreto nº 13.140/2026 e Resolução CGSN nº 195/2026 reduzem burocracias, dispensam exigências fiscais para nanoempreendedores e facilitam o cumprimento das novas regras tributárias pelos MEIs.",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Receita Federal",
-    "link": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/novas-medidas-simplificam-obrigacoes-da-reforma-tributaria-para-nanoempreendedores-e-meis",
-    "data": "2026-10-23"
-  },
-  {
-    "id": 5,
+    "id": 9,
     "titulo": "Revista Brasileira de Contabilidade destaca parceria Brasil-Portugal e pesquisas sobre inteligência artificial e reforma tributária",
     "resumo": "Edição nº 280 reúne entrevista com a bastonária da Ordem dos Contabilistas Certificados de Portugal e estudos sobre os desafios e as transformações da profissão contábil A cooperação internacional, os avanços da inteligência artificial e os impactos da reforma tributária sobre o ",
     "setor": "geral",
@@ -60,19 +108,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 6,
-    "titulo": "Durigan diz que contador será o agente de conformidade da reforma tributária",
-    "resumo": "O ministro da Fazenda, Dario Durigan, apontou os contadores como agentes de conformidade na implementação da reforma tributária. Ele tratou do tema na quarta-feira (21), no Ministério da Fazenda, em reunião com o Conselho Federal de Contabilidade (CFC). “É muito importante, estra",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "CFC",
-    "link": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/",
-    "data": "2026-10-23"
-  },
-  {
-    "id": 7,
+    "id": 10,
     "titulo": "Simples Puro ou Híbrido: como escolher na reforma",
     "resumo": "Entenda as diferenças entre Simples Puro e Híbrido, os impactos da CBS e do IBS e os prazos para escolher o modelo de recolhimento. Leia mais em https://www.contabeis.com.br/noticias/80295/simples-puro-ou-hibrido-como-escolher-na-reforma/",
     "setor": "geral",
@@ -84,7 +120,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 8,
+    "id": 11,
     "titulo": "Reforma Tributária: notas fiscais podem ser rejeitadas",
     "resumo": "Entenda como a Reforma Tributária pode afetar a emissão de notas fiscais em 2027 e o que as empresas devem verificar nos sistemas e processos. Leia mais em https://www.contabeis.com.br/noticias/80319/reforma-tributaria-notas-fiscais-podem-ser-rejeitadas/",
     "setor": "geral",
@@ -96,7 +132,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 9,
+    "id": 12,
     "titulo": "Cartórios: CNM orienta sobre ISS e adaptação ao IBS",
     "resumo": "Nota técnica do CTAT orienta municípios sobre notas fiscais, cadastro de cartórios e integração de dados para fiscalização do ISS e preparação para o IBS . Leia mais em https://www.contabeis.com.br/noticias/80317/cartorios-cnm-orienta-sobre-iss-e-adaptacao-ao-ibs/",
     "setor": "geral",
@@ -108,7 +144,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 10,
+    "id": 13,
     "titulo": "Excluir IBS e CBS da base do ICMS: vale entrar na Justiça?",
     "resumo": "Entenda o que avaliar antes de pedir a exclusão de IBS e CBS da base dos tributos atuais e por que as regras de 2026 exigem atenção. Leia mais em https://www.contabeis.com.br/noticias/80313/excluir-ibs-e-cbs-da-base-do-icms-vale-entrar-na-justica/",
     "setor": "geral",
@@ -120,7 +156,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 11,
+    "id": 14,
     "titulo": "Sem rito definido, Senado discutirá alíquotas de referência da CBS no pós-eleições - JOTA Info",
     "resumo": "Sem rito definido, Senado discutirá alíquotas de referência da CBS no pós-eleições JOTA Info",
     "setor": "geral",
@@ -132,7 +168,43 @@
     "data": "2026-10-23"
   },
   {
-    "id": 12,
+    "id": 15,
+    "titulo": "Prazo para MPEs decidirem como vão recolher IBS e CBS termina dia 30 - Rádio Guaíba",
+    "resumo": "Prazo para MPEs decidirem como vão recolher IBS e CBS termina dia 30 Rádio Guaíba",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcnh0V2RIN3FCcm4xYzhLNHR5N2NxRmk1bkZUbnhUUzNwT1Z1T1JsY1BZY2lQVzBJdk4xeTMyV25yOVAzOURKNi1MalVMd2VDc2F2QWV3UlBhT3F4dHVuX25uUXNNLUdnVXRKYWpxYlE1UUZid2lzalp3MWFIX0wyM3BBd0l3ejlhMDhta3pnN1U3MXpEa3c?oc=5",
+    "data": "2026-10-23"
+  },
+  {
+    "id": 16,
+    "titulo": "Novas medidas simplificam obrigações da Reforma Tributária para nanoempreendedores e MEIs",
+    "resumo": "Decreto nº 13.140/2026 e Resolução CGSN nº 195/2026 reduzem burocracias, dispensam exigências fiscais para nanoempreendedores e facilitam o cumprimento das novas regras tributárias pelos MEIs.",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Receita Federal",
+    "link": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/novas-medidas-simplificam-obrigacoes-da-reforma-tributaria-para-nanoempreendedores-e-meis",
+    "data": "2026-10-23"
+  },
+  {
+    "id": 17,
+    "titulo": "Durigan diz que contador será o agente de conformidade da reforma tributária",
+    "resumo": "O ministro da Fazenda, Dario Durigan, apontou os contadores como agentes de conformidade na implementação da reforma tributária. Ele tratou do tema na quarta-feira (21), no Ministério da Fazenda, em reunião com o Conselho Federal de Contabilidade (CFC). “É muito importante, estra",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "CFC",
+    "link": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/",
+    "data": "2026-10-23"
+  },
+  {
+    "id": 18,
     "titulo": "Cobrança de IBS e CBS nas operações com imóveis é tema de bate-papo da CNM sobre Reforma Tributária - Confederação Nacional de Municípios (CNM)",
     "resumo": "Cobrança de IBS e CBS nas operações com imóveis é tema de bate-papo da CNM sobre Reforma Tributária Confederação Nacional de Municípios (CNM)",
     "setor": "geral",
@@ -144,7 +216,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 13,
+    "id": 19,
     "titulo": "Que imposto é esse: Ação para excluir IBS/CBS da base dos tributos atuais vale a pena? - Folha de S.Paulo",
     "resumo": "Que imposto é esse: Ação para excluir IBS/CBS da base dos tributos atuais vale a pena? Folha de S.Paulo",
     "setor": "geral",
@@ -156,7 +228,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 14,
+    "id": 20,
     "titulo": "Excluir IBS e CBS da base do ICMS: vale entrar na Justiça? - Portal Contabeis",
     "resumo": "Excluir IBS e CBS da base do ICMS: vale entrar na Justiça? Portal Contabeis",
     "setor": "geral",
@@ -168,7 +240,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 15,
+    "id": 21,
     "titulo": "\"Fisco 4.0 na Era do IBS” (Inteligência Financeira na Fiscalização Digital) - Instituto dos Auditores Fiscais do Estado da Bahia",
     "resumo": "\"Fisco 4.0 na Era do IBS” (Inteligência Financeira na Fiscalização Digital) Instituto dos Auditores Fiscais do Estado da Bahia",
     "setor": "geral",
@@ -180,7 +252,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 16,
+    "id": 22,
     "titulo": "NFS-e: erro em IBS e CBS já causa recusas - Portal Contabeis",
     "resumo": "NFS-e: erro em IBS e CBS já causa recusas Portal Contabeis",
     "setor": "geral",
@@ -192,7 +264,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 17,
+    "id": 23,
     "titulo": "Cartórios: CNM orienta sobre ISS e adaptação ao IBS - Portal Contabeis",
     "resumo": "Cartórios: CNM orienta sobre ISS e adaptação ao IBS Portal Contabeis",
     "setor": "geral",
@@ -204,7 +276,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 18,
+    "id": 24,
     "titulo": "CCEE determina desligamento da IBS e mantém decisões contra Electra e 2W - MegaWhat",
     "resumo": "CCEE determina desligamento da IBS e mantém decisões contra Electra e 2W MegaWhat",
     "setor": "geral",
@@ -216,7 +288,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 19,
+    "id": 25,
     "titulo": "Prudência não é pessimismo: como chegar a janeiro de 2027 com o caixa pronto para a CBS que vence em fevereiro - Contadores.cnt.br",
     "resumo": "Prudência não é pessimismo: como chegar a janeiro de 2027 com o caixa pronto para a CBS que vence em fevereiro Contadores.cnt.br",
     "setor": "geral",
@@ -228,7 +300,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 20,
+    "id": 26,
     "titulo": "A depender do futuro governo, Reforma Tributária pode ser descaracterizada - Revista Fórum",
     "resumo": "A depender do futuro governo, Reforma Tributária pode ser descaracterizada Revista Fórum",
     "setor": "geral",
@@ -240,7 +312,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 21,
+    "id": 27,
     "titulo": "Saneago destina R$ 4,58 milhões a pesquisa para produzir fertilizantes a partir de resíduos de esgoto - Jornal Opção",
     "resumo": "Saneago destina R$ 4,58 milhões a pesquisa para produzir fertilizantes a partir de resíduos de esgoto Jornal Opção",
     "setor": "fertilizantes",
@@ -252,7 +324,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 22,
+    "id": 28,
     "titulo": "CBS em 2027: indefinição da alíquota dificulta planejamento das empresas - www.expernews.com",
     "resumo": "CBS em 2027: indefinição da alíquota dificulta planejamento das empresas www.expernews.com",
     "setor": "geral",
@@ -264,7 +336,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 23,
+    "id": 29,
     "titulo": "Reforma tributária chega às notas: saiba se seus contratos precisam mudar - ACidade ON",
     "resumo": "Reforma tributária chega às notas: saiba se seus contratos precisam mudar ACidade ON",
     "setor": "geral",
@@ -276,7 +348,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 24,
+    "id": 30,
     "titulo": "Reforma tributária pode elevar custo da cannabis - Panorama Farmacêutico",
     "resumo": "Reforma tributária pode elevar custo da cannabis Panorama Farmacêutico",
     "setor": "geral",
@@ -288,7 +360,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 25,
+    "id": 31,
     "titulo": "Reforma Tributária expõe caos nas notas fiscais de serviços e trava empresas no Brasil - www.bra1.com.br",
     "resumo": "Reforma Tributária expõe caos nas notas fiscais de serviços e trava empresas no Brasil www.bra1.com.br",
     "setor": "geral",
@@ -300,7 +372,7 @@
     "data": "2026-10-23"
   },
   {
-    "id": 26,
+    "id": 32,
     "titulo": "Empresas ganham mais tempo para se adaptarem ao preenchimento do IBS e da CBS no documento fiscal eletrônico - FecomercioSP",
     "resumo": "Empresas ganham mais tempo para se adaptarem ao preenchimento do IBS e da CBS no documento fiscal eletrônico FecomercioSP",
     "setor": "geral",
@@ -312,7 +384,7 @@
     "data": "2026-10-22"
   },
   {
-    "id": 27,
+    "id": 33,
     "titulo": "Governo federal deverá zerar alíquota do Imposto Seletivo para bens minerais - O Fator",
     "resumo": "Governo federal deverá zerar alíquota do Imposto Seletivo para bens minerais O Fator",
     "setor": "geral",
@@ -324,7 +396,7 @@
     "data": "2026-10-22"
   },
   {
-    "id": 28,
+    "id": 34,
     "titulo": "Bate-Papo CNM aborda IBS nas operações com imóveis e preparação dos Municípios - Amupe | Associação Municipalista de Pernambuco",
     "resumo": "Bate-Papo CNM aborda IBS nas operações com imóveis e preparação dos Municípios Amupe | Associação Municipalista de Pernambuco",
     "setor": "geral",
@@ -336,7 +408,7 @@
     "data": "2026-10-22"
   },
   {
-    "id": 29,
+    "id": 35,
     "titulo": "Empreendedor: saiba onde tirar suas dúvidas sobre Reforma Tributária",
     "resumo": "Até a última semana, quase 442 mil empresas haviam solicitado adesão ao Simples Nacional, enquanto 840,5 mil haviam feito a opção pelo regime regular em 2027. Para apoiar os pequenos negócios em relação aos prazos e qual a melhor decisão a tomar diante das mudanças propostas na R",
     "setor": "geral",
@@ -345,78 +417,6 @@
     "impacto": "baixo",
     "fonte": "Sebrae Mato Grosso",
     "link": "https://mt.agenciasebrae.com.br/cultura-empreendedora/empreendedor-saiba-onde-tirar-suas-duvidas-sobre-reforma-tributaria/",
-    "data": "2026-10-22"
-  },
-  {
-    "id": 30,
-    "titulo": "NT CTAT nº 08/2026 - Diretrizes de padronização aplicável às obrigações acessórias dos serviços notariais e registrais (cartórios), relativamente ao ISS e ao IBS - Confederação Nacional de Municípios",
-    "resumo": "NT CTAT nº 08/2026 - Diretrizes de padronização aplicável às obrigações acessórias dos serviços notariais e registrais (cartórios), relativamente ao ISS e ao IBS Confederação Nacional de Municípios",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwQktKTFVfSmZETndTb0xiNWlzcnd6LTdKY095ak92ZXMzaENlMG9Gc3ZjbXZBQl9KV2NFZXRoN1JRNEJFT0R5aDBKcmFWd01qRjRv?oc=5",
-    "data": "2026-10-22"
-  },
-  {
-    "id": 31,
-    "titulo": "Empresas podem consultar regime de IBS e CBS de fornecedores do Simples - Contadores.cnt.br",
-    "resumo": "Empresas podem consultar regime de IBS e CBS de fornecedores do Simples Contadores.cnt.br",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "medio",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbE9pRGlURW1DNklIUnJzOG9weFBTdVZTcUJLYVlkNGJzRlZQSURYaVZOX0dBbnp4QXRLd29fZXlrNEdUWUZiMF9xOHpmbUZxR3lYa3BEZTFXa0hEVDU5eEFxc3gxSFlrd2ZYckxVZlZDNTFjMnREUFgyY0lWbGR5dHpIcFZBeUhHaGdodktFRlhKNmtHZE1LaFRPQmhPakVOTXFWNTU2OHRtbS1fQTdkVXZHMVpvc0t2ZVJZdk50TUpmVTlBYTZYRm92WVlKNTJp?oc=5",
-    "data": "2026-10-22"
-  },
-  {
-    "id": 32,
-    "titulo": "O que é o Comitê de Harmonização do IBS e CBS e qual o impacto na Contabilidade? - Omie",
-    "resumo": "O que é o Comitê de Harmonização do IBS e CBS e qual o impacto na Contabilidade? Omie",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLU1Tdy1YSXNyZ19aeWpKX2ZtQnBNa3B5dzE2R2pWaUVuMU4zZlE2LTlPZUJxUm1qTGhRbkRXQ3NkNVlXQU40ZXNkbTdRS0twOF9oRnhacEFjRmdWRUxlSHlHTlpFNWxZLUFXTzY4aUhoZFpTSUtKZGptTGRTZWw0Y3FRZ05RTUo4eFE?oc=5",
-    "data": "2026-10-22"
-  },
-  {
-    "id": 33,
-    "titulo": "CBS substitui PIS e Cofins em 2027; Senado fixa a alíquota até dezembro - soubrasilia.com",
-    "resumo": "CBS substitui PIS e Cofins em 2027; Senado fixa a alíquota até dezembro soubrasilia.com",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "alto",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nLW41Q3hJSE5Yb3lXWUxIZ3ZRbW1tNUNEYUF6aElHcl9fd3pibC0tc1lvZldCRWxDX3dLQkU1RzNnZktPOTJFamtCVkczSFZDLXd4aVZ6WlJrYXAxdHh2ZFFHbjBVd2N0UGtIWnBRd1l2cW53bkxnSEp4dWZtU1U?oc=5",
-    "data": "2026-10-22"
-  },
-  {
-    "id": 34,
-    "titulo": "Fornecedor do Simples pode dar crédito integral de CBS? Pode, e vale perguntar antes de fechar as compras de 2027 - Portal UAI",
-    "resumo": "Fornecedor do Simples pode dar crédito integral de CBS? Pode, e vale perguntar antes de fechar as compras de 2027 Portal UAI",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNLTFfUDlid1gyaEVuVjlSS3QzbGFfLTVBNmw5RlFsXzVGTkhHM3B6R0piSG8zNUVnRGtJQUhqUWVyOWQ3cnROVnVvTVc3dmp4RktGYUY0WldJVzRrdFhfbG85TUVLbXpsYXRJSVJxX1h2YjZYc3dIZHZBYVZmRXZSWGdoNnlIZmNmY1hrT1VvdTVZOUlZXzgxVVNxYjdYZDYtdXY5UUZIWDd6Z0hGRnpRVFFkRk1rV2wzRG1jTXZ1aTF1MnpxNEltWDNYclZZdFhyRmhxWXdobjQwLVpSeHZ6MWlQbUYtMmFIQndYOWNnMNIB9AFBVV95cUxOOUFnRFdDUEt3VC15VDVDM0RXa0M2M0ZPS05jcW9sbkRyY1NHU092dHNmRmZDU2trbktXaGtxT2VJQzZPdVAtZzc1NmdMNkxpNFgxUkhJUFFjRERkczNtclFyeUtIb3RpREgzYmZwM0xNT2ZUOGttTklNV21RZFo3NXRmd05DTlJPWkJhZXVpQXNyZTJjVnZnUHZpVlVDck9kLTFld2VhdlRxTzdIUFdlUFY0cThqWU12bGRNT2lzZDdFNjhVYzJXRjNUcEI0ME5KdU5UUHktbG4yVDRiV2ZVZFlDaWxwNTZrTFg0RkluN09SajJv?oc=5",
-    "data": "2026-10-22"
-  },
-  {
-    "id": 35,
-    "titulo": "Fecoagro aposta em tecnologia italiana e lança fertilizantes em pequenas embalagens - Rádio Centro Oeste",
-    "resumo": "Fecoagro aposta em tecnologia italiana e lança fertilizantes em pequenas embalagens Rádio Centro Oeste",
-    "setor": "fertilizantes",
-    "esfera": "estadual",
-    "uf": "RS",
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Rio Grande do Sul",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdjljNk9BbXlpanoyUTZxTmpSSEZOcFkwMU13a2JDM0RwVGdwMHc2R2VNVlc1a1RhWi1WSmR2MEYwS055aWdvV0UyNmhLeFJacFRhMDlNeTh3WDBXWThpeUhXaTV4Q1BjT01qQWl1ZG90MEphNGNIbzg5clkydGJQNDhfaHBTZm0wTWltMWlyM25jbU1FaUpRTkhSbTFocTJlUzkxbUpNZ2QwTHk0bTQ5T0VaeEdIS0xwOWtBRlp3S1M?oc=5",
     "data": "2026-10-22"
   }
 ]
