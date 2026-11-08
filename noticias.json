@@ -1,6 +1,54 @@
 [
   {
     "id": 1,
+    "titulo": "Imposto Seletivo e tratamento desigual de bebidas açucaradas - Consultor Jurídico",
+    "resumo": "Imposto Seletivo e tratamento desigual de bebidas açucaradas Consultor Jurídico",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNi1kNEZfaXJVaVg4bkxSYWM4ZDdXd2kzTVdXME1iMGptRk9VVFdvakRCanNiOURDMHFSSkRxMHo5bUlsZVl0VWl1MnV2RlZpSDBLTDJFajBkOF8wTTVtS1NYWW5RVTV3MUdyS0RTX0dDLTZIM3pRYmNCUG42N2E0MmtTaVRLd0c1WDQtdTh2X3ZnbF9hNGRFaWdzYmoxZ0FxcXE4Y0hwa25aUUJTdnk0OWVEd0V5Zw?oc=5",
+    "data": "2026-11-08"
+  },
+  {
+    "id": 2,
+    "titulo": "IBS e CBS: os desafios da composição de preços, das desonerações e das imunidades - JOTA Info",
+    "resumo": "IBS e CBS: os desafios da composição de preços, das desonerações e das imunidades JOTA Info",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPalBYNkhOMzJqQzhrTTFEUGN2ZkctMXdlMDhoY2xXNXo5ZmVZRFpDZUFWM25YZDJuekV4akN4a3d0RnJJSGFjX3RpWlJGM3ZLNEdkZ2M4S042U2JyeUJVeFQ4VXFEbGdMT0U3UEJHR1dFLWtPTERNSjMzYlROWWR4aXBBTm4tQWtWdzFDb0dvUy1ORkpwNWFUWURWcF91cEVHTk1SeV8xYVQ4eENNTWYxVEJ2QjJYSGR3ckFYRFFuOS1kS25IdEE?oc=5",
+    "data": "2026-11-08"
+  },
+  {
+    "id": 3,
+    "titulo": "O setor vitivinícola do Rio Grande do Sul manifesta preocupação com os impactos da criação do Imposto Seletivo sobre vinhos e espumantes. ▶ Entidades representativas da cadeia produtiva alertam que a nova tributação pode elevar os custos de produçã - Instagram",
+    "resumo": "O setor vitivinícola do Rio Grande do Sul manifesta preocupação com os impactos da criação do Imposto Seletivo sobre vinhos e espumantes. ▶ Entidades representativas da cadeia produtiva alertam que a nova tributação pode elevar os custos de produçã Instagram",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": "RS",
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XaEhGSi1Yc0dxMU10c3FhWEgtUHlkdjFrbjRMLTNsb01fcmVDU3pNY2FiS2QyZ1RJMk5qLTNld3VsVC1taU1aaWlxLWtJbmtGY0E?oc=5",
+    "data": "2026-11-08"
+  },
+  {
+    "id": 4,
+    "titulo": "Reforma tributária: o que muda no preço dos carros e no setor automotivo a partir de 2027 - Guru dos Carros",
+    "resumo": "Reforma tributária: o que muda no preço dos carros e no setor automotivo a partir de 2027 Guru dos Carros",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMThRV3U5Sjk3bjZRVThQeUo5QmYwZVp2WU4zVjlKQzNub1k0SUlVVHlFRHBYNzFnRGRzSmNhcEtPdlJGS2RZZmZkbUgzUzFnd3ZTZ2hGNGhtOXBTT0Y0OFhEdFUwZHY0M3VRM0pISE1HVWFPQk50WEp4TUp3R0k1M0pFMUowS3JQcHMtVmY5VkhuWG1vWGdBY0FVZ0pGQUlmTF85MkFLeGVVT0h5TWYzbmVaWFJZTTZsLU45R1VGTQ?oc=5",
+    "data": "2026-11-08"
+  },
+  {
+    "id": 5,
     "titulo": "NF-e e IBS/CBS: como conferir se uma rejeição já vale",
     "resumo": "Veja como consultar o código da rejeição, a versão da nota técnica e o cronograma oficial para saber se uma validação de IBS e CBS já vale em produção. Leia mais em https://www.contabeis.com.br/noticias/80561/nf-e-e-ibs-cbs-como-conferir-se-uma-rejeicao-ja-vale/",
     "setor": "geral",
@@ -12,19 +60,19 @@
     "data": "2026-11-07"
   },
   {
-    "id": 2,
-    "titulo": "As alíquotas do Imposto Seletivo e a reforma tributária levada a sério - 07/11/2026 - Opinião - Folha de S.Paulo",
-    "resumo": "As alíquotas do Imposto Seletivo e a reforma tributária levada a sério - 07/11/2026 - Opinião Folha de S.Paulo",
+    "id": 6,
+    "titulo": "O novo Imposto Seletivo seleciona? - JOTA Info",
+    "resumo": "O novo Imposto Seletivo seleciona? JOTA Info",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
-    "impacto": "alto",
+    "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOGEwRVJiaW0zOHhPUGpJV055WlEycDNCcHdKM195alhoMGVSWHpwZGlQVmVLZnIyV1VwVWtyaW5xLV9tclY1cnZyZVkwMHcydnVGWXdKZnlfY2pIRlBFTVRrTE5pU3RHQUdud3o4NlNKSEhsQzduc09KNXU4NWFZd3JNNFBZcmxYVnBVNEFwSkVCMGhGUHN5czZjakU3Q2hiN3B6ZEdWNXR0ZHhqVE02cUZIS0VFUGl4NnJjTTlkUQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDdiSk5HOEVOY0FveWt3MG45cTN2RU9EU05rbXFIVUpnSnRuWVc0bDN4YnVOM0pBNmVjekFoTTV2cWd6TUVMVm12bUFlbDF1ZGItVHZDSXNIV1ZYT1lkdUJ0Z3ZrU0ZPSV9GcTA5MUczeFpGNkxiMm5VajFCbkFOX3FRa0NfVl9f?oc=5",
     "data": "2026-11-07"
   },
   {
-    "id": 3,
+    "id": 7,
     "titulo": "Qual o impacto da CBS em 2027 na safra de verão da soja - Consultor Jurídico",
     "resumo": "Qual o impacto da CBS em 2027 na safra de verão da soja Consultor Jurídico",
     "setor": "agronegocio",
@@ -36,31 +84,7 @@
     "data": "2026-11-07"
   },
   {
-    "id": 4,
-    "titulo": "Pequenos produtores de bebidas ganham vantagens com MP do Imposto Seletivo, diz CNA - Globo Rural",
-    "resumo": "Pequenos produtores de bebidas ganham vantagens com MP do Imposto Seletivo, diz CNA Globo Rural",
-    "setor": "agronegocio",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLVRRdktHRDJ1S3NQeDdLdGhKOEMzT2JMT3hieE5QM29iRFFaLUNhZUE3U3Z5VklGR3VVR2t4X0ZFVG9WVU9xb1FXSDdfbkl1RVk0RjExeVd2VFp5SkhZVDFCT05pSkZZUWlfX2pCZl8zZUFSRS01Zm5RdFFqcUNkckxXbTNtM19MaFNrR2g4aGhPZHZ1bjN3bHRiSzhlZnZmckIyTUkwajBVS0I4cXpBLXFQbGxUeE5MSHhaZWdqTWtRaldxSUFPdFp1VmNvLWFHd0ZpMDFWUWdyZ9IB6AFBVV95cUxNUHFnazNpdzlEZUZmdVd4b0xyZFFLTDFVSURBbzdrSFRBVmVJSjdiZUJPVWFFTklYS2Jtd25qMVIzbmZZYWRBNUM1WVZ5SFJCSjhkSVMxLVhhbDM4S2gtejRtY2xGaWNuV2htc081UmVwc0p5UTVqUTBtdFU1Njl5ZnRyMThldFNJdXNudjdhbTRPS052cmhkeDFmMzZJYU1JWFFTRFZkWVFnR0RWOVJZaFl6amtGcWZKdXVhTzRLd3BIdkZnTmtnUEEtQlRjSU42NlpuVklUa1Ewa011MGRBcjBPakZSNlFH?oc=5",
-    "data": "2026-11-07"
-  },
-  {
-    "id": 5,
-    "titulo": "NF-e e IBS/CBS: como conferir se uma rejeição já vale - Portal Contabeis",
-    "resumo": "NF-e e IBS/CBS: como conferir se uma rejeição já vale Portal Contabeis",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV2RDcjl3RUdVUDIySEowdjhGZHRGUlFFOWd6Tm9iWGZYRjMzbkNib3JSRW1Tek1XOXNzVm5Qc1RvY3dCYmZXUC1xN3EwaVhhc1M2TnRfcDZQZWpvTC1lQTV4OW03QlFRamFNOU9CVFNzZHdrWExCRGE1cHVJTDJpbjdxTlJOdWdZWk1jUkttWU55V01EeXQ0aVpqN1VCQQ?oc=5",
-    "data": "2026-11-07"
-  },
-  {
-    "id": 6,
+    "id": 8,
     "titulo": "Governo institui alíquotas do Imposto Seletivo para cigarro e bebida - Gazeta do Povo",
     "resumo": "Governo institui alíquotas do Imposto Seletivo para cigarro e bebida Gazeta do Povo",
     "setor": "geral",
@@ -72,7 +96,79 @@
     "data": "2026-11-07"
   },
   {
-    "id": 7,
+    "id": 9,
+    "titulo": "As alíquotas do Imposto Seletivo e a reforma tributária levada a sério - 07/11/2026 - Opinião - Folha de S.Paulo",
+    "resumo": "As alíquotas do Imposto Seletivo e a reforma tributária levada a sério - 07/11/2026 - Opinião Folha de S.Paulo",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "alto",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOGEwRVJiaW0zOHhPUGpJV055WlEycDNCcHdKM195alhoMGVSWHpwZGlQVmVLZnIyV1VwVWtyaW5xLV9tclY1cnZyZVkwMHcydnVGWXdKZnlfY2pIRlBFTVRrTE5pU3RHQUdud3o4NlNKSEhsQzduc09KNXU4NWFZd3JNNFBZcmxYVnBVNEFwSkVCMGhGUHN5czZjakU3Q2hiN3B6ZEdWNXR0ZHhqVE02cUZIS0VFUGl4NnJjTTlkUQ?oc=5",
+    "data": "2026-11-07"
+  },
+  {
+    "id": 10,
+    "titulo": "NF-e e IBS/CBS: como conferir se uma rejeição já vale - Portal Contabeis",
+    "resumo": "NF-e e IBS/CBS: como conferir se uma rejeição já vale Portal Contabeis",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV2RDcjl3RUdVUDIySEowdjhGZHRGUlFFOWd6Tm9iWGZYRjMzbkNib3JSRW1Tek1XOXNzVm5Qc1RvY3dCYmZXUC1xN3EwaVhhc1M2TnRfcDZQZWpvTC1lQTV4OW03QlFRamFNOU9CVFNzZHdrWExCRGE1cHVJTDJpbjdxTlJOdWdZWk1jUkttWU55V01EeXQ0aVpqN1VCQQ?oc=5",
+    "data": "2026-11-07"
+  },
+  {
+    "id": 11,
+    "titulo": "Pequenos produtores de bebidas ganham vantagens com MP do Imposto Seletivo, diz CNA - Globo Rural",
+    "resumo": "Pequenos produtores de bebidas ganham vantagens com MP do Imposto Seletivo, diz CNA Globo Rural",
+    "setor": "agronegocio",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLVRRdktHRDJ1S3NQeDdLdGhKOEMzT2JMT3hieE5QM29iRFFaLUNhZUE3U3Z5VklGR3VVR2t4X0ZFVG9WVU9xb1FXSDdfbkl1RVk0RjExeVd2VFp5SkhZVDFCT05pSkZZUWlfX2pCZl8zZUFSRS01Zm5RdFFqcUNkckxXbTNtM19MaFNrR2g4aGhPZHZ1bjN3bHRiSzhlZnZmckIyTUkwajBVS0I4cXpBLXFQbGxUeE5MSHhaZWdqTWtRaldxSUFPdFp1VmNvLWFHd0ZpMDFWUWdyZw?oc=5",
+    "data": "2026-11-07"
+  },
+  {
+    "id": 12,
+    "titulo": "O adiamento da cobrança efetiva da Contribuição sobre Bens e Serviços (CBS) e do Imposto Seletivo (IS) para janeiro de 2028 é defendido por entidades que apontam riscos jurídicos e econômicos na transição da reforma tributária. Em artigo publicado no - Instagram",
+    "resumo": "O adiamento da cobrança efetiva da Contribuição sobre Bens e Serviços (CBS) e do Imposto Seletivo (IS) para janeiro de 2028 é defendido por entidades que apontam riscos jurídicos e econômicos na transição da reforma tributária. Em artigo publicado no Instagram",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01WnBQYk9nTkM0ZG5idXdIVXBVcVVxb3VGQVU2ekxGb0l3TDhMcFkxdV9pYlYtOVloaTV2MjYwT1pBdEVla1l4eDR1X2puWldnb3c?oc=5",
+    "data": "2026-11-07"
+  },
+  {
+    "id": 13,
+    "titulo": "Imposto seletivo exige equilíbrio entre saúde, preços e contrabando - Jornal GGN",
+    "resumo": "Imposto seletivo exige equilíbrio entre saúde, preços e contrabando Jornal GGN",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdXQyRXhWNmFiLTBVT05YcW9jS1NEek9LRlh4Z3JJOUJmN1NWblAxZC16WHdlUTdmMEZsM3FTYU9jVTVvenhKTy1VQXhSN24xRENzTXVvN1NndlhWOHN1RXNqOEg4anpqQlRrR3QwQnNQcGdMVzd0TGs4ZjJZMElRMUdMWGE5b3NTc1RUbFVrRXhGRUxLRGFqRUU2Yw?oc=5",
+    "data": "2026-11-07"
+  },
+  {
+    "id": 14,
+    "titulo": "Pequenos produtores de bebidas ganham vantagens com MP do Imposto Seletivo, diz CNA - Globo Rural",
+    "resumo": "Pequenos produtores de bebidas ganham vantagens com MP do Imposto Seletivo, diz CNA Globo Rural",
+    "setor": "agronegocio",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLVRRdktHRDJ1S3NQeDdLdGhKOEMzT2JMT3hieE5QM29iRFFaLUNhZUE3U3Z5VklGR3VVR2t4X0ZFVG9WVU9xb1FXSDdfbkl1RVk0RjExeVd2VFp5SkhZVDFCT05pSkZZUWlfX2pCZl8zZUFSRS01Zm5RdFFqcUNkckxXbTNtM19MaFNrR2g4aGhPZHZ1bjN3bHRiSzhlZnZmckIyTUkwajBVS0I4cXpBLXFQbGxUeE5MSHhaZWdqTWtRaldxSUFPdFp1VmNvLWFHd0ZpMDFWUWdyZ9IB6AFBVV95cUxNUHFnazNpdzlEZUZmdVd4b0xyZFFLTDFVSURBbzdrSFRBVmVJSjdiZUJPVWFFTklYS2Jtd25qMVIzbmZZYWRBNUM1WVZ5SFJCSjhkSVMxLVhhbDM4S2gtejRtY2xGaWNuV2htc081UmVwc0p5UTVqUTBtdFU1Njl5ZnRyMThldFNJdXNudjdhbTRPS052cmhkeDFmMzZJYU1JWFFTRFZkWVFnR0RWOVJZaFl6amtGcWZKdXVhTzRLd3BIdkZnTmtnUEEtQlRjSU42NlpuVklUa1Ewa011MGRBcjBPakZSNlFH?oc=5",
+    "data": "2026-11-07"
+  },
+  {
+    "id": 15,
     "titulo": "Cashback da reforma tributária: quem tem direito e como funciona a devolução de impostos? - Exame",
     "resumo": "Cashback da reforma tributária: quem tem direito e como funciona a devolução de impostos? Exame",
     "setor": "geral",
@@ -84,7 +180,7 @@
     "data": "2026-11-07"
   },
   {
-    "id": 8,
+    "id": 16,
     "titulo": "Reforma Tributária chega aos portos e à navegação - ES Brasil",
     "resumo": "Reforma Tributária chega aos portos e à navegação ES Brasil",
     "setor": "geral",
@@ -96,7 +192,7 @@
     "data": "2026-11-07"
   },
   {
-    "id": 9,
+    "id": 17,
     "titulo": "Carro a diesel pagará até 22% de Imposto Seletivo; elétrico, 5,2% - TV Sim Brasil",
     "resumo": "Carro a diesel pagará até 22% de Imposto Seletivo; elétrico, 5,2% TV Sim Brasil",
     "setor": "geral",
@@ -108,7 +204,7 @@
     "data": "2026-11-07"
   },
   {
-    "id": 10,
+    "id": 18,
     "titulo": "Onix, HB20 e Mobi estão entre 12 carros que podem ter Imposto Seletivo zerado em 2027, enquanto os mais poluentes terão acréscimos - Jornal Correio",
     "resumo": "Onix, HB20 e Mobi estão entre 12 carros que podem ter Imposto Seletivo zerado em 2027, enquanto os mais poluentes terão acréscimos Jornal Correio",
     "setor": "geral",
@@ -120,7 +216,7 @@
     "data": "2026-11-07"
   },
   {
-    "id": 11,
+    "id": 19,
     "titulo": "Estoque que vale dinheiro: oportunidade de geração de caixa na transição para a CBS - A Gazeta",
     "resumo": "Estoque que vale dinheiro: oportunidade de geração de caixa na transição para a CBS A Gazeta",
     "setor": "geral",
@@ -132,7 +228,7 @@
     "data": "2026-11-07"
   },
   {
-    "id": 12,
+    "id": 20,
     "titulo": "Regras transitórias do Imposto Seletivo levam setor produtivo a recalcular custos - O Hoje",
     "resumo": "Regras transitórias do Imposto Seletivo levam setor produtivo a recalcular custos O Hoje",
     "setor": "geral",
@@ -144,7 +240,7 @@
     "data": "2026-11-07"
   },
   {
-    "id": 13,
+    "id": 21,
     "titulo": "NF-e: IBS e CBS ficam fora do campo vProd",
     "resumo": "Nota Técnica 2026.008 define que IBS , CBS e IS não entram no campo vProd da NF-e. Veja os campos alterados, prazos e impactos para as empresas. Leia mais em https://www.contabeis.com.br/noticias/80671/nf-e-ibs-e-cbs-ficam-fora-do-campo-vprod/",
     "setor": "geral",
@@ -156,7 +252,7 @@
     "data": "2026-11-06"
   },
   {
-    "id": 14,
+    "id": 22,
     "titulo": "EFD-Contribuições: NT 13/2026 orienta transição para a CBS",
     "resumo": "Nota Técnica nº 13/2026 detalha a continuidade da EFD-Contribuições em 2027 para saldos credores, créditos presumidos e outras finalidades. Leia mais em https://www.contabeis.com.br/noticias/80665/efd-contribuicoes-nt-13-2026-orienta-transicao-para-a-cbs/",
     "setor": "geral",
@@ -168,79 +264,7 @@
     "data": "2026-11-06"
   },
   {
-    "id": 15,
-    "titulo": "Imposto Seletivo sobre carros: veja o que pesa no cálculo",
-    "resumo": "MP define cálculo do Imposto Seletivo sobre veículos em 2027. Motorização, eficiência energética e segurança influenciam a tributação. Leia mais em https://www.contabeis.com.br/noticias/80659/imposto-seletivo-sobre-carros-veja-o-que-pesa-no-calculo/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80659/imposto-seletivo-sobre-carros-veja-o-que-pesa-no-calculo/",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 16,
-    "titulo": "PEC para adiar reforma: minuta ainda depende de assinaturas",
-    "resumo": "Minuta para adiar a CBS para 2028 ainda não foi protocolada. Entenda o que falta para mudar o calendário. Leia mais em https://www.contabeis.com.br/noticias/80656/pec-para-adiar-reforma-minuta-ainda-depende-de-assinaturas/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80656/pec-para-adiar-reforma-minuta-ainda-depende-de-assinaturas/",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 17,
-    "titulo": "Reforma Tributária: ministro nega aumento de impostos",
-    "resumo": "Ministro da Fazenda afirma que novos tributos não elevarão a carga tributária e defende simplificação das regras sobre o consumo. Leia mais em https://www.contabeis.com.br/noticias/80655/reforma-tributaria-ministro-nega-aumento-de-impostos/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "alto",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80655/reforma-tributaria-ministro-nega-aumento-de-impostos/",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 18,
-    "titulo": "EFD-Contribuições terá mudanças para créditos da CBS em 2027",
-    "resumo": "Nota Técnica 013/2026 prevê novos registros, validações e regras para informar créditos presumidos da CBS e controlar saldos de PIS /Pasep e Cofins . Leia mais em https://www.contabeis.com.br/noticias/80653/efd-contribuicoes-tera-mudancas-para-creditos-da-cbs-em-2027/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80653/efd-contribuicoes-tera-mudancas-para-creditos-da-cbs-em-2027/",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 19,
-    "titulo": "CT-e: schemas incluem campo de IBS/CBS para o Simples",
-    "resumo": "Pacote de schemas do CT-e, divulgado em 2 de novembro, inclui o campo tpRegimeIBSCBS no emitente e acompanha a Nota Técnica 2026.005. Leia mais em https://www.contabeis.com.br/noticias/80648/ct-e-schemas-incluem-campo-de-ibs-cbs-para-o-simples/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80648/ct-e-schemas-incluem-campo-de-ibs-cbs-para-o-simples/",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 20,
-    "titulo": "Comitê do IBS cria equipe para gerir aplicações financeiras",
-    "resumo": "Portaria designa dois servidores para assessorar a Diretoria de Tesouraria na análise e no acompanhamento dos investimentos do Comitê Gestor. Leia mais em https://www.contabeis.com.br/noticias/80652/comite-do-ibs-cria-equipe-para-gerir-aplicacoes-financeiras/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80652/comite-do-ibs-cria-equipe-para-gerir-aplicacoes-financeiras/",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 21,
+    "id": 23,
     "titulo": "Reação do Senado à CBS ameaça receitas em 2027, mas corte não será fácil - JOTA Info",
     "resumo": "Reação do Senado à CBS ameaça receitas em 2027, mas corte não será fácil JOTA Info",
     "setor": "geral",
@@ -252,7 +276,7 @@
     "data": "2026-11-06"
   },
   {
-    "id": 22,
+    "id": 24,
     "titulo": "NF-e: IBS e CBS ficam fora do campo vProd - Portal Contabeis",
     "resumo": "NF-e: IBS e CBS ficam fora do campo vProd Portal Contabeis",
     "setor": "geral",
@@ -264,43 +288,7 @@
     "data": "2026-11-06"
   },
   {
-    "id": 23,
-    "titulo": "Um dos pais da reforma tributária, Appy defende adiar cobrança para 2028 - UOL Economia",
-    "resumo": "Um dos pais da reforma tributária, Appy defende adiar cobrança para 2028 UOL Economia",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY3YwMjd1Y1pGamlKQmctNVRzWE5PZ0ZiWnQ1OHhXNmFzcUNLWXRoT3hWWENjVFVPcDZBRFhIQ2VnR2ZKVFJIakpZeVoyMUszd3lsdWpEc2o0YVdDanVqZDJHYzhqN2t4SnRGMkdYYXFnVFpJYy0zM0JQV0NUSTdueEc4cmhpRUxlRzl6M25HbldMejVfRmU4azluVTJ2bElqRXY3Q3V5VkY4Snk1ZkpZaFBiUi1MV0p5QTY4LXI2bDg5MkRQOGVWcE51SUY3UQ?oc=5",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 24,
-    "titulo": "MP fixa alíquotas do Imposto Seletivo para cigarros, bebidas e veículos - Senado",
-    "resumo": "MP fixa alíquotas do Imposto Seletivo para cigarros, bebidas e veículos Senado",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "alto",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLTRkM2lLZFJmVUNYQzBLMGVFOVF6aEN2djFlWWJZQlQ0UHRTWEFWRExaZ04zNmhERkxuUWVYUl8wS21WZjNJNTQtcFp2VGZ4WUN6aHhpT1gtS1RmWUh3QU15Tk9idk9oSzRETVJKNmZJVE1pNlVJYW1XMzNIOU9WNFRFSGRuWHhla1RlSHlCTGRWVWVBSUp0VTRDSXVDN2RBSHpSeldPQ0lHRUZyWUc1UkJfV3B4RkxJMGpxVUctelI3VXM?oc=5",
-    "data": "2026-11-06"
-  },
-  {
     "id": 25,
-    "titulo": "Os detalhes da MP que trouxe a alíquota do Imposto Seletivo - JOTA Info",
-    "resumo": "Os detalhes da MP que trouxe a alíquota do Imposto Seletivo JOTA Info",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "alto",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNTV0dC1JUzU2S202NDlqSy15VzVSSk9VMnFFaXpnYW9tMDdqN1RTRDE1M3pDSU5ZY2VIUmR1bTFXZlZUWExMcjRKcHhiN05WUUpaamhUaTFPOVVEQWxyMVJUWlhiN29MQnhvRUxXSElPd1I5bDV6SEszMVRBTXM0RV9sVnF1OVU3bDJsMkJxY3NtbThLWFh1YjJBdzR2ajZVWktsVHBnUEw1LVd5emhIdktldDZxcVVmTzBF?oc=5",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 26,
     "titulo": "MP do Imposto Seletivo traz desvio e gera insegurança jurídica - Consultor Jurídico",
     "resumo": "MP do Imposto Seletivo traz desvio e gera insegurança jurídica Consultor Jurídico",
     "setor": "geral",
@@ -312,7 +300,7 @@
     "data": "2026-11-06"
   },
   {
-    "id": 27,
+    "id": 26,
     "titulo": "Reforma Tributária: governo define regras de transição do Imposto Seletivo para 2027 - CBIC - Câmara Brasileira da Indústria da Construção",
     "resumo": "Reforma Tributária: governo define regras de transição do Imposto Seletivo para 2027 CBIC - Câmara Brasileira da Indústria da Construção",
     "setor": "geral",
@@ -324,43 +312,7 @@
     "data": "2026-11-06"
   },
   {
-    "id": 28,
-    "titulo": "Prefeitura integra Comitê Gestor da Reforma Tributária do Governo Federal - Portal do Município de Piracicaba",
-    "resumo": "Prefeitura integra Comitê Gestor da Reforma Tributária do Governo Federal Portal do Município de Piracicaba",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTGU3RXZLVExzSUl1aFd6ZS1ieVp5VWxoVkRLN3NBd0JJUHhGWk84UXZoYXI0eXRoc0pBWUVibW56SHBINC1QSEhsQUlsbXNEb285WWtYdjJjQXJWT1Zoem1oWlh5SFpyLVZWQWFnU1JkdWRNZmpPNEdVMU5iTGlZcDctSTN2ZHBxYlZDbEJBeXoxMi1xY2lFSHppMFFnYjJzb1VyQ01HQkdycXJmQmUzR21B?oc=5",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 29,
-    "titulo": "Funrural e reforma tributária: o IBS e a CBS não integram a base de cálculo - Consultor Jurídico",
-    "resumo": "Funrural e reforma tributária: o IBS e a CBS não integram a base de cálculo Consultor Jurídico",
-    "setor": "agronegocio",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDZUdWJoV2xSMGVfU0lPNlQ4Qk9YV3BxZndMSW1OXzNEVk5CaVdVMDl5UFNZbk9kQ2ZtazBZWDVQTmFBcVFaUmdPRldSUFVnUmxNOWJSaXBpZ0otd1VkV0hhTFQ0YWVXVEhpYm9Fc2g4UTE4dDhIVE1IQXZYZlR0Q01zVVpfNHhfbldyMmpRUDhlWkdtaWJCRl8zN2tiUlpFU2FqUk9oMzRYQThCR0E?oc=5",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 30,
-    "titulo": "IBS e CBS: A controvérsia sobre a exportação de serviços - Migalhas",
-    "resumo": "IBS e CBS: A controvérsia sobre a exportação de serviços Migalhas",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR2lHTXFQWVpOSlRhazJSQ1RHTmUyRTJGcUN0dTZOU0cyelpRYXc2S2N1LWIwcTFwUzhaVGFuamJfYnBIak8wdGVhUUlPRU9UQ3M5YS1PckVWM0t4ZFJIMGNWbGxwdE1jYnJOTWthVU5WUVRTLXp2V2Rlb2dUV1JaMmFEWEtRaGdMSnNaRGlXbm9VU1RTXzA5NEpPVG81dw?oc=5",
-    "data": "2026-11-06"
-  },
-  {
-    "id": 31,
+    "id": 27,
     "titulo": "CNA atua para reduzir alíquotas do Imposto Seletivo para pequenos produtores de bebidas - Portal CNA Brasil",
     "resumo": "CNA atua para reduzir alíquotas do Imposto Seletivo para pequenos produtores de bebidas Portal CNA Brasil",
     "setor": "geral",
@@ -372,19 +324,19 @@
     "data": "2026-11-06"
   },
   {
-    "id": 32,
-    "titulo": "Aviação agrícola terá imposto seletivo zero até final de 2027 - Globo Rural",
-    "resumo": "Aviação agrícola terá imposto seletivo zero até final de 2027 Globo Rural",
-    "setor": "agronegocio",
+    "id": 28,
+    "titulo": "IBS e CBS: A controvérsia sobre a exportação de serviços - Migalhas",
+    "resumo": "IBS e CBS: A controvérsia sobre a exportação de serviços Migalhas",
+    "setor": "geral",
     "esfera": "reforma",
     "uf": null,
     "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOek55dTVYdUJTMjktRUdYN0JmUnhRODNrODNNSjl2RHdEcU9uaEVTdU5tQlM4a0JtVHoySmh1Y2dlNUNWczREc1JiZFp6Wm5aay1YOTBZWi1mV3dHdmRWQjlFZGhycDFDRUJUMU9KcEtfbzRWaUthZ09zVUpyNjRJSUEyT2lxNjFUaWNKekRCYnZGbEJsZ0p5RDdJemR0cUpVTmJNNHg4YWZqVlBvc0RCdHRueGczSHhlNFBXWEtR0gHMAUFVX3lxTE92d19VdzlQWDZpWnI3RjY2aGRhR2hOeTlXZlNuLVNGT3pVcDRDeE4tQ2t5N3hpeTVXX1J6QVNHYkIzU2dIcEw3SFNNSE1RMnFJTlZTbnFkdGNPMHRER3MxQ1NyVDRPb1NvNVk4QUtfR29USmFSTnZzbFl0aXprN3oxTVhWclB1LUJ6dklvY3BHNC0wSkJhaXY5SmpBWnprT3ZaeG9uTEg0V3VYNzl0aUZZVUhzZ09MTVFmVnprcHlYSk1QLWNlLWVxaXFucA?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR2lHTXFQWVpOSlRhazJSQ1RHTmUyRTJGcUN0dTZOU0cyelpRYXc2S2N1LWIwcTFwUzhaVGFuamJfYnBIak8wdGVhUUlPRU9UQ3M5YS1PckVWM0t4ZFJIMGNWbGxwdE1jYnJOTWthVU5WUVRTLXp2V2Rlb2dUV1JaMmFEWEtRaGdMSnNaRGlXbm9VU1RTXzA5NEpPVG81dw?oc=5",
     "data": "2026-11-06"
   },
   {
-    "id": 33,
+    "id": 29,
     "titulo": "Imposto Seletivo: CFN manifesta discordância com os critérios de tributação de bebidas açucaradas previstos na MP nº 1.399/2026 - CFN - Conselho Federal de Nutrição",
     "resumo": "Imposto Seletivo: CFN manifesta discordância com os critérios de tributação de bebidas açucaradas previstos na MP nº 1.399/2026 CFN - Conselho Federal de Nutrição",
     "setor": "geral",
@@ -396,27 +348,75 @@
     "data": "2026-11-06"
   },
   {
-    "id": 34,
-    "titulo": "Projetos em Destaque: Alíquotas da CBS e Regras Eleitorais - Senado",
-    "resumo": "Projetos em Destaque: Alíquotas da CBS e Regras Eleitorais Senado",
+    "id": 30,
+    "titulo": "Aviação agrícola terá imposto seletivo zero até final de 2027 - Globo Rural",
+    "resumo": "Aviação agrícola terá imposto seletivo zero até final de 2027 Globo Rural",
+    "setor": "agronegocio",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOek55dTVYdUJTMjktRUdYN0JmUnhRODNrODNNSjl2RHdEcU9uaEVTdU5tQlM4a0JtVHoySmh1Y2dlNUNWczREc1JiZFp6Wm5aay1YOTBZWi1mV3dHdmRWQjlFZGhycDFDRUJUMU9KcEtfbzRWaUthZ09zVUpyNjRJSUEyT2lxNjFUaWNKekRCYnZGbEJsZ0p5RDdJemR0cUpVTmJNNHg4YWZqVlBvc0RCdHRueGczSHhlNFBXWEtR0gHMAUFVX3lxTE92d19VdzlQWDZpWnI3RjY2aGRhR2hOeTlXZlNuLVNGT3pVcDRDeE4tQ2t5N3hpeTVXX1J6QVNHYkIzU2dIcEw3SFNNSE1RMnFJTlZTbnFkdGNPMHRER3MxQ1NyVDRPb1NvNVk4QUtfR29USmFSTnZzbFl0aXprN3oxTVhWclB1LUJ6dklvY3BHNC0wSkJhaXY5SmpBWnprT3ZaeG9uTEg0V3VYNzl0aUZZVUhzZ09MTVFmVnprcHlYSk1QLWNlLWVxaXFucA?oc=5",
+    "data": "2026-11-06"
+  },
+  {
+    "id": 31,
+    "titulo": "Um imposto seletivo que protege álcool, cigarro e ultraprocessados? - Outras Palavras",
+    "resumo": "Um imposto seletivo que protege álcool, cigarro e ultraprocessados? Outras Palavras",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
-    "impacto": "alto",
+    "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOck1OdTFBYWpPcnVTQkpYdXB3NFBDRHNHM0ZzeWp0WkxKamlKX3NIc0M3MlVUTXRReENKai00NzliNDE5dU9Wbk9IaGcwcXdXejRmbnpZWV8xZURDVEVodlJWUHMyYW1rUElCWDJ3MVhvVnQ1OUZtSmNKQldyc0RxajRVV19FSVZvc1ZUZkc3WloyNUZjY2FVMXVHR2VjRzR0NEZGTnZIcjF1T1pXZFR4cU1Rcm5vOGIwZXBBaWV2UUw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlpQMF9UdnBzRzkzVjNfWFl5WjJYaGxGUXFHaGNtTkpaeUs1M2d0X2dWMkJkeERvWmR2LWFTeUxJVl9Ga3F6LVYyWDZnUjdzRU8xNWNhU0poc1VBUzhIOGJvc3RTMm5mVkRDTGZBRFNuc3luU2dWSUVkT0I1WDl2OW1Zc1pQRmE4eklIMmFFN1FDend4UWtaTnNlZUFoYzJFY1FkeDIwbw?oc=5",
+    "data": "2026-11-06"
+  },
+  {
+    "id": 32,
+    "titulo": "Sefaz-MA promove seminário sobre desafios e perspectivas do IBS no dia 19/11 - Federação dos Municípios do Estado do Maranhão",
+    "resumo": "Sefaz-MA promove seminário sobre desafios e perspectivas do IBS no dia 19/11 Federação dos Municípios do Estado do Maranhão",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": "MA",
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORDV3cVBKYzNvbFlhRHV1SlNVbXgwRTN6aGJQUldqcmJ0QjZkNllnWWdFc21XdTVGTXQwUVlreDB0VXRhZ2Nad1NvR0N5NHc0MkVDUGZmU3NJNTdLLVV0QWxiMnNVZG83V1pCdUZKclNNYklQbkVCYWFhakp3QS1iNy1wRGpnWU9aakkyYzJSZDZnZ2E0amRuQ3pxZ1p2bjRCOFRZS05ic1FGeXpfUFFFU3lkNy03Uk93R2cybXUtNlUyeTdQNGVR?oc=5",
+    "data": "2026-11-06"
+  },
+  {
+    "id": 33,
+    "titulo": "Bernard Appy defende prolongar período de testes da CBS - Poder360",
+    "resumo": "Bernard Appy defende prolongar período de testes da CBS Poder360",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY0FoRElhUzJ1R2FYdDJQLU5xaENyTHFKYnMxX2JXT2F3RTNYcWFDbmVQMndibXp3Nk1IWXhUYlVsNF9VQUstMEQ5NlBlM1V4aV9WWjdZcHBXWmIxTW1VM1VUUng4ajRhdjVRa3pMY2RCQW5JWjRJX0g0bGNncnEtdDV0MFZ0b3VMMC1HbWRRQWJZWV9YOC05YlgzYXdrQkZRbUs3T2NzVVhCSjR2?oc=5",
+    "data": "2026-11-06"
+  },
+  {
+    "id": 34,
+    "titulo": "Imposto Seletivo sobre carros: veja o que pesa no cálculo",
+    "resumo": "MP define cálculo do Imposto Seletivo sobre veículos em 2027. Motorização, eficiência energética e segurança influenciam a tributação. Leia mais em https://www.contabeis.com.br/noticias/80659/imposto-seletivo-sobre-carros-veja-o-que-pesa-no-calculo/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80659/imposto-seletivo-sobre-carros-veja-o-que-pesa-no-calculo/",
     "data": "2026-11-06"
   },
   {
     "id": 35,
-    "titulo": "Alíquota de 11,3%: a conta das exceções chegou, e quem paga é o IBS - JOTA Info",
-    "resumo": "Alíquota de 11,3%: a conta das exceções chegou, e quem paga é o IBS JOTA Info",
+    "titulo": "PEC para adiar reforma: minuta ainda depende de assinaturas",
+    "resumo": "Minuta para adiar a CBS para 2028 ainda não foi protocolada. Entenda o que falta para mudar o calendário. Leia mais em https://www.contabeis.com.br/noticias/80656/pec-para-adiar-reforma-minuta-ainda-depende-de-assinaturas/",
     "setor": "geral",
     "esfera": "reforma",
     "uf": null,
-    "impacto": "alto",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU3dfT3lrZVpkT3V0dkdmbEQzcHFPM09mbVRNYnNRYW5iajBWY2NYSGNURnNJTlRoS2pMUG1tVWVSS21tN0Q3cnFuSnl0NzJ4czRYUm01MEFZR3hnRFJZSHVfbFlraWowMjYyQWY4Qm9zY055UURoUWVBY0ZpRElILXRwbXJLTTFXNDZqQndMMWctMHZuV2NjMmxPdVBZMXhJR0ZvZlFfSzhuTF9ZYjNWVg?oc=5",
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80656/pec-para-adiar-reforma-minuta-ainda-depende-de-assinaturas/",
     "data": "2026-11-06"
   }
 ]
