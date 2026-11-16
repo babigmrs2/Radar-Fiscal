@@ -1,6 +1,66 @@
 [
   {
     "id": 1,
+    "titulo": "Receita Federal publica primeiro código-fonte aberto no GitHub e amplia transparência da Reforma Tributária",
+    "resumo": "Iniciativa fortalece a transparência, a segurança jurídica e a previsibilidade na implementação dos novos tributos sobre o consumo.",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Receita Federal",
+    "link": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+    "data": "2026-11-16"
+  },
+  {
+    "id": 2,
+    "titulo": "Cashback da Reforma Tributária começa em 2027; veja regras",
+    "resumo": "Benefício prevê descontos em contas de consumo e devolução de impostos para famílias inscritas no CadÚnico. Leia mais em https://www.contabeis.com.br/noticias/80900/cashback-da-reforma-tributaria-comeca-em-2027-veja-regras/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80900/cashback-da-reforma-tributaria-comeca-em-2027-veja-regras/",
+    "data": "2026-11-16"
+  },
+  {
+    "id": 3,
+    "titulo": "Minuta propõe adiar cobrança da CBS para 2028",
+    "resumo": "Proposta também mantém testes em 2027 e prevê mudanças no cálculo da alíquota e na distribuição do FNDR. Leia mais em https://www.contabeis.com.br/noticias/80896/minuta-propoe-adiar-cobranca-da-cbs-para-2028/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "alto",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80896/minuta-propoe-adiar-cobranca-da-cbs-para-2028/",
+    "data": "2026-11-16"
+  },
+  {
+    "id": 4,
+    "titulo": "PGDAS-D muda em 2026 e exige atenção dos contadores",
+    "resumo": "Atualização do PGDAS-D adapta o Simples Nacional à Reforma Tributária e altera procedimentos de apuração a partir de novembro de 2026. Leia mais em https://www.contabeis.com.br/noticias/80892/pgdas-d-muda-em-2026-e-exige-atencao-dos-contadores/",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": null,
+    "impacto": "baixo",
+    "fonte": "Portal Contabeis",
+    "link": "https://www.contabeis.com.br/noticias/80892/pgdas-d-muda-em-2026-e-exige-atencao-dos-contadores/",
+    "data": "2026-11-16"
+  },
+  {
+    "id": 5,
+    "titulo": "Reforma Tributária: governo anuncia transição sem multas para atos de boa-fé e amplia prazos para pequenos negócios",
+    "resumo": "O governo federal trouxe novidades para os pequenos negócios, durante a implementação da Reforma Tributária. Agora, empreendedores que emitirem dados sem omissão e seguirem as práticas contábeis regulares não serão multados ou punidos em situações decorrentes de dúvidas fundament",
+    "setor": "geral",
+    "esfera": "reforma",
+    "uf": "TO",
+    "impacto": "baixo",
+    "fonte": "Sebrae Tocantins",
+    "link": "https://to.agenciasebrae.com.br/economia-e-politica/reforma-tributaria-governo-anuncia-transicao-sem-multas-para-atos-de-boa-fe-e-amplia-prazos-para-pequenos-negocios/",
+    "data": "2026-11-16"
+  },
+  {
+    "id": 6,
     "titulo": "Que imposto é esse: Empresas perdem primeira rodada na Justiça contra imposto sobre imposto na reforma tributária - Folha de S.Paulo",
     "resumo": "Que imposto é esse: Empresas perdem primeira rodada na Justiça contra imposto sobre imposto na reforma tributária Folha de S.Paulo",
     "setor": "geral",
@@ -12,7 +72,7 @@
     "data": "2026-11-15"
   },
   {
-    "id": 2,
+    "id": 7,
     "titulo": "Apuração assistida da CBS: simplificação ou risco ao contribuinte? - Consultor Jurídico",
     "resumo": "Apuração assistida da CBS: simplificação ou risco ao contribuinte? Consultor Jurídico",
     "setor": "geral",
@@ -24,7 +84,7 @@
     "data": "2026-11-15"
   },
   {
-    "id": 3,
+    "id": 8,
     "titulo": "CBS: os desafios da governança são maiores do que os da alíquota - Poder360",
     "resumo": "CBS: os desafios da governança são maiores do que os da alíquota Poder360",
     "setor": "geral",
@@ -36,7 +96,7 @@
     "data": "2026-11-15"
   },
   {
-    "id": 4,
+    "id": 9,
     "titulo": "Sem o glamour de Hollywood, série NCIS virou uma máquina de US$ 10 bilhões para a CBS - Bloomberg Línea Brasil",
     "resumo": "Sem o glamour de Hollywood, série NCIS virou uma máquina de US$ 10 bilhões para a CBS Bloomberg Línea Brasil",
     "setor": "geral",
@@ -48,7 +108,7 @@
     "data": "2026-11-15"
   },
   {
-    "id": 5,
+    "id": 10,
     "titulo": "Amprotabaco afirma que Imposto Seletivo sobre a cadeia do tabaco ameaça municípios e produtores - Folha do Mate",
     "resumo": "Amprotabaco afirma que Imposto Seletivo sobre a cadeia do tabaco ameaça municípios e produtores Folha do Mate",
     "setor": "geral",
@@ -60,7 +120,7 @@
     "data": "2026-11-15"
   },
   {
-    "id": 6,
+    "id": 11,
     "titulo": "Unicamp extrai minerais fertilizantes de chorume - Jornal Diário do Povo",
     "resumo": "Unicamp extrai minerais fertilizantes de chorume Jornal Diário do Povo",
     "setor": "fertilizantes",
@@ -72,7 +132,7 @@
     "data": "2026-11-15"
   },
   {
-    "id": 7,
+    "id": 12,
     "titulo": "Crédito de ICMS do imobilizado: prazo de homologação",
     "resumo": "Veja quando pedir a homologação do crédito de ICMS de máquinas e equipamentos e como o saldo poderá ser compensado com o IBS . Leia mais em https://www.contabeis.com.br/noticias/80841/credito-de-icms-do-imobilizado-prazo-de-homologacao/",
     "setor": "geral",
@@ -84,7 +144,7 @@
     "data": "2026-11-14"
   },
   {
-    "id": 8,
+    "id": 13,
     "titulo": "NFS-e: adesão municipal e preenchimento de IBS e CBS",
     "resumo": "Entenda por que a adesão do município à NFS-e Nacional não define o emissor nem a obrigação de preencher os campos de IBS e CBS . Leia mais em https://www.contabeis.com.br/noticias/80823/nfs-e-adesao-municipal-e-preenchimento-de-ibs-e-cbs/",
     "setor": "geral",
@@ -96,7 +156,7 @@
     "data": "2026-11-14"
   },
   {
-    "id": 9,
+    "id": 14,
     "titulo": "NFS-e: adesão municipal e preenchimento de IBS e CBS - Portal Contabeis",
     "resumo": "NFS-e: adesão municipal e preenchimento de IBS e CBS Portal Contabeis",
     "setor": "geral",
@@ -108,7 +168,7 @@
     "data": "2026-11-14"
   },
   {
-    "id": 10,
+    "id": 15,
     "titulo": "Tecnologia biológica pode gerar R$ 15,7 bilhões em economia com fertilizantes na soja - Portal PaNoRaMa",
     "resumo": "Tecnologia biológica pode gerar R$ 15,7 bilhões em economia com fertilizantes na soja Portal PaNoRaMa",
     "setor": "fertilizantes",
@@ -120,7 +180,7 @@
     "data": "2026-11-14"
   },
   {
-    "id": 11,
+    "id": 16,
     "titulo": "Reforma tributária ameaça margens de lucro e preocupa frigoríficos de MT - JBNEWS",
     "resumo": "Reforma tributária ameaça margens de lucro e preocupa frigoríficos de MT JBNEWS",
     "setor": "geral",
@@ -132,7 +192,7 @@
     "data": "2026-11-14"
   },
   {
-    "id": 12,
+    "id": 17,
     "titulo": "Receita Federal propõe adiar em um mês pagamento definitivo da CBS - Congresso em Foco",
     "resumo": "Receita Federal propõe adiar em um mês pagamento definitivo da CBS Congresso em Foco",
     "setor": "geral",
@@ -144,7 +204,7 @@
     "data": "2026-11-14"
   },
   {
-    "id": 13,
+    "id": 18,
     "titulo": "Alíquota da CBS de 11,3%: Durigan vai à CAE do Senado na terça para explicar o cálculo - Rádio Corredor",
     "resumo": "Alíquota da CBS de 11,3%: Durigan vai à CAE do Senado na terça para explicar o cálculo Rádio Corredor",
     "setor": "geral",
@@ -156,7 +216,7 @@
     "data": "2026-11-14"
   },
   {
-    "id": 14,
+    "id": 19,
     "titulo": "Imóveis na holding: por que observar o prazo de 2026",
     "resumo": "Entenda como a data de aquisição de imóveis na holding pode alterar o redutor de ajuste e a base de cálculo do IBS e da CBS em uma venda futura. Leia mais em https://www.contabeis.com.br/noticias/80839/imoveis-na-holding-por-que-observar-o-prazo-de-2026/",
     "setor": "geral",
@@ -168,7 +228,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 15,
+    "id": 20,
     "titulo": "CBS em 2027: empresas cobram prazo para adaptação",
     "resumo": "Com a CBS prevista para 2027, empresas e contadores pedem tempo para adaptar sistemas e rotinas diante de regras e ferramentas ainda pendentes. Leia mais em https://www.contabeis.com.br/noticias/80883/cbs-em-2027-empresas-cobram-prazo-para-adaptacao/",
     "setor": "geral",
@@ -180,7 +240,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 16,
+    "id": 21,
     "titulo": "Projeto prevê uso de créditos da CBS para pagar tributos",
     "resumo": "PLP 285/2026 propõe permitir o uso de determinados créditos da CBS para quitar outras obrigações com a Receita Federal. A proposta ainda tramita na Câmara. Leia mais em https://www.contabeis.com.br/noticias/80882/projeto-preve-uso-de-creditos-da-cbs-para-pagar-tributos/",
     "setor": "geral",
@@ -192,7 +252,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 17,
+    "id": 22,
     "titulo": "IBS e CBS na base do ICMS: depósito judicial",
     "resumo": "Empresas que contestam a inclusão do IBS e da CBS na base do ICMS podem avaliar o depósito judicial da diferença enquanto aguardam decisão. Leia mais em https://www.contabeis.com.br/noticias/80828/ibs-e-cbs-na-base-do-icms-deposito-judicial/",
     "setor": "geral",
@@ -204,7 +264,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 18,
+    "id": 23,
     "titulo": "Câmara debate CBS, Imposto Seletivo e créditos tributários",
     "resumo": "Audiência em 18 de novembro terá participação da Receita Federal e discutirá alíquotas da CBS , Imposto Seletivo e impactos para pequenas empresas. Leia mais em https://www.contabeis.com.br/noticias/80873/camara-debate-cbs-imposto-seletivo-e-creditos-tributarios/",
     "setor": "geral",
@@ -216,7 +276,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 19,
+    "id": 24,
     "titulo": "APIs da CBS exigem nova credencial para consulta de débitos e créditos",
     "resumo": "Receita Federal orienta usuários das APIs da CBS a cancelar a credencial antiga e emitir outra para acessar as funcionalidades da versão 2.0. Leia mais em https://www.contabeis.com.br/noticias/80864/apis-da-cbs-exigem-nova-credencial-para-consulta-de-debitos-e-creditos/",
     "setor": "geral",
@@ -228,7 +288,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 20,
+    "id": 25,
     "titulo": "CT-e corrige schemas das NTs 2026.004 e 2026.005",
     "resumo": "Portal do CT-e republica schemas e ajusta o campo de declaração de pagamento no evento de crédito presumido. Veja as regras e a data de implantação. Leia mais em https://www.contabeis.com.br/noticias/80860/ct-e-corrige-schemas-das-nts-2026-004-e-2026-005/",
     "setor": "geral",
@@ -240,7 +300,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 21,
+    "id": 26,
     "titulo": "CGNFS-e informa: Ato Conjunto RFB/CGIBS nº 7/2026 atualiza o cronograma de obrigatoriedade de emissão da NFS-e para IBS e CBS. - www.gov.br",
     "resumo": "CGNFS-e informa: Ato Conjunto RFB/CGIBS nº 7/2026 atualiza o cronograma de obrigatoriedade de emissão da NFS-e para IBS e CBS. www.gov.br",
     "setor": "geral",
@@ -252,7 +312,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 22,
+    "id": 27,
     "titulo": "CAE: ministro da Fazenda debate alíquota da CBS na terça-feira - Senado",
     "resumo": "CAE: ministro da Fazenda debate alíquota da CBS na terça-feira Senado",
     "setor": "geral",
@@ -264,7 +324,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 23,
+    "id": 28,
     "titulo": "Em congresso nacional, presidente do Comsefaz destaca avanços e confiança na implementação do IBS - - Comsefaz",
     "resumo": "Em congresso nacional, presidente do Comsefaz destaca avanços e confiança na implementação do IBS - Comsefaz",
     "setor": "geral",
@@ -276,7 +336,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 24,
+    "id": 29,
     "titulo": "Câmara debate CBS, Imposto Seletivo e créditos tributários - Portal Contabeis",
     "resumo": "Câmara debate CBS, Imposto Seletivo e créditos tributários Portal Contabeis",
     "setor": "geral",
@@ -288,7 +348,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 25,
+    "id": 30,
     "titulo": "Projeto prevê uso de créditos da CBS para pagar tributos - Portal Contabeis",
     "resumo": "Projeto prevê uso de créditos da CBS para pagar tributos Portal Contabeis",
     "setor": "geral",
@@ -300,7 +360,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 26,
+    "id": 31,
     "titulo": "CBS em 2027: empresas cobram prazo para adaptação - Portal Contabeis",
     "resumo": "CBS em 2027: empresas cobram prazo para adaptação Portal Contabeis",
     "setor": "geral",
@@ -312,7 +372,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 27,
+    "id": 32,
     "titulo": "IBS e CBS na base do ICMS: depósito judicial - Portal Contabeis",
     "resumo": "IBS e CBS na base do ICMS: depósito judicial Portal Contabeis",
     "setor": "geral",
@@ -324,7 +384,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 28,
+    "id": 33,
     "titulo": "Empresas cobram definições da reforma tributária a menos de dois meses da CBS em 2027 - TAGD Advogados",
     "resumo": "Empresas cobram definições da reforma tributária a menos de dois meses da CBS em 2027 TAGD Advogados",
     "setor": "geral",
@@ -336,7 +396,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 29,
+    "id": 34,
     "titulo": "APIs da CBS exigem nova credencial para consulta de débitos e créditos - Portal Contabeis",
     "resumo": "APIs da CBS exigem nova credencial para consulta de débitos e créditos Portal Contabeis",
     "setor": "geral",
@@ -348,7 +408,7 @@
     "data": "2026-11-13"
   },
   {
-    "id": 30,
+    "id": 35,
     "titulo": "Opinião: o Imposto Seletivo pode beneficiar o mercado ilegal - Exame",
     "resumo": "Opinião: o Imposto Seletivo pode beneficiar o mercado ilegal Exame",
     "setor": "geral",
@@ -357,66 +417,6 @@
     "impacto": "baixo",
     "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmg0c1p2d1VqTUJ1ZFQ1SzlOWGVfRjlqQXUzQk43UTUtRzhwRGxqVGFqLWljT01ENklFYktoWkNZS2hrUlNsOGoydlRFd0ZPRy0tc3JBUGU2ZHVWZUFmeGl6YzJuSGdid0ljVVBwVWh5dU5rWWMyLVhXa0V6aG5VU2RhQjlZWUtONjBSbFhBaw?oc=5",
-    "data": "2026-11-13"
-  },
-  {
-    "id": 31,
-    "titulo": "PGDAS-D é atualizado para atender à Reforma Tributária a partir de novembro de 2026",
-    "resumo": "Mudanças na apuração do Simples Nacional incluem o fim da escolha do regime de caixa ou competência e a obrigatoriedade de informar a folha de salários dos últimos 12 meses.",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "alto",
-    "fonte": "Receita Federal",
-    "link": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/pgdas-d-e-atualizado-para-atender-a-reforma-tributaria-a-partir-de-novembro-de-2026",
-    "data": "2026-11-13"
-  },
-  {
-    "id": 32,
-    "titulo": "Sala de situação começa a discutir desafios da reforma tributária",
-    "resumo": "Sala de situação terá reuniões semanais para discutir problemas da reforma tributária , com prioridade para Simples Nacional e transição de PIS e Cofins . Leia mais em https://www.contabeis.com.br/noticias/80861/sala-de-situacao-comeca-a-discutir-desafios-da-reforma-tributaria/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80861/sala-de-situacao-comeca-a-discutir-desafios-da-reforma-tributaria/",
-    "data": "2026-11-13"
-  },
-  {
-    "id": 33,
-    "titulo": "IBS e CBS: Receita e CGIBS alteram prazos dos documentos fiscais",
-    "resumo": "Ato Conjunto nº 7/2026 muda os prazos da NFS-e, de outros documentos fiscais e da DeRE. Veja as datas e o calendário do Simples Nacional . Leia mais em https://www.contabeis.com.br/noticias/80858/ibs-e-cbs-receita-e-cgibs-alteram-prazos-dos-documentos-fiscais/",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "Portal Contabeis",
-    "link": "https://www.contabeis.com.br/noticias/80858/ibs-e-cbs-receita-e-cgibs-alteram-prazos-dos-documentos-fiscais/",
-    "data": "2026-11-13"
-  },
-  {
-    "id": 34,
-    "titulo": "Reforma: quando deve ser recolhido CBS sobre combustíveis?",
-    "resumo": "Conteúdo verificado pela IOB Consultoria Atualizado em 13/11/2026 Resumo rápido A partir de 16 de novembro de 2026, muda o leiaute de preenchimento do IBS e da CBS na nota fiscal de combustíveis sujeitos à tributação monofásica, conforme a NT 2025.002-RTC. Já a cobrança da CBS so",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "baixo",
-    "fonte": "IOB Noticias",
-    "link": "https://noticias.iob.com.br/reforma-cbs-sobre-combustiveis/",
-    "data": "2026-11-13"
-  },
-  {
-    "id": 35,
-    "titulo": "Reforma Tributária: Receita Federal e CGIBS adiam para 2027 a obrigatoriedade de emissão de documentos fiscais com IBS e CBS - LegisWeb",
-    "resumo": "Reforma Tributária: Receita Federal e CGIBS adiam para 2027 a obrigatoriedade de emissão de documentos fiscais com IBS e CBS LegisWeb",
-    "setor": "geral",
-    "esfera": "reforma",
-    "uf": null,
-    "impacto": "alto",
-    "fonte": "Google Noticias - Comite Gestor do IBS/CBS",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBOc0FxYlNKbklnM3h4UkVGZ0FUc3dib0FIYVN1Q0RRS1FMUGFYWFVkRVBYdXJacVlKYm52bGJCeTZ1RXk5TUdpa0tRUkVBd1dWbUR5cGtTTTQ?oc=5",
     "data": "2026-11-13"
   }
 ]
